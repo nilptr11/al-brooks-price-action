@@ -14,16 +14,18 @@
 ## 使用顺序
 
 1. `00_core_framework.md`：先把 Brooks 阅读压缩成一条主链条。
-2. `02_review_questions.md`：再把主链条改写成复盘问题。
-3. `01_repeated_concepts_map.md`：最后处理看似重复、实则同源的概念组。
+2. `03_strategy_branches.md`：再把主链条拆成可复盘的策略分支。
+3. `02_review_questions.md`：再把主链条改写成复盘问题。
+4. `01_repeated_concepts_map.md`：最后处理看似重复、实则同源的概念组。
 
 ## 当前文件
 
 1. `00_core_framework.md`：把 Brooks 阅读压缩成一条主链条。
 2. `01_repeated_concepts_map.md`：整理看似重复、实则同源的概念组。
 3. `02_review_questions.md`：把主链条改写成复盘和实盘前检查问题。
+4. `03_strategy_branches.md`：把 market cycle、订单流、失败和管理拆成策略分支。
 
 ## 后续可补充
 
-- `03_common_compression_rules.md`：总结“多个术语其实在讲同一件事”的压缩规则。
-- `04_trade_examples_from_framework.md`：用具体走势验证这些总结是否有用。
+- `04_common_compression_rules.md`：总结“多个术语其实在讲同一件事”的压缩规则。
+- `05_trade_examples_from_framework.md`：用具体走势验证这些总结是否有用。

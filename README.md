@@ -17,7 +17,7 @@
 
 `synthesis/00_core_framework.md` 是本仓库的压缩入口。先用它把所有术语放回同一条阅读链条，再按 `concept_index.md` 回到主定义文件。
 
-- 快速复盘或实盘前：先看 `synthesis/00_core_framework.md` 和 `synthesis/02_review_questions.md`。
+- 快速复盘或实盘前：先看 `synthesis/00_core_framework.md`、`synthesis/03_strategy_branches.md` 和 `synthesis/02_review_questions.md`。
 - 系统学习：按下面编号路线阅读。
 - 扩展概念：先查 `concept_index.md`，不要为同一概念新增第二个主定义。
 
