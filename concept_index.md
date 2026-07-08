@@ -46,4 +46,4 @@
 | Opening range / Opening reversal | `07_scenarios/01_opening_range_and_opening_reversal.md` |
 | Gap scenarios | `07_scenarios/02_gap_scenarios.md` |
 | Bar-by-bar templates | `07_scenarios/03_bar_by_bar_templates.md` |
-
+| Management examples | `07_scenarios/04_management_examples.md` |
