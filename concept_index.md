@@ -47,3 +47,4 @@
 | Gap scenarios | `07_scenarios/02_gap_scenarios.md` |
 | Bar-by-bar templates | `07_scenarios/03_bar_by_bar_templates.md` |
 | Management examples | `07_scenarios/04_management_examples.md` |
+| 88-pattern source / geometry audit | `synthesis/04_pattern_source_audit.md` |
