@@ -1,5 +1,9 @@
 # Triangles、ii、ioi 和 oo
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Triangle
 
 三角形是 trading range 和 breakout mode 的一种。收敛三角形表示波动收缩，高点降低、低点抬高；扩大型三角形表示高点更高、低点更低，波动扩大但方向不稳定。

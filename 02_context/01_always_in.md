@@ -1,5 +1,9 @@
 # Always In
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Brooks 语境中的定义
 
 Always In 指市场强到如果交易者被迫在 long 和 short 中选一边，会对某一边有足够信心。它不是指标方向，也不是简单趋势标签，而是控制权判断。
@@ -43,4 +47,3 @@ Always In 不是：
 ## 与交易管理的关系
 
 Always In 帮助判断是否应该优先顺势，但不能替代 Trader's Equation。强趋势中概率可能更高，入场价格和止损距离也可能更差。
-

@@ -1,10 +1,16 @@
 # 突破和突破模式
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Breakout
 
 Brooks 对 breakout 的最低定义只是：当前 K 线高点或低点越过某个重要价位，例如前高低、某根 K 线极值、趋势线、通道线或交易区间边界。
 
 因此“发生突破”和“突破成功”必须分开。收盘在边界外、大趋势实体、跟进和回踩守住，才逐步说明市场接受新价格。
+
+官方公开资料使用两个粒度：glossary 用“高低点越过重要价位”给出最低事件定义；专题文章讨论可交易 breakout pattern 时，更强调 trend bar 和收盘越过支撑阻力。因此应把最低突破事件与强收盘、follow-through、回踩守住等质量/接受证据分开，不把两种粒度混成矛盾定义。
 
 ## 突破质量
 
@@ -38,9 +44,13 @@ Brooks 对 breakout 的最低定义只是：当前 K 线高点或低点越过某
 - 首次突破是否失败？
 - 失败后反向是否更强？
 
+Breakout mode 只说明任一方向的突破都有获得跟进的可能，不保证首破成功，也不等同于普通窄幅外观。Triangle 的“方向约对半、首破也常失败”等数字只适用于相应语境，不能复制给所有 breakout-mode setup。
+
 ## 常见误读
 
 - 在突破模式中提前假设方向。
 - 把首次突破当必然成功。
 - 在没有目标空间时追随突破。
 - 忽略突破失败后被困交易者的力量。
+
+来源审计见 `reference/official_sources.md` 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-OPENING-REVERSALS-2017`。

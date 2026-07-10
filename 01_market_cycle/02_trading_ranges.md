@@ -1,5 +1,9 @@
 # Trading Ranges
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Brooks 语境中的定义
 
 Trading range 是市场围绕公平价格上下测试的状态。多空双方都能赚钱，方向优势下降，区间中部通常缺少优势，边缘更容易形成交易结构。

@@ -1,5 +1,9 @@
 # Context、位置和控制权
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## 它解决什么问题
 
 Context 决定一个形态是有意义的交易结构，还是普通噪声。Brooks 语境中，context 通常比 signal 更重要。
@@ -46,4 +50,3 @@ Context 决定一个形态是有意义的交易结构，还是普通噪声。Bro
 - 是否突破后快速收回？
 - 是否回探后守住？
 - 哪一边被困？
-

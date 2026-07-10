@@ -1,5 +1,9 @@
 # K 线类型
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Trend Bar
 
 Brooks 的术语表在技术上把开盘与收盘不同、因而具有实体的 K 线称为 trend bar。它不必天然是大 K 线。
@@ -10,13 +14,13 @@ Brooks 的术语表在技术上把开盘与收盘不同、因而具有实体的 
 
 ## Signal Bar
 
-Signal bar 提供入场触发。好的 signal bar 通常方向清晰、收盘较强、反向影线较少。
+官方严格定义中，signal bar 是实际 entry bar 的前一根、也是 setup 的最后一根；只有订单实际成交后，它才取得 signal bar 角色。成交前可以称 prospective signal bar，但不能把候选触发误记成已有交易。
 
-Signal bar 必须服从 context。交易区间中部的漂亮 signal bar 仍可能没有优势。
+好的 prospective signal bar 通常方向清晰、收盘较强、反向影线较少，但必须服从 context。交易区间中部的漂亮 K 线仍可能没有优势。
 
 ## Entry Bar
 
-Entry bar 是订单触发后的实际入场 K 线。它是信号是否得到初步跟进的第一道检验。
+Entry bar 是交易实际成交所在的 K 线。它的方向和收盘是信号是否得到初步跟进的第一道检验，但成交事实才是角色定义。
 
 强 entry bar 通常朝交易方向收盘，并且没有立刻回到 signal bar 内部。弱 entry bar 常提示信号可能失败。
 
@@ -40,8 +44,4 @@ Two-bar reversal 由相邻两根共同完成控制转移。第二根可以是 in
 
 ## Pullback / Pause Bar
 
-牛向运动中的 bar pullback 要求本根 low 低于前 low；pause bar 则停止扩展趋势方向极值，通常 high 不高于前 high。熊向运动镜像。两者都可成为最小级别回调，但几何定义不同。
-
-## Signal Bar / Entry Bar
-
-Signal bar 是 setup 的最后一根，也是实际 entry bar 的前一根。订单越过 signal high/low 并实际成交所在的 K 线才叫 entry bar。强 entry bar 和后续跟进是质量证据，不是角色定义。
+牛向运动中的 bar pullback 要求本根 low 低于前 low；pause bar 则停止扩展趋势方向极值，通常 high 不高于前 high，强牛 K 后只高一跳的小 K 也可视为 pause。熊向运动镜像。官方把 pause bar 视为一种 pullback；它与 bar pullback 是两项不同几何测试，可能同时成立，并非互斥类别。

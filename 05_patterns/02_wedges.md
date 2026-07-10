@@ -1,5 +1,9 @@
 # Wedges
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Brooks 语境中的定义
 
 Wedge 通常表示三次推动或三次尝试。传统上它可能有楔形外观，但对交易者更重要的是“三推行为”，而不是线条是否完美收敛。
@@ -12,7 +16,7 @@ Wedge pullback：趋势中的三推回调，可能成为顺势恢复背景。
 
 Wedge reversal：趋势或通道后期出现三次推动后，反方尝试反转。收敛或动能衰减是常见线索，不是所有 wedge 的必要条件。
 
-Parabolic wedge：紧通道中的三推高潮，常伴随加速，但不要求每一推都必须更陡。
+Parabolic wedge：紧通道中的三推 climactic behavior，常伴随加速，但不要求每一推都必须更陡。
 
 ## 判断线索
 

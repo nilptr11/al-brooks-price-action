@@ -1,5 +1,9 @@
 # 开盘区间和开盘反转
 
+> **状态：Training / Derived**
+>
+> 本文用于开盘场景训练；P2/P3/P4、D_init/D_live 和 Q_entry/Q_hold 以当前[执行手册](../README.md#权威层级)为准。
+
 ## Opening Range
 
 开盘区间是开盘后早期形成的高低范围。它常成为当天后续支撑阻力。

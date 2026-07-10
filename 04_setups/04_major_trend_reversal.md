@@ -1,10 +1,14 @@
 # Major Trend Reversal
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Brooks 语境中的定义
 
 Major trend reversal 不是单根 K 线或单个外观，而是原趋势失去控制、反方尝试建立新方向的过程。官方术语表要求 setup 包含对原趋势通道/趋势线的突破，以及对旧趋势极值的测试。交易者是在新趋势明确前入场，因此早期概率通常不高。
 
-官方公开材料里，早期 MTR 即使看起来很好，通常也只是低到中等概率。等待反向强突破能提高概率，但代价是止损更远、风险回报变差。
+官方公开材料里，早期 MTR 即使看起来很好，swing 概率通常约 40%。等待反向强突破后，示例中的 swing 概率可提高到约 60%，但代价是止损更远、剩余回报更小。这是 MTR 的典型概率交换，不是所有反转的固定胜率。
 
 ## 基本组件
 
@@ -28,10 +32,14 @@ Lower low MTR：熊趋势中跌破前低后失败，形成更低低点反转。
 
 Higher low MTR：熊趋势或下跌通道后，回探未能到达或跌破前低，在较高低点形成买压。
 
-这些名称不重要，重要的是原趋势方是否失去控制，反方是否获得跟进。
+这些名称不重要，重要的是原趋势方是否失去控制，反方是否获得跟进。Climactic behavior、confirmed climax、wedge、final flag 或单根强反转 bar 都可以提供背景，但不能替代通道突破、旧极值测试和反向 signal 组成的过程。
 
 ## 交易管理
 
-MTR 成功后，市场常先进入 trading range，而不是立刻形成强反向趋势。反方通常需要累计约 5—10 根压力才更像持续过程；TBTL 指 Ten Bars, Two Legs，不能用两根反向 K 线代替。
+官方 2025 coaching 材料把成功反转描述为形成两腿并获得 swing profit，且常演变为较大 trading range，而不是立刻形成无回调的新趋势。TBTL 指 Ten Bars, Two Legs correction，是管理时间/腿数的经验语言，不是价格目标。
 
 看到第一根反向强 K 线就期待完整新趋势，是常见错误。
+
+执行层可以区分“提前下注控制权转移”和“完整 MTR”两种版本，但这不等于把早期候选命名为官方完整 MTR。若目标只到均线、区间中轴或旧公平区域，应按 minor reversal 或回归公平区域理解，而不是反向 swing。
+
+来源审计见 `reference/official_sources.md` 中的 `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-MTR-2025`。

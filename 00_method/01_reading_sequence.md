@@ -1,5 +1,9 @@
 # 阅读顺序
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## 它解决什么问题
 
 很多错误来自从 signal bar 开始读图。Brooks 的阅读顺序把信号放到最后，先处理更高层的市场状态和位置。
@@ -8,7 +12,7 @@
 
 建议每次按这个顺序阅读：
 
-1. Market cycle：趋势、通道、交易区间、突破、突破模式或高潮转换。
+1. Market cycle：先分 trend / trading range；若是 trend，再看 breakout / channel 及紧宽程度；最后记录 breakout mode 或 climactic behavior 等阶段信息。
 2. Control：Always In 是否清晰，哪一边暂时控制市场。
 3. Location：价格是否接近边缘、目标、突破点、支撑阻力或大周期关键位。
 4. Order flow：触发点在哪里，谁会入场，谁会止损或回补。
@@ -32,4 +36,3 @@
 - 什么行为说明市场进入 no-trade 或 trading range 环境。
 
 逐根阅读不是预测每根 K 线，而是在信息不完整时保持结构化。
-

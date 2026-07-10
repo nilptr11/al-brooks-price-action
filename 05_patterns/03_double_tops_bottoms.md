@@ -1,5 +1,9 @@
 # 双顶、双底和旗形变体
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## Double Top / Double Bottom
 
 双顶和双底表示市场第二次测试某个区域。第二次测试失败时，说明突破或延续遇到阻力。

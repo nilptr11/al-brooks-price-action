@@ -1,5 +1,9 @@
 # 核心压缩框架
 
+> **状态：Research / Non-normative**
+>
+> 本文只做学习概念压缩，不定义执行状态；完整 M/K/C/T/D/Q/P/E/A、订单边界和管理配置以当前[执行手册](../README.md#权威层级)为准。
+
 ## 总结结论
 
 Brooks 文档里大量概念可以压缩成一条主链条：
@@ -9,13 +13,17 @@ Market Cycle
 -> Control / Always In
 -> Location / Target
 -> Trigger / Order Flow
--> Follow-through or Failure
--> Trapped Traders
--> Trader's Equation
--> Scalp / Swing / TBTL / No-trade
+-> Initial Contract: Invalidation / Stop / Size / Target / Management
+-> Entry Trader's Equation
+-> Order Approval / Pending / Actual Fill
+-> Follow-through or Failure / Trapped Traders
+-> Live State / Hold Trader's Equation
+-> Hold / Reduce / Exit / New Candidate
 ```
 
 这条链条比单独记形态更重要。形态名称只是在描述市场行为，真正决定是否交易的是这条链条是否完整。
+
+Follow-through、failure 和 trapped traders 是市场结果，不依赖观察者是否成交；零成交时它们更新候选或待成交订单，已有仓位时才进入持仓数学和动作选择。
 
 这条链条不是一次性的线性流程，而是逐根 K 线更新的循环。每根 K 线都会增强、削弱或改变原判断。
 
@@ -25,14 +33,17 @@ Market Cycle
 
 | 层级 | 核心问题 | 常见误读 |
 | --- | --- | --- |
-| Market Cycle | 当前是趋势、通道、区间、突破、突破模式，还是高潮转换？ | 先看 signal bar，再倒推环境。 |
+| Market Cycle | 当前首先是 trend 还是 trading range；若是 trend，更像 breakout、tight channel 还是 broad channel？是否叠加 breakout mode 或 climactic behavior？ | 把 channel 当成 trend 之外的并列市场，或先看 signal bar 再倒推环境。 |
 | Control / Always In | 哪一边暂时控制市场？优势是否明显？ | 把单根强 K 线当成控制权，或用控制权替代风险回报。 |
 | Location / Target | 价格在什么位置？目标空间是否足够？ | 在区间中部追普通信号，或把支撑阻力当精确价格线。 |
 | Trigger / Order Flow | 触发点在哪里？谁会入场、退出或止损？ | 只看形态名字，不看订单触发。 |
+| Initial Trade Design | 权限、无效点、protective stop、仓位、PT1/PT2、初始管理和提前退出是否完整？ | 把 entry 当成完整交易，或入场后才决定风险。 |
+| Entry Trader's Equation | 当前整套 entry、stop、目标、管理和成本是否值得承担新风险？ | 用脱离当前价格的胜率或远端目标修复交易。 |
+| Order / Fill Boundary | 订单只是已批准、仍待成交，还是已经实际成交？ | 把通过审查或挂单误记成已有仓位。 |
 | Follow-through or Failure | 触发后市场是否接受这个方向？ | 突破后没有跟进仍坚持原判断。 |
 | Trapped Traders | 如果失败，哪一边会被迫退出？ | 把所有失败都当成反向交易，不看反向强度和目标空间。 |
-| Trader's Equation | 概率、风险、回报和成本是否匹配？ | 看对方向却没有可交易优势。 |
-| Management | 这是 scalp、swing、TBTL，还是 no-trade？ | 入场后临时改变管理方式。 |
+| Live State / Hold Math | 相对现在退出，active stop、剩余目标、剩余时间和增量持有成本是否仍支持持有？ | 用原 entry、已实现盈亏或沉没成本替当前持仓辩护。 |
+| Action / Management | 当前应持有、按预案部分兑现，还是退出并重新生成候选？ | 把 TBTL 当成独立类别，或把旧仓位直接改名过户。 |
 
 ## 最小读图模板
 
@@ -42,15 +53,16 @@ Market Cycle
 2. 多空谁有控制权？
 3. 价格是否在有意义的位置？
 4. 当前触发会让谁入场或退出？
-5. 触发后有没有跟进？
-6. 如果失败，谁会被困？
-7. 止损、目标、概率和风险回报是否合算？
-8. 这笔交易应该如何管理，或者是否应该放弃？
+5. 权限、无效点、protective stop、仓位、PT1/PT2、管理和提前退出是否完整？
+6. 入场概率、损失、回报和成本是否合算？
+7. 订单尚待成交，还是已经实际成交？
+8. 触发后有没有跟进；如果失败，谁会被困？
+9. 从当前价格继续持有是否合算；应该 hold、reduce、exit，还是生成新候选？
 
 ## 学习含义
 
 学习重点不是扩大术语量，而是减少判断步骤里的模糊地带。
 
-如果一个形态无法放进这条链条，它通常只是描述，不是 setup。如果一个 setup 在这条链条上缺了止损、目标或管理，它仍然不是完整交易想法。
+如果一个形态无法放进这条链条，它通常只是描述。Brooks setup 的最低定义是带 context、可作为入场单依据的 pattern；如果它在这条链条上缺了止损、目标或管理，它仍不是本仓库可批准的交易计划。
 
 特别要避免把压缩框架重新变成机械信号。Brooks 文档中的概率语言通常是条件性的：强趋势、强突破或失败信号都只是在特定 context、location、follow-through 和 Trader's Equation 下才有交易意义。

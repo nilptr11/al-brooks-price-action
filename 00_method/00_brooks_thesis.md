@@ -1,5 +1,9 @@
 # Brooks 方法总论
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## 它解决什么问题
 
 Brooks 方法解决的不是“下一根 K 线会涨还是跌”，而是交易者如何在不确定中判断当前市场行为、构造有数学优势的交易想法，并在每根 K 线后更新判断。
@@ -40,4 +44,3 @@ Brooks 方法不是：
 - 如果触发失败，谁会被迫退出？
 
 Brooks 阅读的质量不在于命名多少形态，而在于能否把 context、trigger、invalidation、target 和 management 连成同一个交易想法。
-

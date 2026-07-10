@@ -1,8 +1,12 @@
 # 突破延续 Setup
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## 它解决什么问题
 
-突破延续 setup 试图跟随市场离开旧价格区域。它买的是市场接受新价格后的概率。
+突破延续 setup 试图跟随市场离开旧价格区域。它下注的是新价格将被或已经被接受，而不是“高低点刚越界”这一事实本身。
 
 ## 判断重点
 
@@ -14,17 +18,17 @@
 
 ## 入场方式
 
-常见入场包括：
+需要区分两个版本：
 
-- 强突破时 stop entry 或 close entry。
-- 回踩突破点守住后再次触发。
-- 突破后小回调趋势中的顺势入场。
+- 预判版本：breakout mode 的初始 stop entry，或强 breakout bar 的 close entry。价格较早，但确认更少。
+- 确认版本：follow-through、回踩守住、failed failure 后再次触发。概率可能更高，但入场更差、stop 更远或剩余目标更近。
 
-强突破可能不给舒服回踩。等待回踩能改善风险回报，但可能错过趋势。
+强突破可能不给舒服回踩。等待回踩能改善 stop 结构，但也可能错过；两种版本必须分别评估 entry、stop、目标、概率和 Trader's Equation，不能把确认版本的概率套给早期价格。
 
 ## 主要风险
 
 突破交易通常概率较高，但风险回报可能较差。若突破没有跟进，追随者容易成为 trapped traders。
 
-如果突破回到旧区域，应降低突破延续判断，转而考虑 failed breakout 或 trading range。
+如果突破回到旧区域并获得反向跟进，原突破延续命题失效。Failed breakout 只生成新的回归或反转候选，仍需从当前价格重新评估背景、触发、止损、目标和 Trader's Equation；不能把原仓位机械反手。
 
+来源审计见 `reference/official_sources.md` 中的 `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016`。

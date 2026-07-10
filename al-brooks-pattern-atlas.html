@@ -402,11 +402,11 @@
       p('two-bar-reversal','Two-Bar Reversal','两根 K 线反转','bars','twoBar','reversal','相邻两根共同完成反转：原方向 K 线之后出现反方向 K 线，控制开始转移。','通常是相反方向实体，合看具有明显反转效果；第二根可以内包，不要求外包、等大或吞没第一根。','位于重要位置，触发第二根信号高低点后获得跟进。','把外包吞没外观误当必要条件，或忽略组合止损过远。'),
       p('inside-bar','Inside Bar','内包 K 线','bars','inside','neutral','本根 high ≤ 前高且 low ≥ 前低，表示波动压缩；一端相等仍可成立。','母 K 线完整包含后续 K 线高低点，标准定义使用完整范围而非只有实体。','等待突破质量和跟进，不预判方向。','把严格缩在内部当成唯一形式，或把内包本身当方向信号。'),
       p('outside-bar','Outside Bar','外包 K 线','bars','outside','neutral','至少一端严格超越、另一端相等或超越前一根，可能是强控制，也可能是双边混乱。','high > 前高且 low ≤ 前低，或 low < 前低且 high ≥ 前高；完全相同范围不算 outside。','最终收盘和后续跟进决定短期含义。','要求两端都必须严格突破，或只看扫过两端不看收盘。'),
-      p('pullback-pause-bar','Pullback / Pause Bar','回调 / 暂停 K 线','bars','pause','continuation','Pause 停止扩展趋势方向极值；bar pullback 则至少一跳反向越过前一根极值。','牛向运动中 pause 的 high 不高于前高；bar pullback 的 low 低于前低，熊向运动镜像。','原趋势恢复且结构未被破坏时，它们承担延续功能。','把 pause 和 bar pullback 混成同一几何条件。'),
+      p('pullback-pause-bar','Pullback / Pause Bar','回调 / 暂停 K 线','bars','pause','continuation','Pause 停止扩展趋势方向极值；bar pullback 则至少一跳反向越过前一根极值。两项测试可以同时成立。','牛向运动中 pause 的 high 不高于前高；bar pullback 的 low 低于前低，熊向运动镜像。官方把 pause 视为一种 pullback，但不等于 bar pullback 的几何定义。','原趋势恢复且结构未被破坏时，它们承担延续功能。','把 pause 和 bar pullback 当成互斥类别，或混成同一几何条件。'),
       p('ii-iii','ii / iii','连续内包','bars','ii','neutral','连续两根或三根完整范围内包，是典型突破模式。','第二根 inside 第一根形成 ii；第三根继续 inside 第二根形成 iii。标准判断使用高低点，bodies-only ii 是较弱变体。','突破 K 线强、跟进清楚、没有立即回到压缩区。','只画 ii 却称 iii，或提前押方向。'),
       p('ioi','ioi','内包—外包—内包','bars','ioi','neutral','波动收缩、扩大、再收缩，双方暂时平衡。','第一根相对其前一根 inside，第二根 outside 第一根，第三根 inside 第二根。','突破最后一根内包后再观察连续性。','把外包那根误认为方向已经确定。'),
       p('oo','oo','连续外包','bars','oo','neutral','第一根 outside 前一根，第二根再 outside 第一根，因此范围继续扩大。','两根连续 outside bar 形成 oo，体现双边冲突而非天然方向。','最终强收盘的一方继续得到跟进。','把任何两根大 K 线称为 oo，或在冲突中追每次突破。'),
-      p('signal-entry-bar','Signal → Entry Bar','信号与入场 K 线','bars','signalEntry','breakout','Signal 与 Entry 是交易角色：setup 最后一根提供触发，订单实际成交所在 K 线才是 entry bar。','做多在 signal high 上方触发，做空在 signal low 下方触发；entry bar 通常紧随其后但由实际成交定义。','强 entry bar 和后续跟进是质量证据，不是成为 entry bar 的必要条件。','只评价 signal bar 漂亮，或把下一根无条件叫 entry bar。'),
+      p('signal-entry-bar','Signal → Entry Bar','信号与入场 K 线','bars','signalEntry','breakout','Signal 与 Entry 是成交后确认的交易角色：订单实际成交后，setup 最后一根成为 signal bar，成交所在 K 线成为 entry bar。','成交前更准确地说 prospective signal bar；做多候选通常在其 high 上方触发，做空候选通常在其 low 下方触发。','强 entry bar 和后续跟进是质量证据，不是成为 entry bar 的必要条件。','在订单尚未成交时把候选角色当成事实，或把下一根无条件叫 entry bar。'),
 
       // 趋势结构
       p('bull-trend','Bull Trend','牛趋势','trend','bullTrend','bull','高点和低点总体抬高，多头恢复快，空头尝试经常失败。','强趋势常有连续的相对大牛实体、近高收盘和短反向影线；回调 K 线明显更小、更浅。','回调后再次突破前高，并由新的强牛 K 线获得跟进。','把“牛趋势”简化成每根都必须是大阳线，或因为价格已经很高而过早逆势。'),
@@ -416,11 +416,11 @@
       p('spike','Spike','急冲','trend','spike','trend','突然出现强烈单边运动，打破旧共识并制造 surprise。','连续大趋势 K 线、重叠少、回调少。','即使先回调，也常再次测试急冲方向。','第一根逆势 K 线就认为急冲结束。'),
       p('spike-channel','Spike and Channel','急冲—通道','trend','spikeChannel','trend','趋势先急冲，再以较弱但仍有方向的通道延续。','前段是少重叠的大趋势 K 线；后段斜率下降、实体缩小，并开始出现小回调和更多重叠。','通道保持方向；后期再观察交易区间化或反转过程。','把通道减速直接等同于反向趋势。'),
       p('small-pullback-trend','Small Pullback Trend','小回调趋势','trend','smallPullback','bull','强趋势不断推进，回调浅而短，等待深回调的人被迫追随。','多数回调仅 1–3 根，或虽横向持续更久但始终很浅；很快再创新极值。','反向信号反复失败，回调无法有效测试均线或前一主要低点。','误以为强趋势必须由巨型 K 线组成，或因为没有深回调就在任意位置追价。'),
-      p('micro-channel','Micro Channel','微型通道','trend','microChannel','bull','连续 K 线沿同一方向推进，几乎没有真正回调。','牛微通道中低点连续不下破；熊微通道中高点连续不突破。','首次反向突破后，原方向通常还有第二次测试。','把第一次破微通道当成主要趋势反转。'),
+      p('micro-channel','Micro Channel','微型通道','trend','microChannel','bull','紧通道的极端形式，可以没有回调，也可以有一两次小回调；多数 K 线贴近 trend line，并常同时贴近 trend channel line。','本图采用严格无 bar-pullback 子型：牛向低点连续不下破、熊向高点连续不突破；这不是全部 micro channel 的必要定义。','首次反向突破后，原方向通常还有第二次测试。','把严格子型冒充全部定义，或把第一次破微通道当成主要趋势反转。'),
       p('stairs','Stairs','台阶推进','trend','stairs','trend','趋势以推进—回调—再推进的台阶结构创新极值。','每一腿都有新高或新低，中间回调保持趋势结构。','新台阶突破后守住前一层。','忽视台阶间距正在收缩。'),
       p('shrinking-stairs','Shrinking Stairs','收缩台阶','trend','shrinkingStairs','reversal','趋势仍创新极值，但每次推进幅度变小，动能逐渐衰减。','新高/低之间的距离缩短，回调相对更深。','趋势线破坏并出现回探失败，才升级为反转。','仅凭推进变短就立刻逆势。'),
-      p('leg-two-legs','Leg / Two Legs','一腿与两腿运动','trend','twoLegs','neutral','市场常以两段运动完成回调、测试或目标推进。','明显摆动后暂停，再出现同方向第二段摆动。','第二腿在目标或结构边缘出现衰竭/恢复信号。','机械地把任意两次波动都数成两腿。'),
-      p('climax','Climax','高潮','trend','climax','reversal','短期运动过快过远，提示需要重新发现公平价格，不等于立即反转。','连续大趋势 K 线、加速、远离均线、缺少回调。','先看横盘或两腿回调；更大反转需要结构破坏。','看到过度运动就第一时间摸顶抄底。'),
+      p('leg-two-legs','Leg / Two Legs','一腿与两腿运动','trend','twoLegs','neutral','Leg 是较大结构中的小趋势，会突破某一级别 trend line；通常图上至少能区分两腿时才使用。市场常以两腿完成回调、测试或目标推进。','第一段小趋势结束并形成暂停或反向段，随后出现可区分的第二段运动。','第二腿在目标或结构边缘出现衰竭/恢复信号。','机械地把任意两次波动都数成两腿。'),
+      p('climax','Confirmed Climax','已确认高潮','trend','climax','reversal','运动过快过远后已经反向进入交易区间或相反趋势；多数只进入区间。','先有加速、远离均线或通道线 overshoot，随后必须已经出现反向或区间化；此前只能称 climactic behavior。','默认先看交易区间；相反趋势仍需进一步控制权转移。','把尚未反向的过度运动直接命名为 climax，或把 confirmed climax 等同于必然反趋势。'),
       p('overshoot','Overshoot','通道线超越','trend','overshoot','reversal','价格冲出趋势或通道边界，可能是加速，也可能是衰竭。','新极值明显越过既有通道线。','先看新价格是否被接受：继续同向跟进表示加速；缺乏跟进并被反向收回才支持衰竭。','只因碰到或越过通道线就做反向交易。'),
 
       // 区间与突破
@@ -443,10 +443,10 @@
       // 延续形态
       p('bull-flag','Bull Flag','牛旗','continuation','bullFlag','bull','牛趋势中的次要向下或横向反转；可短至一根，也可回撤最近一腿的大部分。','关键不是必须浅，而是市场仍被判断为 Always In Long，下降更像回调而非新熊趋势。','向上触发后入场 K 线和跟进良好。','把经典斜旗外观当成唯一形式，或把区间中的普通反弹称作牛旗。'),
       p('bear-flag','Bear Flag','熊旗','continuation','bearFlag','bear','熊趋势中的次要向上或横向反转；可短至一根，也可回撤最近一腿的大部分。','关键不是必须浅，而是市场仍被判断为 Always In Short，上涨更像反弹而非新牛趋势。','向下触发并再次测试前低。','把经典斜旗外观当成唯一形式，或在宽通道底部盲目追随。'),
-      p('h1','High 1','第一次向上恢复','continuation','h1','bull','牛旗或区间下部的第一次上破尝试。','本图按 stop 触发标准显示本根高点至少高一跳；官方概述材料也会用“达到或超过”的宽松候选表述。','强趋势中可直接成功；较弱背景更需要入场 K 线和跟进。','看到 H1 就机械买入，或把相等高点当成已经触发。'),
-      p('h2','High 2','第二次向上恢复','continuation','h2','bull','第一次恢复失败后，牛方第二次尝试，常对应两腿回调。','H1 未延续，价格再回调后出现第二次上破。','空方第二次无法推进，多头触发后强收。','不区分趋势和区间；区间中的 H2 经常失败。'),
-      p('l1','Low 1','第一次向下恢复','continuation','l1','bear','熊旗或区间上部的第一次下破尝试。','本图按 stop 触发标准显示本根低点至少低一跳；官方概述材料也会用“达到或跌破”的宽松候选表述。','强熊趋势中向下触发后获得跟进。','在区间底部机械卖出，或把相等低点当成已经触发。'),
-      p('l2','Low 2','第二次向下恢复','continuation','l2','bear','第一次恢复失败后，空方第二次尝试，常对应两腿反弹。','L1 未延续，价格再反弹后出现第二次下破。','多方第二次无法推进，空头触发后强收。','把复杂区间中的任意第二次数成 L2。'),
+      p('h1','High 1','第一次向上恢复','continuation','h1','bull','牛旗或区间下部中，本根高点第一次严格高于前高。','本图显示本根高点至少高一跳；相等高点不计数，也不构成 buy-stop 触发。','强趋势中可直接成功；较弱背景更需要入场 K 线和跟进。','看到 H1 就机械买入，或把相等高点当成已经触发。'),
+      p('h2','High 2','第二次向上恢复','continuation','h2','bull','High 1 后先出现一根或数根 lower high，下一根高点再严格高于前高即形成 High 2 候选，常对应两腿回调。','它不要求第一次入场先触发 protective stop；实际 second entry 仍要有第二次订单成交。','空方再次无法推进，多头实际触发后强收。','不区分 H2 候选、second signal 和实际 second entry，或在区间中部机械交易。'),
+      p('l1','Low 1','第一次向下恢复','continuation','l1','bear','熊旗或区间上部中，本根低点第一次严格低于前低。','本图显示本根低点至少低一跳；相等低点不计数，也不构成 sell-stop 触发。','强熊趋势中向下触发后获得跟进。','在区间底部机械卖出，或把相等低点当成已经触发。'),
+      p('l2','Low 2','第二次向下恢复','continuation','l2','bear','Low 1 后先出现一根或数根 higher low，下一根低点再严格低于前低即形成 Low 2 候选，常对应两腿反弹。','它不要求第一次入场先触发 protective stop；实际 second entry 仍要有第二次订单成交。','多方再次无法推进，空头实际触发后强收。','不区分 L2 候选、second signal 和实际 second entry，或在复杂区间机械数二。'),
       p('h2-bull-flag','High 2 Bull Flag','H2 牛旗','continuation','h2BullFlag','bull','牛趋势中的第二次向上恢复尝试，常对应两腿回调，也可能表现为小双底。','H1 未延续，出现较低高点后，再次上破前一根高点形成 H2。','趋势仍偏多、回调未破坏结构、入场后有跟进。','反推所有 H2 都必须长得像双底，或只数到二就买。'),
       p('l2-bear-flag','Low 2 Bear Flag','L2 熊旗','continuation','l2BearFlag','bear','熊趋势中的第二次向下恢复尝试，常对应两腿反弹，也可能表现为小双顶。','L1 未延续，出现较高低点后，再次下破前一根低点形成 L2。','趋势仍偏空、反弹未改变结构、下破后有跟进。','反推所有 L2 都必须长得像双顶，或在宽通道下沿机械追空。'),
       p('double-bottom-bull-flag','Double Bottom Bull Flag','双底牛旗','continuation','doubleBottomBullFlag','bull','牛趋势回调两次测试低位失败，双底承担延续功能。','两个低点位于同一区域，中间反弹未改变多头背景。','第二次下探失败后多头恢复并获得跟进。','因为外观是双底就忽略原趋势背景。'),
@@ -462,7 +462,7 @@
       p('double-bottom-pullback','Double Bottom Pullback','双底回调','reversal','doubleBottomPullback','bull','双底上破后深度回调，但只形成较高低点。','第二次下探高于底部，常像头肩底右肩。','较高低点后出现强上破和跟进。','在上方目标过近时仍期待大 swing。'),
       p('wedge','Wedge','三推楔形','reversal','wedge','neutral','核心是三次推动或尝试，不要求线条完美收敛。','1、2、3 推清楚，第三推可不超过第二推。','根据所处背景判断它是回调、暂停还是反转。','只追求几何外观，不分析三次尝试背后的压力。'),
       p('wedge-reversal','Wedge Reversal','楔形反转','reversal','wedgeReversal','reversal','成熟趋势或通道后期的三次尝试，反方开始争夺控制。','三推位于通道边缘或重要目标，但不要求完美收敛或每推创新极值。','逆势强度不足时通常等待第二信号，或趋势线突破后的 lower high / higher low 测试。','第三推一结束就默认完整反向趋势。'),
-      p('parabolic-wedge','Parabolic Wedge','抛物线楔形','reversal','parabolicWedge','reversal','紧通道中的三推高潮，常伴随加速，但“每一推都必须更陡”不是硬定义。','回调短、趋势紧、三次连续尝试清楚，最后阶段常走得过快过远。','先预期小反转、两腿回调或区间；更大反转需结构破坏。','把逐推加速当成必要几何，或直接在强趋势中接刀。'),
+      p('parabolic-wedge','Parabolic Wedge','抛物线楔形','reversal','parabolicWedge','reversal','紧通道中的三推 climactic behavior，常伴随加速，但“每一推都必须更陡”不是硬定义。','回调短、趋势紧、三次连续尝试清楚，最后阶段常走得过快过远。','先预期小反转、两腿回调或区间；更大反转需结构破坏。','把逐推加速当成必要几何，或直接在强趋势中接刀。'),
       p('micro-wedge','Micro Wedge','微型楔形','reversal','microWedge','reversal','少数几根 K 线形成的三推结构，是小级别衰减证据。','连续小幅创新极值，但推进逐步失去效果。','配合区间边缘、信号 K 线和后续触发。','把它升级成大周期反转目标。'),
       p('nested-wedge','Nested Wedge','嵌套楔形','reversal','nestedWedge','reversal','大三推中的某一推内部又形成小三推，显示多层次尝试。','大结构 1—2—3 清楚，最后一推内还有 a—b—c。','嵌套完成后出现反向突破和跟进。','因为结构复杂就忽略止损距离。'),
       p('final-flag','Final Flag','最终旗形','reversal','finalFlag','reversal','趋势后期最后一次顺势整理；顺势突破失败后可能反向。','趋势已经走远、接近目标、双边交易增加，出现横向旗形。','最后一次顺势突破缺乏跟进并被快速收回。','趋势仍很强时过早称作 final flag。'),
@@ -492,7 +492,7 @@
       p('trend-from-open','Trend From the Open','开盘即趋势','day','trendFromOpen','trend','从开盘很早就进入趋势，开始后的许多根 K 线没有真正 pullback，起点长期保持日内极值。','早期连续趋势 K 线，反向信号弱；牛例中后续低点持续高于开盘低点，熊例镜像。','即使早盘很强，仍需持续更新，因为强开盘也可能反转或转区间。','把普通趋势日都叫 TFO，或因开盘运动很大而持续逆势。'),
       p('trend-day','Trend Day','趋势日','day','trendDay','trend','一方在当天大部分时间维持 Always In 控制，但可以在开盘后才确立，也可以有真实而受控的回调。','顺势腿持续，1–3 根回调后恢复，反向入场反复失败，收盘常靠近趋势方向极值。','关键回调不改变 Always In 方向。','把所有趋势日画成无回调 micro channel，或过早预设尾盘均值回归。'),
       p('trading-range-day','Trading Range Day','交易区间日','day','rangeDay','range','全天由多根组成的上下摆动围绕公平价格反复测试，多空双方都能盈利。','上、下腿可暂时很强，但突破常失败，价格多次穿越 EMA 并回到区间。','边缘交易优先，中部减少操作。','把每根一红一绿的 barbwire 当成完整交易区间日，或在强腿末端追随。'),
-      p('reversal-day','Reversal Day','反转日','day','reversalDay','reversal','当天先向一个方向运动，原方向被否定后转为相反趋势或大幅反向腿。','常见高潮、结构破坏和强反向 K 线；弱回探失败会加强判断，但不是每张反转日都必须出现。','反向运动持续穿越均线、开盘价或早期区间。','只因出现早盘高潮就预判全天反转。'),
+      p('reversal-day','Reversal Day','反转日','day','reversalDay','reversal','当天先向一个方向运动，原方向被否定后转为相反趋势或大幅反向腿。','常见事前 climactic behavior、随后 confirmed climax、结构破坏和强反向 K 线；弱回探失败会加强判断，但不是每张反转日都必须出现。','反向运动持续穿越均线、开盘价或早期区间。','只因出现早盘 climactic behavior 就预判全天反转。'),
       p('breakout-day','Early Range Breakout Trend Day','早期区间突破趋势日','day','breakoutDay','breakout','早期交易区间被强突破，市场随后持续接受边界外的新价格。','早期整理后出现强突破、跟进以及守住边界的突破回调。','边界转为支撑阻力，回踩后继续。','把这个实用日内结构标签当成 Brooks 术语表中的独立硬分类，或把它等同于单根大 K 线。')
     ];
 
@@ -612,7 +612,7 @@
         [52,61,51,59], [59,64,57,62],
         [62,64,53,55], [55,57,45,47], [47,49,38,40]
       ], { domain:[30,90], markers:[{i:3,t:'1',anchor:'low'},{i:8,t:'2',anchor:'low'}], chartLabel:'LEG 1 → PULLBACK → LEG 2' }),
-      climax: scene([38,42,46,49,53,57,61,68,78,90,87], { highlight:9, ma:true, domain:[30,98], barOverrides:{8:{o:69,h:80,l:68,c:78},9:{o:79,h:92,l:78,c:90}} }),
+      climax: scene([38,42,46,49,53,57,61,68,78,90,85,82,84], { highlight:9, ma:true, domain:[30,98], barOverrides:{8:{o:69,h:80,l:68,c:78},9:{o:79,h:92,l:78,c:90}} }),
       overshoot: barScene([
         [34,42,33,41], [41.5,49,41,48], [48.5,56,48,55], [55,58,52,53],
         [53.5,63,53,62], [62.5,70,62,69], [69,72,66,67], [67.5,78,67,77],

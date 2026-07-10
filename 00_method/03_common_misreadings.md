@@ -1,5 +1,9 @@
 # 常见误读
 
+> **状态：Learning / Non-normative**
+>
+> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../README.md#权威层级)。
+
 ## 把 Brooks 学成形态识别
 
 H2、wedge、double top、triangle 和 final flag 都不是自动信号。它们只描述市场行为，真正的交易意义来自 market cycle、location、order flow 和 follow-through。
@@ -27,4 +31,3 @@ H2、wedge、double top、triangle 和 final flag 都不是自动信号。它们
 Brooks 语境里 stop order 经常指 stop entry，也就是价格向交易方向触发后入场。Protective stop 是入场后证明交易想法错误的位置。
 
 如果混淆这两者，就会误读 H1/H2/L1/L2、signal bar、entry bar 和 trapped traders。
-

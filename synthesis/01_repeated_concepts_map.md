@@ -1,5 +1,9 @@
 # 重复概念归并表
 
+> **状态：Research / Non-normative**
+>
+> 本文整理概念关系，不拥有定义或执行权；术语查阅见 `reference/glossary.md`，交易动作见当前[执行手册](../README.md#权威层级)。
+
 ## 总结结论
 
 文档里的重复并不表示需要背更多定义。大多数重复来自同一批核心变量在不同市场状态中的应用：控制权、位置、触发、跟进、失败、被困交易者和交易数学。
@@ -11,15 +15,15 @@
 | Trend、Channel、Small Pullback Trend、Micro Channel | 市场是否处在有方向的结构，方向结构有多强？ | 通道越宽，越不能当强趋势处理。 |
 | Always In、Control、Buying Pressure / Selling Pressure、Strong Bulls / Bears | 当前谁更主动，优势是否足够明显？ | Always In 是强控制权判断，不是所有控制权都等于 Always In；它也不能替代位置、目标和风险回报。 |
 | Trading Range、Limit Order Market、Buy low sell high、Fade | 市场是否仍围绕公平价格交易？ | Trading range 是市场状态，limit order market 是订单环境，fade 是交易方式；区间中部通常没有优势，边缘才有意义。 |
-| Breakout、Follow-through、Surprise、Inertia | 市场是在尝试离开旧区域，还是已经被接受，并可能产生第二腿？ | Breakout 是尝试，follow-through 是接受，surprise 是强度，inertia 是后续倾向；惯性不等于不会回调。 |
+| Breakout、Follow-through、Surprise、Inertia | 市场是在尝试离开旧区域，还是正在累积接受证据，并可能产生第二腿？ | Breakout 是最低越界事件，follow-through 是接受证据，surprise 是强度，inertia 是后续倾向；任何一项都不单独保证成功。 |
 | Failed Breakout、Failed Entry、Failed Gap、Failed Second Entry | 触发后是否没有跟进？ | 失败信号常比原信号更有交易意义。 |
 | Trapped Traders、Stop Run、Failed Failure | 谁被迫退出，退出是否会连续放大运动？ | Trapped traders 是仓位状态，stop run 是触发机制，failed failure 是二阶失败结构；都需要目标空间和反向强度配合。 |
 | H1 / H2、L1 / L2、Double Top / Bottom、Wedge、Final Flag、Triangle | 市场正在用什么形态语言表达尝试、压缩或末端整理？ | 形态不是信号，也不都在同一层级：H/L 偏触发语言，triangle 偏 breakout mode，final flag 偏趋势后期。 |
-| MTR、Wedge Reversal、Final Flag、Climax、Minor Reversal | 趋势是否成熟、失控、转弱或进入转换？ | Climax 是状态，MTR 是过程型 setup，wedge/final flag 是形态语言；高潮不是立即反转，反转后也常先进入区间。 |
+| MTR、Wedge Reversal、Final Flag、Climax、Minor Reversal | 趋势是否成熟、失控、转弱或进入转换？ | Climactic behavior 是事前线索，confirmed climax 已包含反向；MTR 是过程型 setup，wedge/final flag 是形态语言，反向后也常先进入区间。 |
 | Two Legs、TBTL、Swing、Scalp | 这笔交易需要多大目标、多少时间和什么管理方式？ | Two legs / TBTL 描述结构和时间预期，scalp / swing 是管理模式；TBTL 不是反转信号。 |
 | Support / Resistance、Magnet、Measured Move、50% Pullback、Target | 价格在哪里？还有多少空间？控制权是否变化？ | 目标是区域，不是保证；50% 回调不是机械支撑阻力。 |
 | Multi-timeframe、Time of Day、Session、Day Type | 大周期或时段是否改变同一形态的意义？ | 它们属于 context，不是事后附加说明。 |
-| Setup、Trade Plan、Entry / Stop / Target | 是否已经形成完整交易想法？ | 没有无效点和管理方式，就不是完整 setup。 |
+| Setup、Trade Plan、Entry / Stop / Target | 当前只是入场依据，还是已经形成可执行计划？ | Brooks setup 是带 context 的入场依据；没有 invalidation、protective stop、仓位、PT1、管理和入场数学，就不是本仓库可批准的 trade plan。 |
 
 ## 真正要分清的几组区别
 
@@ -35,13 +39,13 @@
 
 ### Pattern 和 Setup
 
-Pattern 是语言，Setup 是交易想法。
+Pattern 是形态语言；官方最低定义中的 Setup 是带 context、可作为放置入场单依据的 pattern。
 
-一个 H2、wedge 或 double bottom 只说明市场出现某种行为。只有当它同时具备背景、位置、触发、失效点、目标和管理时，才是 setup。
+一个 H2、wedge 或 double bottom 只说明市场出现某种行为。放回 context 并形成入场依据后，它可以成为 Brooks setup；只有再补齐失效点、protective stop、仓位、目标、管理和 Trader's Equation，才成为本仓库可批准的 trade plan。
 
 ### Breakout 和 Follow-through
 
-Breakout 是尝试，follow-through 是市场接受。
+Breakout 是尝试，follow-through 是市场接受新价格的重要证据，但不等于永久确认。
 
 没有跟进的突破更容易变成 failed breakout。强突破后的回调不一定否定突破，关键是市场是否快速回到旧区域。
 

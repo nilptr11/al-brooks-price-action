@@ -1,33 +1,25 @@
-# 分析结论与收敛入口
+# 分析与归并工作区
 
-本目录用于沉淀学习和复盘后的总结结论。它不是主定义目录，也不替代 `concept_index.md` 指向的原始定义文件。
+本目录保存概念压缩、重复概念归并和当前模型映射。这里的内容是研究与学习材料，不是执行规则，也不拥有术语定义权。
 
-这里的目标是把分散在不同章节里的重复概念压缩成更少的判断框架，方便后续复习、实盘复盘和继续扩展。`00_core_framework.md` 是本仓库的收敛入口：先确认每个术语属于哪一层，再回到主定义或场景文件。
+## 权威边界
 
-## 使用原则
-
-- 只沉淀已经经过分析、归并或复盘验证的结论。
-- 不把形态重新写成自动交易信号。
-- 如果某个概念需要完整定义，回到 `concept_index.md` 指向的主定义文件。
-- 每条结论尽量回答“这能帮助我少犯什么错误”。
-
-## 使用顺序
-
-1. `00_core_framework.md`：先把 Brooks 阅读压缩成一条主链条。
-2. `03_strategy_branches.md`：再把主链条拆成可复盘的策略分支。
-3. `02_review_questions.md`：再把主链条改写成复盘问题。
-4. `01_repeated_concepts_map.md`：最后处理看似重复、实则同源的概念组。
-5. `04_pattern_source_audit.md`：维护 88 图形的官方来源、定义边界和防回归几何规则。
+- 实际执行以当前[执行手册](../README.md#权威层级)为准。
+- 术语快速解释见 `reference/glossary.md`。
+- 官方来源和审计状态见 `reference/official_sources.md` 与 `reference/audit_matrix.md`。
+- 本目录中的结论若被采纳为执行规则，必须显式提升到执行手册并完成来源/政策标记。
 
 ## 当前文件
 
-1. `00_core_framework.md`：把 Brooks 阅读压缩成一条主链条。
-2. `01_repeated_concepts_map.md`：整理看似重复、实则同源的概念组。
-3. `02_review_questions.md`：把主链条改写成复盘和实盘前检查问题。
-4. `03_strategy_branches.md`：把 market cycle、订单流、失败和管理拆成策略分支。
-5. `04_pattern_source_audit.md`：记录 HTML 图谱的逐组来源审计和绘图验收条件。
+1. `00_core_framework.md`：把 Brooks 阅读压缩成一条学习主链条。
+2. `01_repeated_concepts_map.md`：整理看似重复、实则处于不同层级的概念。
 
-## 后续可补充
+复盘训练清单已迁至 `07_scenarios/05_review_checklist.md`，避免在研究目录保留第二套执行问题。
 
-- `05_common_compression_rules.md`：总结“多个术语其实在讲同一件事”的压缩规则。
-- `05_trade_examples_from_framework.md`：用具体走势验证这些总结是否有用。
+## 使用原则
+
+- 可以记录尚未收敛的分析，但要明确它不是执行权威。
+- 可以引用当前执行模型的内部编号，但必须把它视为版本相关映射；执行模型重构时，本目录允许随之更新。
+- 不用形态名称替代 context、触发、无效点、目标和交易数学。
+- 发现与官方资料或执行手册冲突时，在 `reference/audit_matrix.md` 登记，再决定修改哪一层。
+- 不在本目录重新复制完整的 stop、target、Trader's Equation 或 setup 定义。
