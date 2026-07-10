@@ -65,6 +65,6 @@ Measuring gap 只有事后才能确认。实时只能把仍开放、且得到 fo
 
 官方 glossary 用 entry 到 protective stop 的距离描述 risk，并提醒滑点等会让实际成交损失偏离理论值。完整计划应使用保守 entry 与 stop 成交价计算价格风险，再乘以仓位，并只加入尚未嵌入这些价格的手续费、点差和滑点。
 
-市场在入场后出现一个更远的结构，不构成放宽 stop 的许可。若原 stop 不再合理，应按原计划退出并重新建立候选；若当前可执行退出价到 active stop 保守成交价的开放风险/利润回吐扩大，则按预案减仓或在新结构允许时推进 stop。
+市场在入场后出现一个更远的结构，不构成放宽 stop 的许可。若原交易命题失效，应按原计划退出并重新建立候选；若预写的目标、提前退出或结构 trailing 条件成立，则按管理合同减仓、退出或推进 stop。没有事件时维持原计划，不逐根重新计算。
 
 来源审计见 `reference/official_sources.md` 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-RISK-113`、`SRC-BREAKOUTS-2025`、`SRC-LIVE-TR-BO-2021`、`SRC-GOOD-TRADE-2017`。

@@ -7,9 +7,9 @@
 1. `00_day_types.md`：交易日类型的动态识别。
 2. `01_opening_range_and_opening_reversal.md`：开盘区间、突破与反转。
 3. `02_gap_scenarios.md`：相关 gap 的接受/拒绝、趋势延续与 potential exhaustion 训练路由。
-4. `03_bar_by_bar_templates.md`：保留原始计划、订单变化和真实 fill 的逐根记录模板。
+4. `03_bar_by_bar_templates.md`：保留原始计划、订单变化、真实 fill 和管理事件的记录模板。
 5. `04_management_examples.md`：P1–P4 的示例化管理。
-6. `05_review_checklist.md`：按 M/K/C/T/D/Q/P/E/A、人的订单状态和管理配置复盘一笔交易。
+6. `05_review_checklist.md`：按 M/K/C/T/D/Q/P、人的订单状态和管理合同复盘一笔交易。
 
 ## 权威边界
 

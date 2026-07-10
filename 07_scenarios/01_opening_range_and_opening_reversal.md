@@ -2,7 +2,7 @@
 
 > **状态：Training / Derived**
 >
-> 本文用于开盘场景训练；P2/P3/P4、D_init/D_live 和 Q_entry/Q_hold 以当前[执行手册](../README.md#权威层级)为准。
+> 本文用于开盘场景训练；P2/P3/P4、D/Q、订单边界和管理合同以当前[执行手册](../README.md#权威层级)为准。
 
 ## Opening Gap 预读
 
