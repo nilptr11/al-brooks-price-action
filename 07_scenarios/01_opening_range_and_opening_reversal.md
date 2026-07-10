@@ -4,6 +4,12 @@
 >
 > 本文用于开盘场景训练；P2/P3/P4、D_init/D_live 和 Q_entry/Q_hold 以当前[执行手册](../README.md#权威层级)为准。
 
+## Opening Gap 预读
+
+若当日第一根开盘越过昨日最后一根或整个昨日范围，按[缺口场景](02_gap_scenarios.md)记录这个相关 gap：标出比较边界、昨日高低点、旧价格区域和下一现实障碍。Gap 方向只表示重新定价，不预先决定 trend from the open 或 opening reversal。
+
+开盘方向获得连续趋势 K 线、回踩守住旧边界时，观察接受路线；价格进入 gap、回旧区域并出现反向跟进时，观察拒绝路线。Gap reversal 只要求当前 K 线向 gap 方向越过前一根至少一跳，甚至可能尚未到达真正的 gap 边界；二次信号、昨日高低点 failed breakout、反向 signal bar 和 follow-through 会提供更完整的触发证据。
+
 ## Opening Range
 
 开盘区间是开盘后早期形成的高低范围。它常成为当天后续支撑阻力。
@@ -36,3 +42,5 @@
 ## Trend From The Open
 
 开盘即趋势是开盘后很快形成方向，并在开始后的许多根 K 线中没有真正 pullback；起点长期保持日内极值。即使开盘趋势很强，也可能在早盘反转或转成交易区间，因此标签必须随逐根行为更新。
+
+相关官方案例锚点见 [`reference/official_sources.md`](../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。

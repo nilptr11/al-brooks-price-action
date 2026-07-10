@@ -38,6 +38,10 @@ Higher low MTR：熊趋势或下跌通道后，回探未能到达或跌破前低
 
 官方 2025 coaching 材料把成功反转描述为形成两腿并获得 swing profit，且常演变为较大 trading range，而不是立刻形成无回调的新趋势。TBTL 指 Ten Bars, Two Legs correction，是管理时间/腿数的经验语言，不是价格目标。
 
+早期反转的 stop 常需要放在旧趋势极值测试或完整反转结构外。等待强反向 breakout 可以提高概率，但 entry 更差、stop 可能更远、剩余回报也更小；两条路线必须分别评估。
+
+均线、前 swing 和区间中轴可以是部分兑现位置，但它们通常只代表回到公平区域。若交易命题是 major reversal，计划还要有可量化的反向 swing 空间，例如反向 Leg 1 = Leg 2、反转结构高度或其他有依据的 measured move。
+
 看到第一根反向强 K 线就期待完整新趋势，是常见错误。
 
 执行层可以区分“提前下注控制权转移”和“完整 MTR”两种版本，但这不等于把早期候选命名为官方完整 MTR。若目标只到均线、区间中轴或旧公平区域，应按 minor reversal 或回归公平区域理解，而不是反向 swing。
