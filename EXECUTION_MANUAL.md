@@ -202,7 +202,7 @@ Brooks 的通用启发是：不确定时把胜率放在约 40–50% 的范围，
 3. 采取的动作是否降低或维持原风险，而没有扩大原交易？
 4. 退出订单是否真实成交，剩余数量和 stop 是否准确？
 
-复盘入口见[训练与复盘](training/README.md)。官方定义、公开来源和核对状态分别见[术语表](reference/glossary.md)、[来源台账](reference/official_sources.md)和[审计矩阵](reference/audit_matrix.md)。
+复盘入口见[训练与复盘](training/README.md)，陌生词查[核心术语表](reference/glossary.md)。官方来源和核对状态属于维护证据，统一从[参考与来源](reference/README.md)进入。
 
 ## 高级执行附录
 

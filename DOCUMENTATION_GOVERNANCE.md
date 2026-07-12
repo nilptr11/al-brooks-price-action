@@ -119,7 +119,9 @@ learning/ + EXECUTION_MANUAL.md
 - 学习专题使用 `NN_topic_name.md`。编号表达章节内的稳定展示顺序，不等同于交易优先级，也不应用于暗示概率或质量等级。
 - `training/` 专题统一使用 `NN_topic_name.md`；编号只表达训练材料的稳定展示顺序。
 - `reference/` 使用职责型稳定名称，不增加数字前缀。
-- `reference/` 当前只包含入口、术语表、来源台账和审计矩阵；若要增加第五类文档，必须先在状态表、所有权表和 `scripts/check_docs.py` 中明确其职责与状态映射。
+- `reference/` 当前只包含入口、术语表、来源台账和审计矩阵；若要增加第五类文档，必须先在状态表和所有权表中明确其职责。
+- `reference/glossary.md` 只保留核心流程反复使用、容易混淆或官方最低定义影响判断的术语；低频专题词在首次出现处解释，不把术语表扩写成第二本教材。
+- `reference/audit_matrix.md` 是维护证据，不进入学习路线或训练流程；学习者无需逐行阅读。
 - 核心执行流程和高级执行附录都使用可直接朗读的自然语言标题、问题和记录项。不得使用旧的单字母加数字阶段码、英文目标或损失字段标签，也不得用单字母链条建立隐藏流程。
 - 高级规则只放在 `EXECUTION_MANUAL.md` 的“高级执行附录”中，以明确的适用条件进入核心流程；不得把附录编号变成第二套路由。
 - 重命名或移动文件时必须在同一变更中更新全部本地链接；不要为了保留旧路径而留下内容重复的副本。
@@ -143,7 +145,7 @@ learning/ + EXECUTION_MANUAL.md
 
 | 变更起点 | 必查下游 |
 | --- | --- |
-| `DOCUMENTATION_GOVERNANCE.md` 的结构或状态约定 | 根导航、目录 README、路径引用、`scripts/check_docs.py` |
+| `DOCUMENTATION_GOVERNANCE.md` 的结构或状态约定 | 根导航、目录 README 和路径引用；只有核心入口、链接或 Source ID 规则变化时才更新 `scripts/check_docs.py` |
 | `LEARNING_PATH.md` 的学习顺序 | 相关 `learning/*/README.md` 和根导航 |
 | `EXECUTION_MANUAL.md` 的核心流程或高级附录 | `training/`、`reference/audit_matrix.md`；只有概念本身改变时才改 `learning/` |
 | `reference/glossary.md` 的术语定义 | 使用该术语的 `learning/`、执行手册、训练和审计条目 |
@@ -168,7 +170,7 @@ learning/ + EXECUTION_MANUAL.md
    python3 scripts/check_docs.py
    ```
 
-9. 校验失败时修正文档或校验器所揭示的结构问题，不通过跳过规则、增加重复文件或降低状态来规避检查。
+9. 校验失败时修复缺失入口、链接、锚点或 Source ID；状态、职责、依赖和内容边界按本规范人工复核。
 
 ## 9. 最低完成标准
 
@@ -178,4 +180,4 @@ learning/ + EXECUTION_MANUAL.md
 - 状态、命名、编号和依赖方向符合本规范。
 - 所有受影响的导航、来源登记、审计条目和直接派生文档已同步。
 - 没有新增第二套执行流程、规范字段集、术语表、来源台账或内部编码路由。
-- `python3 scripts/check_docs.py` 通过。
+- `python3 scripts/check_docs.py` 通过，并已人工复核本规范中不适合程序化的职责与内容边界。

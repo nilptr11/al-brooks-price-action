@@ -11,8 +11,6 @@
 | 做逐根回放或场景练习 | [`training/README.md`](training/README.md) | 训练闭环与场景入口 |
 | 复盘已完成、未成交或放弃的计划 | [`training/03_review_checklist.md`](training/03_review_checklist.md) | 九个核心问题与复盘输出 |
 | 查 Brooks 术语 | [`reference/glossary.md`](reference/glossary.md) | 快速定义，不许可交易动作 |
-| 核对结论与官方依据 | [`reference/audit_matrix.md`](reference/audit_matrix.md) | 结论性质、来源和审计状态 |
-| 了解术语、来源和审计的分工 | [`reference/README.md`](reference/README.md) | 参考层导航与权威边界 |
 | 维护文档 | [`DOCUMENTATION_GOVERNANCE.md`](DOCUMENTATION_GOVERNANCE.md) | 目录、权威、来源和变更规则 |
 
 学习材料回答“如何理解”；执行手册回答“这份计划是否完整、成交后如何控制风险”；训练材料负责把理解变成可复核记录。
@@ -26,8 +24,8 @@ EXECUTION_MANUAL.md             核心执行流程 + 高级执行附录
 DOCUMENTATION_GOVERNANCE.md     文档维护规则
 learning/                       概念正文与可选形态参考
 training/                       场景、逐根观察和复盘
-reference/                      术语、官方来源和审计矩阵
-scripts/check_docs.py           文档一致性检查
+reference/                      核心术语与维护证据
+scripts/check_docs.py           链接与来源引用检查
 ```
 
 ## 三条使用路径
@@ -52,8 +50,7 @@ scripts/check_docs.py           文档一致性检查
 | 学习 | [`learning/`](learning/00_method/README.md) | Brooks 概念、推导和常见边界 | 否 |
 | 训练 | [`training/`](training/README.md) | 场景、逐根观察和复盘 | 否 |
 | 查阅 | [`reference/glossary.md`](reference/glossary.md) | Brooks 术语快速解释 | 否 |
-| 来源 | [`reference/official_sources.md`](reference/official_sources.md) | 官方来源 ID、URL 和原文锚点 | 否，只负责证据定位 |
-| 审计 | [`reference/audit_matrix.md`](reference/audit_matrix.md) | 结论性质、覆盖文件和核对状态 | 否，负责证明和校准 |
+| 证据维护 | [`reference/`](reference/README.md) | 官方来源、结论性质和审计状态 | 否，只负责证明和校准 |
 
 执行手册含有仓库内部的保守政策，不等于 Brooks 官方原文。官方资料负责证明和校准理念；冲突时按[文档治理规范](DOCUMENTATION_GOVERNANCE.md)定位真正所有者并修正。
 
