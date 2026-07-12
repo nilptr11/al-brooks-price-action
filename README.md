@@ -1,6 +1,6 @@
-# Brooks 价格行为文档
+# Al Brooks 价格行为文档
 
-本仓库用于学习 Brooks 价格行为、练习交易计划并核对官方来源。它不是自动信号系统、回测报告，也不提供特定市场的交易建议。
+本仓库用于学习 Al Brooks 价格行为、练习交易计划并核对官方来源。它不是自动信号系统、回测报告，也不提供特定市场的交易建议。
 
 ## 快速入口
 
@@ -10,7 +10,7 @@
 | 设计交易或管理持仓 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 唯一规范执行文本；高级订单细节在同文件附录 |
 | 做逐根回放或场景练习 | [`training/README.md`](training/README.md) | 训练闭环与场景入口 |
 | 复盘已完成、未成交或放弃的计划 | [`training/03_review_checklist.md`](training/03_review_checklist.md) | 九个核心问题与复盘输出 |
-| 查 Brooks 术语 | [`reference/glossary.md`](reference/glossary.md) | 快速定义，不许可交易动作 |
+| 查 Al Brooks 术语 | [`reference/glossary.md`](reference/glossary.md) | 快速定义，不许可交易动作 |
 | 维护文档 | [`DOCUMENTATION_GOVERNANCE.md`](DOCUMENTATION_GOVERNANCE.md) | 目录、权威、来源和变更规则 |
 
 学习材料回答“如何理解”；执行手册回答“这份计划是否完整、成交后如何控制风险”；训练材料负责把理解变成可复核记录。
@@ -47,12 +47,12 @@ scripts/check_docs.py           链接与来源引用检查
 | 层级 | 入口 | 职责 | 是否规范执行 |
 | --- | --- | --- | --- |
 | 执行 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 入场、失效、stop、目标、仓位、Trader's Equation、订单和管理 | 是，唯一执行权威 |
-| 学习 | [`learning/`](learning/00_method/README.md) | Brooks 概念、推导和常见边界 | 否 |
+| 学习 | [`learning/`](learning/00_method/README.md) | Al Brooks 概念、推导和常见边界 | 否 |
 | 训练 | [`training/`](training/README.md) | 场景、逐根观察和复盘 | 否 |
-| 查阅 | [`reference/glossary.md`](reference/glossary.md) | Brooks 术语快速解释 | 否 |
+| 查阅 | [`reference/glossary.md`](reference/glossary.md) | Al Brooks 术语快速解释 | 否 |
 | 证据维护 | [`reference/`](reference/README.md) | 官方来源、结论性质和审计状态 | 否，只负责证明和校准 |
 
-执行手册含有仓库内部的保守政策，不等于 Brooks 官方原文。官方资料负责证明和校准理念；冲突时按[文档治理规范](DOCUMENTATION_GOVERNANCE.md)定位真正所有者并修正。
+执行手册含有仓库内部的保守政策，不等于 Al Brooks 官方原文。官方资料负责证明和校准理念；冲突时按[文档治理规范](DOCUMENTATION_GOVERNANCE.md)定位真正所有者并修正。
 
 ## 范围
 

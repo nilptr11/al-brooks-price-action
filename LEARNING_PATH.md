@@ -6,9 +6,9 @@
 
 ## 核心路径
 
-先完成下面七份材料。它们回答 Brooks 方法最重要的问题，不要求先背完整形态库：
+先完成下面七份材料。它们回答 Al Brooks 方法最重要的问题，不要求先背完整形态库：
 
-1. [`learning/00_method/00_brooks_thesis.md`](learning/00_method/00_brooks_thesis.md)：用五个问题建立完整读图主线。
+1. [`learning/00_method/00_al_brooks_thesis.md`](learning/00_method/00_al_brooks_thesis.md)：用五个问题建立完整读图主线。
 2. [`learning/01_market_cycle/00_market_cycle.md`](learning/01_market_cycle/00_market_cycle.md)：先分 trend / trading range，再识别 breakout / channel。
 3. [`learning/02_context/00_context_location_control.md`](learning/02_context/00_context_location_control.md)：判断控制方向、位置和第一目标空间。
 4. [`learning/05_setups/00_what_is_a_setup.md`](learning/05_setups/00_what_is_a_setup.md)：分清 pattern、setup 和完整交易计划。

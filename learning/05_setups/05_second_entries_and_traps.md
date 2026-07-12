@@ -4,7 +4,7 @@
 >
 > 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
 
-## Brooks 语境中的定义
+## Al Brooks 语境中的定义
 
 官方 glossary 的最低定义是：第一次 entry 后的数根内，市场基于同一逻辑第二次形成 entry bar。若第二次只形成 setup、订单尚未成交，则更准确地说是 second signal。
 

@@ -4,7 +4,7 @@
 >
 > 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
 
-## Brooks 语境中的定义
+## Al Brooks 语境中的定义
 
 连续强 K 线、加速、远离均线、缺少回调、趋势通道 overshoot 或异常大波动，先说明出现 climactic behavior：市场可能走得过快过远。
 

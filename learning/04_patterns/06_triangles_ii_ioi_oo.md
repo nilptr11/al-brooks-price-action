@@ -10,7 +10,7 @@
 
 三角形表达等待，不预测方向。
 
-Brooks abbreviations 中把 triangle 描述为至少多次反转的 trading range，并强调突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
+Al Brooks abbreviations 中把 triangle 描述为至少多次反转的 trading range，并强调突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
 
 ## ii / iii
 

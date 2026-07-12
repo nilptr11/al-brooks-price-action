@@ -4,7 +4,7 @@
 >
 > 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
 
-## Brooks 语境中的定义
+## Al Brooks 语境中的定义
 
 Final flag 是趋势后期最后一次顺势整理。它看起来像普通 continuation pattern，但发生在趋势已经走远、动能衰减、双边交易增加之后。
 

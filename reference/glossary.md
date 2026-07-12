@@ -1,4 +1,4 @@
-# Brooks 价格行为核心术语
+# Al Brooks 价格行为核心术语
 
 > **状态：Reference / Non-normative**
 >
@@ -42,7 +42,7 @@
 
 ### Likely / Probably
 
-可能性明显偏向一侧，Brooks 语境中通常约为 60% 或更高；不是确定发生。
+可能性明显偏向一侧，Al Brooks 语境中通常约为 60% 或更高；不是确定发生。
 
 ### 40–60 Thinking
 

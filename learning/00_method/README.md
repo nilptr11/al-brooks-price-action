@@ -6,11 +6,11 @@
 
 ## 章节目标
 
-建立 Brooks 方法的五问主线，并理解概率、风险和回报如何约束交易想法。
+建立 Al Brooks 方法的五问主线，并理解概率、风险和回报如何约束交易想法。
 
 ## 本章文件
 
-1. **核心** [`00_brooks_thesis.md`](00_brooks_thesis.md)：用五个问题连接 market cycle、context、setup、风险和管理。
+1. **核心** [`00_al_brooks_thesis.md`](00_al_brooks_thesis.md)：用五个问题连接 market cycle、context、setup、风险和管理。
 2. **核心** [`01_probability_risk_reward.md`](01_probability_risk_reward.md)：把概率、风险、回报和成本放进同一份 Trader's Equation。
 
 两份文件在全局路径中的位置由学习路径统一安排，本页不另建阅读顺序。

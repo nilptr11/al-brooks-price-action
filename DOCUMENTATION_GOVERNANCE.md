@@ -70,7 +70,7 @@ scripts/
 | 学习顺序与课程映射 | `LEARNING_PATH.md` | 章节 README 可声明局部前置条件，但不另建全局学习路线。 |
 | 文档结构、状态和维护规则 | `DOCUMENTATION_GOVERNANCE.md` | 所有文档遵守；目录 README 可做简短提示并回链。 |
 | 核心执行流程与高级执行规则 | `EXECUTION_MANUAL.md` | 训练材料可以引用；学习与参考材料不重新定义。核心流程和高级附录不拆成平行权威。 |
-| 稳定 Brooks 术语 | `reference/glossary.md` | 正文按需要解释语境并回链，不维护第二份词典。 |
+| 稳定 Al Brooks 术语 | `reference/glossary.md` | 正文按需要解释语境并回链，不维护第二份词典。 |
 | 官方来源 ID 与原文锚点 | `reference/official_sources.md` | 通过 Source ID 引用，不复制来源登记。 |
 | 结论性质与核对状态 | `reference/audit_matrix.md` | 各正文不自行建立平行审计表。 |
 | 学习概念正文 | 对应的 `learning/` 专题文件 | 其他章节链接或做必要短摘要，避免跨章重复解释。 |
@@ -80,11 +80,11 @@ scripts/
 
 1. 执行动作或规范字段冲突，以 `EXECUTION_MANUAL.md` 为准。
 2. 文档职责、路径或维护方式冲突，以本文件为准。
-3. Brooks 术语的仓库稳定写法，以 `reference/glossary.md` 为准。
+3. Al Brooks 术语的仓库稳定写法，以 `reference/glossary.md` 为准。
 4. 来源身份和锚点，以 `reference/official_sources.md` 为准；结论是否已核对，以 `reference/audit_matrix.md` 为准。
 5. 学习或训练内容出现冲突时，先定位真正所有者并在那里修正，再传播到派生文档。
 
-官方资料是证据权威，不会仅因登记在来源台账中自动成为仓库执行政策。执行手册是仓库执行权威，也不等于 Brooks 官方原文。
+官方资料是证据权威，不会仅因登记在来源台账中自动成为仓库执行政策。执行手册是仓库执行权威，也不等于 Al Brooks 官方原文。
 
 ## 4. 依赖方向
 
@@ -162,7 +162,7 @@ learning/ + EXECUTION_MANUAL.md
 3. 确认唯一所有者和允许的依赖方向，避免复制执行手册、术语表、来源台账或其他专题正文。
 4. 按本规范选择文件名、编号和状态行；学习文档同时确认章节内位置与前置条件。
 5. 在最近一级 `README.md` 增加入口。只有新增跨目录任务入口时才修改根 `README.md`；只有学习顺序变化时才修改 `LEARNING_PATH.md`。
-6. 若包含可验证的 Brooks 结论，先登记 Source ID，再补充或更新审计矩阵；若只是内部执行政策，明确标记其性质。
+6. 若包含可验证的 Al Brooks 结论，先登记 Source ID，再补充或更新审计矩阵；若只是内部执行政策，明确标记其性质。
 7. 检查所有相对链接、标题锚点、状态、来源 ID、反向依赖和重复维护点。
 8. 在仓库根目录运行：
 

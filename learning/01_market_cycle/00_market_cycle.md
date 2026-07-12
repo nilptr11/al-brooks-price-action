@@ -6,11 +6,11 @@
 
 ## 它解决什么问题
 
-Market cycle 是 Brooks 阅读的第一层。它决定交易者应该优先寻找顺势、回调、区间 fade、突破延续、反转，还是等待。
+Market cycle 是 Al Brooks 阅读的第一层。它决定交易者应该优先寻找顺势、回调、区间 fade、突破延续、反转，还是等待。
 
 ## 官方层级
 
-Brooks 的公开 manual 先做两层判断：
+Al Brooks 的公开 manual 先做两层判断：
 
 1. 市场是 trend，还是 trading range？
 2. 如果是 trend，当前主要是 breakout，还是 channel？

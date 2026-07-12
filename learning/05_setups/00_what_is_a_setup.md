@@ -4,11 +4,11 @@
 >
 > 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
 
-## Brooks 语境中的定义
+## Al Brooks 语境中的定义
 
 官方 glossary 对 setup 的最低定义是：由 context 和一根或多根 K 线构成、可作为放置入场单依据的 pattern。订单实际成交后，setup 的最后一根才成为 signal bar；成交所在 K 线是 entry bar。
 
-因此，setup 比孤立形态多了 context 和入场依据，但它本身不等于已经获得执行许可。一个 wedge、H2 或 double bottom 可以只是 pattern；当交易者把它放回 context，并据此准备入场单时，才形成 Brooks 意义上的 setup。
+因此，setup 比孤立形态多了 context 和入场依据，但它本身不等于已经获得执行许可。一个 wedge、H2 或 double bottom 可以只是 pattern；当交易者把它放回 context，并据此准备入场单时，才形成 Al Brooks 意义上的 setup。
 
 ## 从 Setup 到可执行计划
 

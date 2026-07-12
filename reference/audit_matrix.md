@@ -11,8 +11,8 @@
 - **已核对**：核心结论已找到直接官方锚点，并检查了当前文档表达。
 - **部分核对**：已有官方依据，但仍有未核对的细节、范围或冲突。
 - **待核对**：当前主要来自内部文档或经验归并，尚无足够官方锚点。
-- **内部执行政策**：仓库为保证一致执行而制定，不宣称是 Brooks 官方规则。
-- **内部治理**：仓库结构、文档职责或维护边界，不属于 Brooks 结论或交易动作。
+- **内部执行政策**：仓库为保证一致执行而制定，不宣称是 Al Brooks 官方规则。
+- **内部治理**：仓库结构、文档职责或维护边界，不属于 Al Brooks 结论或交易动作。
 
 ## 当前矩阵
 
@@ -33,7 +33,7 @@
 | Position size 与最坏计划结果 | “Protective stop、目标和仓位”、“高级执行附录” | `learning/06_trade_management/02_scaling_in_out.md`、`learning/06_trade_management/03_risk_psychology.md` | `SRC-POSITION-SIZE`、`SRC-RISK-113`、`SRC-TRADING-RANGES`、`SRC-BREAKOUTS-2025` | 官方原则 + 内部核算 | 已核对；仓位服从合理 stop 距离和行为承受上限；部分成交或预设加仓时使用真实 fill、真实数量和全部活动风险检查最坏结果 |
 | Target、support/resistance 与 measured move | “Protective stop、目标和仓位” | `learning/02_context/01_support_resistance_targets.md`、`learning/06_trade_management/00_trade_plan.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016`、`SRC-LIVE-TR-BO-2021` | 官方依据 + 保守执行政策 | 已核对；先处理最近现实障碍与目标，measured move 只是有依据时的目标候选；多目标必须绑定数量，不用远端投射修复近端空间不足 |
 | 成交后管理与 premise 更新 | “成交后的管理” | `learning/06_trade_management/00_trade_plan.md`、`training/03_review_checklist.md` | `SRC-GOOD-TRADE-2017`、`SRC-LIVE-TR-BO-2021`、`SRC-MAKE-MONEY-2016` | 官方管理依据 + 内部风险边界 | 已核对；正常回调不因焦虑提前退出，强反向突破、持续反向跟进或 premise 失效时及时降险；新信息可降低风险，但不得放宽 stop、拉远目标或临时加仓 |
-| 四种交易想法 | “市场状态与四种交易想法” | `learning/05_setups/01_trend_continuation.md`、`02_breakout_continuation.md`、`03_trading_range_fade.md`、`04_major_trend_reversal.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-TRADING-RANGES`、`SRC-MTR-2025` | 官方 setup 家族 + 内部归并 | 内部执行政策；趋势恢复、突破接受、回归公平区域和控制权反转只分类一次，用于组织不同 premise、失效和第一目标，不宣称为 Brooks 官方四分法 |
+| 四种交易想法 | “市场状态与四种交易想法” | `learning/05_setups/01_trend_continuation.md`、`02_breakout_continuation.md`、`03_trading_range_fade.md`、`04_major_trend_reversal.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-TRADING-RANGES`、`SRC-MTR-2025` | 官方 setup 家族 + 内部归并 | 内部执行政策；趋势恢复、突破接受、回归公平区域和控制权反转只分类一次，用于组织不同 premise、失效和第一目标，不宣称为 Al Brooks 官方四分法 |
 | Major Trend Reversal | “四种交易想法” | `learning/05_setups/04_major_trend_reversal.md` | `SRC-GLOSSARY`、`SRC-MTR-2025`、`SRC-10-PATTERNS` | 官方 MTR | 已核对；完整结构包含通道突破和旧趋势极值测试；早期与强反向 breakout 确认版本存在约 40%/60% 的典型概率—风险—回报交换 |
 | Gap 的可选作用 | “市场状态与四种交易想法” | `learning/02_context/00_context_location_control.md`、`learning/04_patterns/07_gaps.md`、`training/01_opening_range_and_opening_reversal.md` | `SRC-GLOSSARY`、`SRC-STRONG-LEGS-2016`、`SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018` | 官方定义/案例 + 可选路由 | 已核对；gap 只有实质改变位置、接受/拒绝、障碍或目标时才记录；开放或回补不能单独许可 entry、hold 或 exit |
 | TBTL | “高级执行附录” | `learning/06_trade_management/01_scalp_vs_swing.md` | `SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-MTR-2025` | 官方术语 + 保守解释 | 已核对；Ten Bars, Two Legs correction 是反转 swing 的常见经验预期，不是所有 correction 的硬性完成条件或价格目标 |

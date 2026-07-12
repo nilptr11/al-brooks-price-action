@@ -6,7 +6,7 @@
 
 ## 章节目标
 
-本目录是按需查阅的形态参考库。它帮助解释 Brooks 词汇，但不属于核心路径，也不把任何形态脱离 context、location、follow-through 和交易数学当成自动信号。
+本目录是按需查阅的形态参考库。它帮助解释 Al Brooks 词汇，但不属于核心路径，也不把任何形态脱离 context、location、follow-through 和交易数学当成自动信号。
 
 ## 本章文件
 

@@ -6,7 +6,7 @@
 
 ## 它解决什么问题
 
-Context 决定一个形态是有意义的交易结构，还是普通噪声。Brooks 语境中，context 通常比 signal 更重要。
+Context 决定一个形态是有意义的交易结构，还是普通噪声。Al Brooks 语境中，context 通常比 signal 更重要。
 
 ## 控制权
 
