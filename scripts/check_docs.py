@@ -102,6 +102,11 @@ def check_links(files: list[Path], errors: list[str]) -> None:
                 continue
             target, fragment = resolved
             location = f"{relative(source)}:{line_number(text, match.start())}"
+            try:
+                target.relative_to(ROOT)
+            except ValueError:
+                errors.append(f"{location}: local link escapes repository {raw!r}")
+                continue
             if not target.exists():
                 errors.append(f"{location}: missing local link target {raw!r}")
                 continue
@@ -150,6 +155,19 @@ def check_source_ids(files: list[Path], errors: list[str]) -> None:
     missing = sorted(used - registered)
     if missing:
         errors.append(f"unregistered Source IDs: {missing}")
+    registry = registry_path.read_text(encoding="utf-8")
+    anchor_match = re.search(
+        r"^## 来源锚点定位\s*$([\s\S]*?)(?=^##\s|\Z)", registry, re.MULTILINE
+    )
+    if not anchor_match:
+        errors.append("reference/official_sources.md: missing '来源锚点定位' section")
+        return
+    anchored = set(
+        re.findall(r"^\|\s*`(SRC-[^`]+)`\s*\|", anchor_match.group(1), re.MULTILINE)
+    )
+    missing_anchors = sorted(registered - anchored)
+    if missing_anchors:
+        errors.append(f"Source IDs without registry anchors: {missing_anchors}")
 
 
 def main() -> int:

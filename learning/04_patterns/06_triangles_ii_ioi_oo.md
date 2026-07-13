@@ -6,11 +6,13 @@
 
 ## Triangle
 
-三角形是 trading range 和 breakout mode 的一种。收敛三角形表示波动收缩，高点降低、低点抬高；扩大型三角形表示高点更高、低点更低，波动扩大但方向不稳定。
+三角形是 trading range 和 breakout mode 的一种。官方 abbreviations 使用至少五次反转，并以“两次 higher low 加一次 lower high”或镜像结构描述。收敛外观很常见，但任意三点收缩还不足以自动成为完整 triangle。
 
 三角形表达等待，不预测方向。
 
-Al Brooks abbreviations 中把 triangle 描述为至少多次反转的 trading range，并强调突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
+Al Brooks abbreviations 强调 triangle 的突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
+
+Expanding triangle 是相关但独立的区间变体：高点更高、低点更低，波动扩大但方向仍不稳定；不要把它混成“普通 triangle 必须收敛”的反例。
 
 ## ii / iii
 

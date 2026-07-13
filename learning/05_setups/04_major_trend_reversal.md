@@ -32,7 +32,7 @@ Lower low MTR：熊趋势中跌破前低后失败，形成更低低点反转。
 
 Higher low MTR：熊趋势或下跌通道后，回探未能到达或跌破前低，在较高低点形成买压。
 
-这些名称不重要，重要的是原趋势方是否失去控制，反方是否获得跟进。Climactic behavior、confirmed climax、wedge、final flag 或单根强反转 bar 都可以提供背景，但不能替代通道突破、旧极值测试和反向 signal 组成的过程。
+这些名称不重要，重要的是原趋势方是否失去控制，反方是否获得跟进。Climactic behavior、已经形成的 climax、wedge、final flag 或单根强反转 bar 都可以提供背景，但不能替代通道突破、旧极值测试和反向 signal 组成的过程。
 
 ## 交易管理
 

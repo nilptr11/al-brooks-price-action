@@ -25,7 +25,7 @@ DOCUMENTATION_GOVERNANCE.md     文档维护规则
 learning/                       概念正文与可选形态参考
 training/                       场景、逐根观察和复盘
 reference/                      核心术语与维护证据
-scripts/check_docs.py           链接与来源引用检查
+scripts/check_docs.py           入口、链接、锚点与来源引用检查
 ```
 
 ## 三条使用路径

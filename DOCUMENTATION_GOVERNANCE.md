@@ -115,7 +115,7 @@ learning/ + EXECUTION_MANUAL.md
 
 - 文件和目录名使用小写英文 `snake_case`；根目录约定文件保留现有大写名称。
 - `learning/` 一级章节使用两位数字前缀，顺序固定为 `00_method`、`01_market_cycle`、`02_context`、`03_order_flow`、`04_patterns`、`05_setups`、`06_trade_management`。
-- 每个学习章节必须有 `README.md`，负责章节目的、前置条件和本章索引。
+- 每个学习章节必须有 `README.md`，负责章节目标、前置条件、完成标准和本章索引。
 - 学习专题使用 `NN_topic_name.md`。编号表达章节内的稳定展示顺序，不等同于交易优先级，也不应用于暗示概率或质量等级。
 - `training/` 专题统一使用 `NN_topic_name.md`；编号只表达训练材料的稳定展示顺序。
 - `reference/` 使用职责型稳定名称，不增加数字前缀。
@@ -145,7 +145,7 @@ learning/ + EXECUTION_MANUAL.md
 
 | 变更起点 | 必查下游 |
 | --- | --- |
-| `DOCUMENTATION_GOVERNANCE.md` 的结构或状态约定 | 根导航、目录 README 和路径引用；只有核心入口、链接或 Source ID 规则变化时才更新 `scripts/check_docs.py` |
+| `DOCUMENTATION_GOVERNANCE.md` 的结构或状态约定 | 根导航、目录 README 和路径引用；只有核心入口、链接、锚点或 Source ID 规则变化时才同步审查 `scripts/check_docs.py` |
 | `LEARNING_PATH.md` 的学习顺序 | 相关 `learning/*/README.md` 和根导航 |
 | `EXECUTION_MANUAL.md` 的核心流程或高级附录 | `training/`、`reference/audit_matrix.md`；只有概念本身改变时才改 `learning/` |
 | `reference/glossary.md` 的术语定义 | 使用该术语的 `learning/`、执行手册、训练和审计条目 |
@@ -170,7 +170,9 @@ learning/ + EXECUTION_MANUAL.md
    python3 scripts/check_docs.py
    ```
 
-9. 校验失败时修复缺失入口、链接、锚点或 Source ID；状态、职责、依赖和内容边界按本规范人工复核。
+   脚本只检查必需入口、单一 H1、本地链接与锚点，以及 Source ID 的登记和来源锚点。状态、目录职责、外链是否仍可访问、结论是否忠于来源、所有权、依赖和内容边界仍需人工复核。
+
+9. 校验失败时修复缺失入口、链接、锚点或 Source ID；状态、目录索引、职责、依赖和内容边界按本规范人工复核。
 
 ## 9. 最低完成标准
 

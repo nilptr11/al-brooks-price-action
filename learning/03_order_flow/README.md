@@ -8,6 +8,14 @@
 
 用价格行为判断市场是否接受一次尝试，分清弱跟进、确认失败以及入场单与保护性止损。
 
+## 前置条件
+
+先理解 market cycle、context、setup、signal bar 与 entry bar；订单术语不清时先查[核心术语表](../../reference/glossary.md)。
+
+## 完成标准
+
+能够区分弱跟进、premise 失效和官方 strict failure，并能说明 stop entry 与 protective stop 的不同用途。
+
 ## 本章文件
 
 1. **核心** [`00_acceptance_and_failure.md`](00_acceptance_and_failure.md)：用跟进、失望、失败和 trapped traders 判断市场是否接受一次尝试。

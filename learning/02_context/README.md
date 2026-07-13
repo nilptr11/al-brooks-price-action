@@ -8,6 +8,14 @@
 
 把 market cycle 放回具体位置、控制权、周期和时段中，判断一个 setup 是否处在有意义且目标空间足够的环境。
 
+## 前置条件
+
+先能区分 trend、trading range 及 breakout / channel 的基础层级。
+
+## 完成标准
+
+能够从累积 buying / selling pressure 说明控制方向、关键位置和第一路径障碍，并把官方经验倾向与需具体市场验证的时段判断分开。
+
 ## 本章文件
 
 1. **核心** [`00_context_location_control.md`](00_context_location_control.md)：建立 context、location、control 与 Always In 的总体框架。

@@ -37,7 +37,7 @@ Climactic behavior 之后常见三种路径：
 
 ## 常见误读
 
-- 看到 climactic behavior 就立刻逆势，或在反向尚未出现时提前宣告 confirmed climax。
+- 看到 climactic behavior 就立刻逆势，或在反向尚未出现时提前宣告 climax。
 - 把连续强 K 线后的横盘当成反转确认。
 - 忽略强趋势还能继续形成第二腿。
 - 用“已经太远”代替控制权判断。

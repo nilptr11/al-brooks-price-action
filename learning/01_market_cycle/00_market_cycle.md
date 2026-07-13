@@ -21,7 +21,7 @@ Al Brooks 的公开 manual 先做两层判断：
 
 Breakout mode 说明任一方向的突破都可能获得跟进，是 setup 状态；climactic behavior 说明运动可能过快过远，是转换风险。它们可以叠加在基础结构上，不应与 trend / trading range 当成互斥并列项。
 
-官方 glossary 对 confirmed climax 的定义还要求市场已经反向进入 trading range 或相反趋势。反转出现前只能说出现 climactic behavior，不能因“太高、太低、太快”就宣告高潮完成。
+本仓库把尚未反转的“过快过远”线索称为 climactic behavior；官方 glossary 只有 `climax`，并要求市场已经反向进入 trading range 或相反趋势。反转出现前不能因“太高、太低、太快”就宣告高潮完成。
 
 这些都不是静态标签。Breakout 可以进入 tight channel，再扩展为 broad channel 或 trading range；trading range 可以 breakout，失败后又回到区间。
 

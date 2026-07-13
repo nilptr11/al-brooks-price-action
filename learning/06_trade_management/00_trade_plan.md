@@ -18,39 +18,22 @@ Setup 提供 context 与入场依据，但交易还必须把 entry、premise 失
 - 第一现实目标是否足以补偿风险？
 - 正常回调、目标、反向强突破和时间退出分别如何管理？
 
-## 从失效事实到 protective stop
+## 把同一命题连成闭环
 
 需要分开四层：
 
-1. **Premise 失效事实**：交易想法不再成立的市场行为。
-2. **结构锚点**：代表该事实或灾难边界的 signal bar、pullback、swing、突破腿或区间边缘。
-3. **Stop 触发价**：实际经纪商 protective-stop 订单价格。
-4. **保守 stop fill**：计入滑点后用于计算仓位和最坏结果的价格。
+同一图表可能容许 signal-bar stop、完整结构 stop 或更宽的 price-action stop。它们改变 stop 距离、仓位、概率和目标空间，因此是不同候选方案，不能把其中最有利的输入拼在一起。具体字段和动作边界只见[执行手册的 stop、目标和仓位章节](../../EXECUTION_MANUAL.md#7-protective-stop目标和仓位)。
 
-Signal-bar stop、完整结构 stop 和 wide structural stop 可以都合理，但它们是不同交易方案。每个方案都要重新评估 entry、仓位、目标空间和概率，不能拿窄 stop 的仓位配宽 stop 的存活率。
+## 目标、仓位与数学必须一致
 
-合理 stop 太远时，缩小仓位、等待或放弃；不得为了得到漂亮 R 倍数把 stop 塞进正常波动，也不得成交后向风险方向移动。
+第一现实目标是 Trader's Equation 的输入，不是形态名称自动给出的愿望。学习时先标出路径上的近端支撑阻力和现实退出位置，再判断更远的 measured move、区间另一侧或 runner 是否属于同一方案；常见构造见[支撑阻力与目标](../02_context/01_support_resistance_targets.md)。
 
-## 第一现实目标
+仓位把价格风险转换成账户结果。Entry、stop、第一目标、数量、成本和概率必须来自同一候选方案；改动任一项，都要重新检查整个 Trader's Equation。学习页只解释这项一致性，损失边界、订单保护和实际管理仍由执行手册规定。
 
-目标不是愿望，而是 Trader's Equation 的输入。先沿交易方向列出最近的重要支撑阻力和路径障碍，再决定第一笔真实退出会发生在哪里。
+## 管理是对命题的持续复核
 
-Measured move、另一侧区间边缘或 runner 都可能是更远候选，但不能静默越过近端障碍来修复数学。Measured move 的常见构造见[支撑阻力与目标](../02_context/01_support_resistance_targets.md)；它不是每笔计划的必填项，也不保证到达。
+成交后的新信息通常落入三类：原 premise 仍成立的正常波动、计划中已经考虑的目标或时间事件、使 premise 失效的新证据。计划要在入场前说明如何区分这些类别，复盘则检查当时判断是否有可观察证据。
 
-## 仓位与真实风险
-
-仓位应服从合理 stop 距离和用户预设的损失边界。计算使用保守 entry、保守 stop fill、真实数量以及尚未嵌入价格的成本。
-
-成交后必须用真实 fill、真实数量和 active stop 检查风险。市场出现更远结构不构成放宽 stop 的许可；若 premise 已失效，应退出并为下一笔机会重新建立计划。
-
-## 成交后的管理
-
-计划用于防止临场扩大风险，不用于拒绝新信息：
-
-- 原 premise 仍成立、只是正常 pullback 或短暂 disappointment：按原 scalp/swing 方式管理。
-- 目标、trailing 或时间条件成立：按计划处理对应数量。
-- 强反向突破、持续反向跟进或其他事实使 premise 不再成立：及时退出，不因该情形没有逐字预写而继续依赖希望。
-
-可以提前写常见条件以降低情绪干扰，但不允许放宽 stop、拉远目标、临时加仓或把失败交易改名成另一种交易。
+Scalp 与 swing 对正常回调、目标距离和持有时间的预期不同，概念差异见[Scalp 与 Swing](01_scalp_vs_swing.md)。具体退出、stop 移动、减仓和异常处置不在本文重复，统一回到[执行手册的成交后管理](../../EXECUTION_MANUAL.md#10-成交后的管理)。
 
 来源和审计状态见 [`reference/official_sources.md`](../../reference/official_sources.md) 与 [`reference/audit_matrix.md`](../../reference/audit_matrix.md)。

@@ -4,6 +4,8 @@
 >
 > 本文只提供开盘场景的观察提示；交易想法、完整计划、入场数学、订单边界和持仓管理以当前[执行手册](../EXECUTION_MANUAL.md)为准。
 
+训练时选择一段 opening range、首次突破或 opening reversal 片段，用[逐根观察模板](02_bar_by_bar_templates.md)只回答一个预定问题，例如“新价格被接受还是拒绝”；完成标准沿用该模板，不在本页复制执行字段。
+
 ## Opening Gap 预读
 
 若当日第一根开盘越过昨日最后一根或整个昨日范围，参照[缺口概念](../learning/04_patterns/07_gaps.md)标出比较边界、昨日高低点、旧价格区域和下一现实障碍。Gap 方向只表示重新定价，不预先决定 trend from the open 或 opening reversal。

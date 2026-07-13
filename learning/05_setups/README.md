@@ -8,6 +8,14 @@
 
 先理解 setup 如何把 context、pattern 和入场依据组合起来，再按需比较趋势恢复、突破、区间回归与反转等交易想法。
 
+## 前置条件
+
+先完成 market cycle 与核心 context 阅读；不要求预先背完整形态库。
+
+## 完成标准
+
+能够分清 pattern、setup 与 trade plan，并为一个候选写出正在验证的 premise、支持证据和失效事实，而不是只报形态名称。
+
 ## 本章文件
 
 1. **核心** [`00_what_is_a_setup.md`](00_what_is_a_setup.md)：分清 pattern、setup 与完整 trade plan 的职责边界。

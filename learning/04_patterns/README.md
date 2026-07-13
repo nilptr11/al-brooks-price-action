@@ -8,6 +8,14 @@
 
 本目录是按需查阅的形态参考库。它帮助解释 Al Brooks 词汇，但不属于核心路径，也不把任何形态脱离 context、location、follow-through 和交易数学当成自动信号。
 
+## 前置条件
+
+先完成[什么是 Setup](../05_setups/00_what_is_a_setup.md)；只在训练遇到陌生名称或概念冲突时进入本目录。
+
+## 完成标准
+
+能够解释所查形态的最低结构、常见语境，以及支持或削弱该解释的后续证据，并返回原 market cycle 与交易想法；不以“背完本目录”为完成目标。
+
 ## 本章文件
 
 1. [`00_patterns_are_language.md`](00_patterns_are_language.md)：先建立“形态只是语言，必须回到 context”的总原则。
