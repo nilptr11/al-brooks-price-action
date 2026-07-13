@@ -21,6 +21,7 @@ REQUIRED_PATHS = [
     "README.md",
     "LEARNING_PATH.md",
     "EXECUTION_MANUAL.md",
+    "EXECUTION_RECORD_TEMPLATE.md",
     "DOCUMENTATION_GOVERNANCE.md",
     "training/README.md",
     "reference/README.md",

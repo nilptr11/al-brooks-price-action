@@ -23,4 +23,4 @@
 
 这些是观察方向，不是跨市场定律。每个市场都应先定义自己的 session，并用历史样本确认哪些时段差异具有稳定意义。执行时只保留会实质改变当前位置、目标空间或订单质量的时段信息。
 
-开盘场景练习见[开盘区间和开盘反转](../../training/01_opening_range_and_opening_reversal.md)。
+连续回放自然进入开盘边界时，观察提示见[开盘区间和开盘反转](../../training/01_opening_range_and_opening_reversal.md)。

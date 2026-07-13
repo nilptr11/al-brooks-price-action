@@ -8,12 +8,13 @@
 | --- | --- | --- |
 | 第一次接触或系统学习 | [`LEARNING_PATH.md`](LEARNING_PATH.md) | 最小核心学习路径与按需专题 |
 | 设计交易或管理持仓 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 唯一规范执行文本；高级订单细节在同文件附录 |
-| 做逐根回放或场景练习 | [`training/README.md`](training/README.md) | 训练闭环与场景入口 |
+| 填写批次配置或单笔交易记录 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 执行手册的唯一派生记录版式 |
+| 做连续逐根回放或模拟训练 | [`training/README.md`](training/README.md) | 连续训练闭环与按需观察提示 |
 | 复盘已完成、未成交或放弃的计划 | [`training/03_review_checklist.md`](training/03_review_checklist.md) | 九个核心问题与复盘输出 |
 | 查 Al Brooks 术语 | [`reference/glossary.md`](reference/glossary.md) | 快速定义，不许可交易动作 |
 | 维护文档 | [`DOCUMENTATION_GOVERNANCE.md`](DOCUMENTATION_GOVERNANCE.md) | 目录、权威、来源和变更规则 |
 
-学习材料回答“如何理解”；执行手册回答“这份计划是否完整、成交后如何控制风险”；训练材料负责把理解变成可复核记录。
+学习材料回答“如何理解”；执行手册回答“现在处于哪一步、满足什么才能继续以及如何管理”；执行记录模板负责承载配置、计划和事件；训练材料负责把这些内容组成连续练习与复盘。
 
 ## 项目结构
 
@@ -21,9 +22,10 @@
 README.md                       任务分流
 LEARNING_PATH.md                最小学习路径与按需专题
 EXECUTION_MANUAL.md             核心执行流程 + 高级执行附录
+EXECUTION_RECORD_TEMPLATE.md    批次配置 + 单笔交易记录版式
 DOCUMENTATION_GOVERNANCE.md     文档维护规则
 learning/                       概念正文与可选形态参考
-training/                       场景、逐根观察和复盘
+training/                       连续回放、逐根观察和复盘
 reference/                      核心术语与维护证据
 scripts/check_docs.py           入口、链接、锚点与来源引用检查
 ```
@@ -31,14 +33,14 @@ scripts/check_docs.py           入口、链接、锚点与来源引用检查
 ## 三条使用路径
 
 - **系统学习**：先完成 [`LEARNING_PATH.md`](LEARNING_PATH.md) 的七份核心材料，再进入训练；形态库和高级主题按遇到的问题查阅。
-- **计划与执行**：按 [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) 的自然语言五问建立一份计划；只有出现复杂订单、部分成交或预设加仓时才进入高级附录。
-- **训练与复盘**：从 [`training/README.md`](training/README.md) 选一段走势，记录当时事实、判断变化和待验证信息，最后只修正一个主要问题。
+- **计划与执行**：按 [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) 的单一流程行动，并用 [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) 保存配置、计划和事件；只有出现复杂订单、部分成交或预设加仓时才进入高级附录。
+- **训练与复盘**：按 [`training/README.md`](training/README.md) 从保存的历史位置连续推进，记录当时事实、判断变化和自然出现的交易计划，最后只修正一个主要流程问题。
 
 核心流程只有一条：
 
 ```text
 市场与位置 -> 一个交易想法 -> setup、失效与 stop
--> 现实目标、数学与仓位 -> 订单和真实成交
+-> 现实目标、数学与仓位 -> 订单和成交
 -> 随新价格信息管理 premise -> 复盘
 ```
 
@@ -47,8 +49,9 @@ scripts/check_docs.py           入口、链接、锚点与来源引用检查
 | 层级 | 入口 | 职责 | 是否规范执行 |
 | --- | --- | --- | --- |
 | 执行 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 入场、失效、stop、目标、仓位、Trader's Equation、订单和管理 | 是，唯一执行权威 |
+| 记录工具 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 批次配置与单笔交易的可填写版式 | 否，从执行手册派生 |
 | 学习 | [`learning/`](learning/00_method/README.md) | Al Brooks 概念、推导和常见边界 | 否 |
-| 训练 | [`training/`](training/README.md) | 场景、逐根观察和复盘 | 否 |
+| 训练 | [`training/`](training/README.md) | 连续回放、逐根观察和复盘 | 否 |
 | 查阅 | [`reference/glossary.md`](reference/glossary.md) | Al Brooks 术语快速解释 | 否 |
 | 证据维护 | [`reference/`](reference/README.md) | 官方来源、结论性质和审计状态 | 否，只负责证明和校准 |
 

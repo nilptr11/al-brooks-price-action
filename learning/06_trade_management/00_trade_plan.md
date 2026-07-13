@@ -22,7 +22,7 @@ Setup 提供 context 与入场依据，但交易还必须把 entry、premise 失
 
 需要分开四层：
 
-同一图表可能容许 signal-bar stop、完整结构 stop 或更宽的 price-action stop。它们改变 stop 距离、仓位、概率和目标空间，因此是不同候选方案，不能把其中最有利的输入拼在一起。具体字段和动作边界只见[执行手册的 stop、目标和仓位章节](../../EXECUTION_MANUAL.md#7-protective-stop目标和仓位)。
+同一图表可能容许 signal-bar stop、完整结构 stop 或更宽的 price-action stop。它们改变 stop 距离、仓位、概率和目标空间，因此是不同候选方案，不能把其中最有利的输入拼在一起。字段含义和动作边界只见[执行手册的 stop、目标和仓位章节](../../EXECUTION_MANUAL.md#7-protective-stop目标和仓位)，可填写版式见[执行记录模板](../../EXECUTION_RECORD_TEMPLATE.md)。
 
 ## 目标、仓位与数学必须一致
 
