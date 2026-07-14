@@ -2,7 +2,7 @@
 
 > **状态：Training / Derived**
 >
-> 本文只提供开盘场景的观察提示；交易想法、完整计划、入场数学、订单边界和持仓管理以当前[执行手册](../EXECUTION_MANUAL.md)为准。
+> 本文只提供开盘场景的观察提示；setup、stop 和 target 回到相应学习内容与来源，仓库订单和记录操作见[执行手册](../EXECUTION_MANUAL.md#7-仓库订单与记录操作)。
 
 连续回放自然到达批次执行配置预先定义的开盘边界时，才按需使用本页提示；不要预先搜索 opening range、首次突破或 opening reversal 片段。用[逐根观察模板](02_bar_by_bar_templates.md)观察新价格被接受还是拒绝，完成标准沿用该模板，不在本页复制执行字段。对于 24 小时市场，“开盘”必须指配置中预先声明的时段边界，不能根据事后走势临时选择。
 
@@ -45,4 +45,4 @@
 
 开盘即趋势是开盘后很快形成方向，并在开始后的许多根 K 线中没有真正 pullback；起点长期保持日内极值。即使开盘趋势很强，也可能在早盘反转或转成交易区间，因此标签必须随逐根行为更新。
 
-相关官方案例锚点见 [`reference/official_sources.md`](../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。
+相关来源锚点见 [`reference/official_sources.md`](../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。

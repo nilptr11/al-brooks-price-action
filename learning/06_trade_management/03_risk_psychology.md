@@ -2,7 +2,7 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## 连续亏损
 
@@ -14,7 +14,7 @@
 - 把普通信号解释成高确定性机会。
 - 为亏损交易寻找借口。
 
-交易前要知道自己能承受多少连续亏损。
+多数普通交易只有有限概率优势，连续亏损无法完全避免。应使用小到不会明显影响客观判断的仓位，使此前盈亏不会取代当前 price action 和 Trader's Equation。
 
 ## 仓位
 
@@ -30,8 +30,8 @@
 
 ## 过度解释和分析瘫痪
 
-价格行为分析容易变成事后解释，也容易因为多空理由太多而无法执行。解决方式是固定阅读流程、限定 setup，并承认多数普通交易只是略有优势。
+价格行为分析容易变成事后解释，也容易因为多空理由太多而无法执行。解决方式是从 market cycle、context 和最清楚的 setup 开始，并承认多数普通交易只是略有优势。
 
-心理纪律不是压制情绪，而是用结构减少临场选择。
+清楚的 setup、price-action stop、target、Trader's Equation 和足够小的仓位，可以减少焦虑、贪婪和希望对临场判断的干扰。
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-POSITION-SIZE`、`SRC-RISK-113`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-MANUAL`、`SRC-POSITION-SIZE` 与 `SRC-RISK-113`。

@@ -2,7 +2,7 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## Double Top / Double Bottom
 
@@ -41,11 +41,11 @@
 
 ## Micro Double Top / Bottom
 
-微型双顶或双底发生在相邻或近邻 K 线中，常作为 signal bar 附近的辅助证据，也可能承担延续功能。官方 glossary 对两个方向的关系是：
+微型双顶或双底发生在相邻或近邻 K 线中，常作为 signal bar 附近的辅助证据，也可能承担延续功能：
 
 - Micro double bottom 在 bear spike 中可以是一根 one-bar bear flag；出现在 bull flag 末端时，也可以成为向上的 reversal setup。
 - Micro double top 在 bull spike 中可以是一根 one-bar bull flag；出现在 bear flag 末端时，也可以成为向下的 reversal setup。
 
 因此微型双测试不天然等于反转；名称、当前趋势和它所在的 pullback 语境必须一起读取。
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`。

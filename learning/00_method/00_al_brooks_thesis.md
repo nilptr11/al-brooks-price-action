@@ -2,25 +2,26 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## 它解决什么问题
 
-Al Brooks 方法解决的不是“下一根 K 线会涨还是跌”，而是交易者如何在不确定中判断当前市场行为、构造有数学优势的交易想法，并随新价格信息更新判断。
+Al Brooks 方法解决的不是“下一根 K 线会涨还是跌”，而是交易者如何在不确定中判断当前市场行为、构造数学合理的交易，并随新价格信息更新判断。
 
 市场中每一笔成交都有买方和卖方。即使一边更强，另一边也可能通过不同的概率、风险、目标或管理方式构造交易。因此，Al Brooks 阅读不是单边预测，而是比较双方理由和交易数学；图表无法告诉我们真实对手方身份，不需要为每次运动编造参与者故事。
 
-## 五个核心问题
+## 读图主线
 
-面对一张图，依次回答：
+面对一张图，先读 market cycle 和 context，再把实际出现的 setup 组织成一笔交易：
 
-1. **市场与位置**：当前首先是 trend 还是 trading range；若是 trend，更像 breakout 还是不同宽度的 channel？价格位于什么关键区域？
-2. **交易想法**：最值得验证的是趋势恢复、突破接受、回到公平区域，还是控制权反转？无法排序时等待。
-3. **Setup 与证据**：context 与 pattern 是否形成入场依据；哪些 follow-through、failure 或回调行为会支持或否定它？
-4. **风险与回报**：entry、premise 失效、protective stop、第一现实目标和仓位是否属于同一个方案？
-5. **成交后管理**：新价格行为是正常波动，还是已经让 premise 失效；应该持有、退出还是推进保护？
+- 当前首先是 trend 还是 trading range；若是 trend，更像 breakout 还是不同宽度的 channel？
+- 价格位于什么 support/resistance，买卖压力和 Always In 方向怎样？
+- 当前 pattern 是否在这个 context 中构成 setup，entry 依据是什么？
+- 这类 setup 的合理 protective stop 和 profit target 分别是什么，按 scalp 还是 swing 管理？
+- 概率、risk、reward 和 position size 是否形成合理 Trader's Equation？
+- 成交后新的 price action 是正常波动、目标测试，还是已经改变原 premise？
 
-这五问是学习主线，不是另一份执行表单。具体订单、仓位和动作边界只见当前[执行手册](../../EXECUTION_MANUAL.md)。
+这些关系共同描述一笔交易，不把 setup 限定为固定分类。后续章节分别展开 market cycle、context、order flow、patterns、setups 和 trade management，并在学习目录内完成这条主线。
 
 ## 形态只是语言
 
@@ -42,4 +43,4 @@ Al Brooks 方法不是：
 
 逐根阅读不是预测每根 K 线，而是区分可观察事实、当前解释和尚未得到的确认。空仓或待成交时，要知道什么会支持、削弱或取消候选；成交后仍要读取 price action，正常回调不应因焦虑被误判为失败，强反向突破或持续反向跟进也不能因没有逐字预写而被忽略。
 
-Al Brooks 阅读的质量不在于命名多少形态，而在于能否把 context、setup、invalidation、target 和 management 连成同一个交易想法，并在 premise 改变时承认它已经改变。
+Al Brooks 阅读的质量不在于命名多少形态，而在于能否把 context、setup、stop、target 和 management 连成同一笔交易，并在 premise 改变时承认它已经改变。

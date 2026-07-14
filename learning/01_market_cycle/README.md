@@ -2,11 +2,11 @@
 
 > **状态：Learning / Navigation**
 >
-> 本页只组织本章学习顺序；文档职责与执行权威入口见[仓库 README](../../README.md#权威层级)。
+> 本页只组织本章范围、前置条件和学习顺序，不定义交易动作。
 
 ## 章节目标
 
-先区分 trend 与 trading range，再理解 breakout、tight channel、broad channel、breakout mode 和 climactic behavior 如何描述市场状态及其转换。
+先区分 trend 与 trading range，再理解 breakout、tight channel、broad channel、breakout mode 和 climax 如何描述市场状态及其转换。
 
 ## 前置条件
 
@@ -22,7 +22,7 @@
 2. **按需** [`01_trends_and_channels.md`](01_trends_and_channels.md)：理解趋势、紧通道、宽通道以及回调质量。
 3. **按需** [`02_trading_ranges.md`](02_trading_ranges.md)：学习交易区间、紧区间、宽区间及其双边行为。
 4. **按需** [`03_breakouts_and_breakout_mode.md`](03_breakouts_and_breakout_mode.md)：区分突破质量与 breakout mode。
-5. **按需** [`04_climax_and_transition.md`](04_climax_and_transition.md)：区分实时 climactic behavior、climax 和状态转换。
+5. **按需** [`04_climax_and_transition.md`](04_climax_and_transition.md)：区分高潮式推进、已确认 climax 和状态转换。
 
 ## 全局顺序
 

@@ -2,15 +2,15 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## Triangle
 
-三角形是 trading range 和 breakout mode 的一种。官方 abbreviations 使用至少五次反转，并以“两次 higher low 加一次 lower high”或镜像结构描述。收敛外观很常见，但任意三点收缩还不足以自动成为完整 triangle。
+三角形是 trading range 和 breakout mode 的一种。完整 triangle 至少有五次反转，可表现为“两次 higher low 加一次 lower high”或镜像结构。收敛外观很常见，但任意三点收缩还不足以自动成为完整 triangle。
 
 三角形表达等待，不预测方向。
 
-Al Brooks abbreviations 强调 triangle 的突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
+Triangle 的突破方向接近 50/50，首次突破也经常失败。学习时重点不是预测三角形会往哪边破，而是观察突破质量、跟进和回踩。
 
 Expanding triangle 是相关但独立的区间变体：高点更高、低点更低，波动扩大但方向仍不稳定；不要把它混成“普通 triangle 必须收敛”的反例。
 
@@ -35,4 +35,4 @@ oo 是 outside-outside：一根 outside bar 后面紧接一根更大的 outside 
 - 忽略首次突破失败。
 - 不看突破后是否回到压缩区。
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`。

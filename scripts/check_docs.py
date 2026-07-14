@@ -119,6 +119,40 @@ def check_links(files: list[Path], errors: list[str]) -> None:
                     errors.append(f"{location}: missing heading anchor {raw!r}")
 
 
+def check_learning_dependencies(files: list[Path], errors: list[str]) -> None:
+    forbidden_files = {
+        (ROOT / "EXECUTION_MANUAL.md").resolve(),
+        (ROOT / "EXECUTION_RECORD_TEMPLATE.md").resolve(),
+    }
+    learning_root = (ROOT / "learning").resolve()
+    training_root = (ROOT / "training").resolve()
+    for source in files:
+        try:
+            source.resolve().relative_to(learning_root)
+        except ValueError:
+            continue
+        text = source.read_text(encoding="utf-8")
+        for match in LINK_RE.finditer(text):
+            resolved = local_target(source, match.group(1))
+            if resolved is None:
+                continue
+            target, _ = resolved
+            target = target.resolve()
+            forbidden = target in forbidden_files
+            if not forbidden:
+                try:
+                    target.relative_to(training_root)
+                    forbidden = True
+                except ValueError:
+                    pass
+            if forbidden:
+                errors.append(
+                    f"{relative(source)}:{line_number(text, match.start())}: "
+                    "learning documents must close the knowledge loop without "
+                    f"depending on {relative(target)}"
+                )
+
+
 def registered_source_ids(registry: str, errors: list[str]) -> set[str]:
     match = re.search(
         r"^## 已登记来源\s*$([\s\S]*?)(?=^##\s|\Z)", registry, re.MULTILINE
@@ -177,6 +211,7 @@ def main() -> int:
     check_required_paths(errors)
     check_h1(files, errors)
     check_links(files, errors)
+    check_learning_dependencies(files, errors)
     check_source_ids(files, errors)
 
     if errors:

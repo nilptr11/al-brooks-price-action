@@ -2,15 +2,15 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## Breakout
 
-Al Brooks 对 breakout 的最低定义只是：当前 K 线高点或低点越过某个重要价位，例如前高低、某根 K 线极值、趋势线、通道线或交易区间边界。
+Breakout 的最低定义只是：当前 K 线高点或低点越过某个重要价位，例如前高低、某根 K 线极值、趋势线、通道线或交易区间边界。
 
 因此“发生突破”和“突破成功”必须分开。收盘在边界外、大趋势实体、跟进和回踩守住，才逐步说明市场接受新价格。
 
-官方公开资料使用两个粒度：glossary 用“高低点越过重要价位”给出最低事件定义；专题文章讨论可交易 breakout pattern 时，更强调 trend bar 和收盘越过支撑阻力。因此应把最低突破事件与强收盘、follow-through、回踩守住等质量/接受证据分开，不把两种粒度混成矛盾定义。
+最低突破事件与可交易 breakout pattern 不是同一粒度。前者只要求高低点越过重要价位；后者更强调 trend bar、收盘越过 support/resistance、follow-through 和新价格是否被接受。回踩守住可以加强判断，但不是 breakout 发生或成功的必要步骤。
 
 ## 突破质量
 
@@ -53,4 +53,4 @@ Breakout mode 只说明任一方向的突破都有获得跟进的可能，不保
 - 在没有目标空间时追随突破。
 - 忽略突破失败后被困交易者的力量。
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-OPENING-REVERSALS-2017`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-OPENING-REVERSALS-2017`。

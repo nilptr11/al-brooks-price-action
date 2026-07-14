@@ -2,25 +2,25 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## Trader's Equation
 
 看对方向不等于能赚钱。每笔交易至少要回答：错了会亏多少、对了能赚多少、概率是否足以补偿风险，以及成本和实际执行后是否仍值得。
 
-最简近似是：
+Trader's Equation 的核心关系是：
 
 ```text
-EV = p × W - (1 - p) × L - C
+成功概率 × reward > 失败概率 × risk
 ```
 
-`p`、`W`、`L` 和 `C` 必须对应同一份 entry、protective stop、目标、仓位和管理方案。盈利使用保守可执行目标价，亏损使用计入预计滑点后的 stop 成交价；已经嵌入价格的成本不能再次扣除。
+概率、reward 和 risk 必须描述同一笔 entry、protective stop、profit target 和管理方式。佣金、滑点等成本不属于价格行为公式，但会影响真实净结果，执行记录需要另行计算。
 
 学习阶段先掌握二结果近似。只有部分止盈、scratch 或提前退出明显改变结果时，才需要拆分更多互斥结果；没有可靠样本时，不构造看似精确的完整概率树。
 
 ## 40–60 思维
 
-多数普通交易没有压倒性胜率。Al Brooks 的通用启发是：不确定时按约 40–50% 思考，并寻找至少约两倍风险的潜在回报；较高置信度可以接受较小 reward/risk。
+多数普通交易没有压倒性胜率。不确定时常按约 40–60% 思考，并寻找至少约两倍风险的潜在回报；较高置信度可以接受较小 reward/risk。
 
 这不是固定胜率或机械目标，而是在提醒交易者：
 
@@ -31,21 +31,16 @@ EV = p × W - (1 - p) × L - C
 
 ## 风险优先
 
-入场前先写清 premise 失效事实，再找到对应结构锚点并转换成 protective stop。好的 stop 不是越小越好，而是能代表交易想法失效，并与目标空间和概率形成合理整体。
+入场前先决定合理的 price-action stop。好的 stop 不是越小越好，而是能让正常价格波动有空间，并与 setup、target 和概率形成合理整体。
 
-合理结构 stop 太远时，缩小仓位、等待更好价格或放弃。不得把 stop 塞进正常噪声，也不得成交后为了挽救交易而放宽。
+合理结构 stop 太远时，应缩小仓位、等待更好价格或放弃。Stop 不能只为了得到更漂亮的 reward/risk 而放进正常波动；成交后则继续根据 premise 和新的 price action 管理，而不是依赖希望。
 
-需要区分：
+Trader's Equation 中的 risk 来自 entry 到合理 protective stop 的距离；账户结果还会受到仓位、实际成交、滑点和成本影响。Stop 越远，仓位通常越小。这些账户与成交因素需要另行计入真实结果，但不改变 price-action stop 的依据。
 
-- 价格风险：保守 entry 到保守 stop fill 的距离。
-- 单笔允许损失：用户事前设定的账户金额边界。
-- 最坏计划损失：价格风险乘仓位，加上尚未嵌入价格的成本。
-- 成交后保护结果边界：实际数量或 active stop 改变时，使用真实 fill、真实数量和 active stop 检查若 stop 成交的账户结果。
+## 与 target 和管理的关系
 
-## 与目标和管理的关系
-
-第一现实目标必须进入初始 Trader's Equation。Measured move 只有在参照结构清晰且确实是现实目标时才使用；更远目标和 runner 只有在结构支持时才计入。
+Trader's Equation 使用这类 setup 实际准备交易的 profit target。Measured move 只有在参照结构和投射起点清晰时才使用；support/resistance、scalp/swing 选择、部分止盈和 runner 都会改变 reward 与到达概率。
 
 Trader's Equation 主要用于是否承担新风险。成交后不必为每根 K 线制造伪精确概率，但必须继续判断原 premise 是否仍成立；正常回调可以持有，强反向证据或 premise 失效则应按当前事实管理风险。
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-BREAKOUTS-2025`，以及 [`reference/audit_matrix.md`](../../reference/audit_matrix.md)。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE` 与 `SRC-BREAKOUTS-2025`。

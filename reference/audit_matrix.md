@@ -2,44 +2,57 @@
 
 > **状态：Evidence Audit / Non-normative**
 >
-> 本文件记录证据、性质和审计状态，不替代当前[执行手册](../EXECUTION_MANUAL.md)的执行文本。
+> 本文件记录证据、性质和核对状态，不定义价格行为或交易动作。
 
-本文件仅在维护、来源核对或处理概念冲突时使用，不属于学习路径或训练任务。
+本文件只在维护、来源核对或处理概念冲突时使用，不属于学习路径或训练任务。
 
 ## 状态定义
 
-- **已核对**：核心结论已找到直接官方锚点，并检查了当前文档表达。
-- **部分核对**：已有官方依据，但仍有未核对的细节、范围或冲突。
-- **待核对**：当前主要来自内部文档或经验归并，尚无足够官方锚点。
-- **内部执行政策**：仓库为保证一致执行而制定，不宣称是 Al Brooks 官方规则。
-- **内部治理**：仓库结构、文档职责或维护边界，不属于 Al Brooks 结论或交易动作。
+- **已核对**：核心结论已找到直接来源锚点，并检查了当前文档表达。
+- **部分核对**：已有来源依据，但仍存在范围、版本或文字冲突。
+- **待核对**：当前结论尚无足够来源锚点，不得写成稳定 Brooks 规则。
+- **仓库操作规范**：只涉及配置、记录、平台订单、成交保护、成本或训练组织，不定义 setup、stop、target、概率或交易准入。
+- **内部治理**：只涉及仓库结构、文档职责和维护边界。
 
 ## 当前矩阵
 
-| 主题或规则 | 主要所有者 / 规范执行位置 | 派生/关联文档 | Source ID | 性质 | 状态与下一步 |
+| 主题或规则 | 主要所有者 / 使用位置 | 派生或关联文档 | Source ID | 性质 | 状态与边界 |
 | --- | --- | --- | --- | --- | --- |
-| 文档权威与学习优先结构 | 结构：`DOCUMENTATION_GOVERNANCE.md`；全局顺序：`LEARNING_PATH.md` | 根 `README.md`、各目录 `README.md` | — | 内部治理 | 内部治理；学习、执行、训练、查阅、来源和审计已有分离所有者，形态库与高级执行均不属于默认学习主线 |
-| 自然语言核心流程、连续训练与高级附录边界 | `EXECUTION_MANUAL.md`“一条执行流程”、“核心五问”、“高级执行附录” | `EXECUTION_RECORD_TEMPLATE.md`、`training/README.md`、`training/02_bar_by_bar_templates.md`、`training/03_review_checklist.md` | — | 内部执行政策 | 内部执行政策；执行顺序、记录契约与动作只由手册规定，派生模板只承载批次配置和单笔记录版式，训练层只组织连续回放、观察和复盘，复杂订单仅在实际相关时进入同一权威文件的附录 |
-| 账户、单笔与时段风险范围 | `EXECUTION_MANUAL.md`“使用边界”、“一条执行流程” | `EXECUTION_RECORD_TEMPLATE.md`、`README.md`、`LEARNING_PATH.md` | — | 范围声明 | 内部治理；未另行设定上位风险边界时只用于模拟与复盘，核心学习不构成实盘许可 |
-| Market cycle 与结构连续谱 | 术语：`reference/glossary.md`；教学：`learning/01_market_cycle/00_market_cycle.md`；执行：手册“市场状态” | `learning/01_market_cycle/` | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STRONG-LEGS-2016` | 官方概念 + 官方视觉经验倾向 | 已核对；先分 trend / trading range，trend 再分 breakout / channel；连续谱的根数与回调深度是官方识别线索，不是机械阈值或目标市场统计 |
-| Context、买卖压力、位置、控制权与 Always In | 术语：`reference/glossary.md`；教学：`learning/02_context/00_context_location_control.md`；执行：手册“核心五问” | `learning/02_context/` | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016` | 官方概念 + 本仓库教学归并 | 已核对；pressure 是累积价格证据，control / location 是教学组织词，Always In 不替代目标或 Trader's Equation |
-| Pattern、setup、signal bar 与 entry bar | 术语：`reference/glossary.md`；教学：`learning/05_setups/00_what_is_a_setup.md`；执行：手册“Setup、入场和可观察证据” | `learning/04_patterns/00_patterns_are_language.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS` | 官方最低定义 + 本仓库准入边界 | 已核对；实际 fill 后最后一根才取得 signal-bar 角色，pattern 和官方 setup 都不自动完成本仓库交易计划 |
-| Follow-through、failure、success 与 trapped in a trade | 术语：`reference/glossary.md`；教学：`learning/03_order_flow/00_acceptance_and_failure.md`；执行：手册“Setup、入场和可观察证据” | `training/03_review_checklist.md` | `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-GOOD-TRADE-2017` | 官方结果边界 + 本仓库描述性教学标签 | 已核对；weak / tentative / confirmed 是教学层级；strict failure、success 与当前 trapped 状态已按官方边界区分，premise 提前失效退出不另造官方结果名 |
-| Breakout 最低定义、接受与 breakout mode | 术语：`reference/glossary.md`；教学：`learning/01_market_cycle/03_breakouts_and_breakout_mode.md`；执行：手册“市场状态” | `learning/01_market_cycle/02_trading_ranges.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STRONG-LEGS-2016`、`SRC-ABBREVIATIONS` | 官方最低事件 + 质量证据 | 已核对；最低越界事件与可交易 breakout pattern 的强收盘/跟进粒度分开，回踩不是必要步骤，breakout mode 不预设方向 |
-| Trading range、BLSHS 与紧区间回避 | 教学：`learning/01_market_cycle/02_trading_ranges.md`；执行：手册“学习者默认范围”、“四种交易想法” | `learning/05_setups/03_trading_range_fade.md` | `SRC-TRADING-RANGES`、`SRC-STOP-ORDERS` | 官方原则 + 保守学习范围 | 已核对；区间中部回避，宽区间边缘可有 stop 或高级 limit 方案，紧区间多数学习者等待 |
-| Trader's Equation 与 40–60 启发 | 术语：`reference/glossary.md`；教学：`learning/00_method/01_probability_risk_reward.md`；执行：手册“Trader's Equation” | `learning/06_trade_management/01_scalp_vs_swing.md` | `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-STOP-ORDERS`、`SRC-BREAKOUTS-2025` | 官方公式/经验启发 + 本仓库成本扩展 | 已核对；官方最低式与约 40–50% / 2R 启发已核对，单列成本 `C`、同方案约束和避免伪精确属于明确标注的保守执行扩展 |
-| Scalp、swing 与学习者默认范围 | 术语：`reference/glossary.md`；教学：`learning/06_trade_management/01_scalp_vs_swing.md`；执行：手册“学习者默认范围” | `learning/06_trade_management/README.md` | `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-RISK-113` | 官方定义/经验倾向 + 保守学习范围 | 已核对；小目标常需多数人难以维持的高胜率，多数学习者优先小仓、stop entry 与 swing |
-| Entry、订单类型、premise 失效与 protective stop | 执行：`EXECUTION_MANUAL.md`“一条执行流程”、“Setup、入场和可观察证据”、“Protective stop、目标和仓位”；教学：`learning/03_order_flow/01_stop_entry_vs_protective_stop.md` | `EXECUTION_RECORD_TEMPLATE.md`、`learning/06_trade_management/00_trade_plan.md`、`training/03_review_checklist.md` | `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-RISK-113`、`SRC-GOOD-TRADE-2017` | 官方 stop 依据 + 本仓库执行拆分 | 内部执行政策；stop-entry 逻辑与平台 stop-market / stop-limit 类型、protective stop 分列，合理 price-action stop、多个可行 stop 与远 stop 配小仓的官方底座已核对；四层 stop 拆分及不得放宽属于仓库政策 |
-| Position size、计划损失与持仓回吐记录 | 执行：`EXECUTION_MANUAL.md`“Protective stop、目标和仓位” | `training/03_review_checklist.md`、`learning/06_trade_management/02_scaling_in_out.md`、`03_risk_psychology.md` | `SRC-POSITION-SIZE`、`SRC-RISK-113`、`SRC-TRADING-RANGES`、`SRC-BREAKOUTS-2025` | 官方仓位原则 + 内部风险核算 | 内部执行政策；仓位服从 stop 距离和行为承受能力、持仓后关注当前价到 stop 距离的官方原则已核对；仅在实际数量或 active stop 变化时，把 stop 若成交的账户结果与该事件时未实现利润回吐分列追加，不另设自动减仓或推进 stop 阈值 |
-| Target、support/resistance 与 measured move | 教学：`learning/02_context/01_support_resistance_targets.md`；执行：手册“Protective stop、目标和仓位” | `learning/06_trade_management/00_trade_plan.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016`、`SRC-LIVE-TR-BO-2021` | 官方目标依据 + 保守执行政策 | 内部执行政策；measured move 的官方构造与 magnet 边界已核对，第一现实目标、多目标绑定数量和不以远端投射修复近端空间属于仓库政策 |
-| 成交后管理与 premise 更新 | `EXECUTION_MANUAL.md`“成交后的管理” | `learning/06_trade_management/00_trade_plan.md`、`training/03_review_checklist.md` | `SRC-GOOD-TRADE-2017`、`SRC-LIVE-TR-BO-2021`、`SRC-MAKE-MONEY-2016` | 官方管理依据 + 内部风险边界 | 内部执行政策；反向信号/突破可提前退出的官方依据已核对，不放宽 stop、不拉远目标、不临时加仓及事件记录是内部规范 |
-| 四种交易想法 | `EXECUTION_MANUAL.md`“市场状态与四种交易想法” | `learning/05_setups/01_trend_continuation.md`、`02_breakout_continuation.md`、`03_trading_range_fade.md`、`04_major_trend_reversal.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-TRADING-RANGES`、`SRC-MTR-2025` | 官方 setup 家族 + 本仓库组织归并 | 内部执行政策；四分法只组织 premise、失效和第一目标，不宣称为 Al Brooks 官方分类 |
-| Major Trend Reversal | 术语：`reference/glossary.md`；教学：`learning/05_setups/04_major_trend_reversal.md`；执行：手册“四种交易想法” | `learning/01_market_cycle/04_climax_and_transition.md` | `SRC-GLOSSARY`、`SRC-MTR-2025`、`SRC-10-PATTERNS` | 官方定义 + 官方经验性概率倾向 | 已核对；完整结构含通道突破和旧极值测试；约 40%/60% 是官方典型交换，不是跨市场固定胜率 |
-| Gap、Body Gap 与重新定价 | 教学：`learning/04_patterns/07_gaps.md`；术语：`reference/glossary.md`；执行：手册“市场状态” | `learning/02_context/00_context_location_control.md`、`training/01_opening_range_and_opening_reversal.md` | `SRC-GLOSSARY`、`SRC-STRONG-LEGS-2016`、`SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018` | 官方定义/案例 + 可选路由 | 已核对；Body Gap 不要求参照 K 线相邻；本仓库只在 gap 改变位置、接受/拒绝、障碍或目标时把它纳入核心判断 |
-| Wedge 与 Parabolic Wedge | 教学：`learning/04_patterns/03_wedges.md`；术语：`reference/glossary.md` | `learning/05_setups/04_major_trend_reversal.md` | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-PATTERNS-OPEN-2018` | 官方最低结构 + 官方经验性结果倾向 | 已核对；parabolic wedge 是 tight channel 中至少三腿的 climactic wedge，不要求逐腿更陡；首次反转常只按 minor reversal / trading range 路径观察，不自动升级 MTR |
-| TBTL | 术语：`reference/glossary.md`；教学：`learning/06_trade_management/01_scalp_vs_swing.md`；执行：手册“高级执行附录” | `learning/05_setups/04_major_trend_reversal.md` | `SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-MTR-2025` | 官方术语 + 官方经验预期 + 保守解释 | 已核对；Ten Bars, Two Legs correction 是反转 swing 的常见预期，不是所有 correction 的硬条件或价格目标 |
-| Inside / outside / reversal bar 与 OO | 术语：`reference/glossary.md`；教学：`learning/04_patterns/01_bar_types.md`、`06_triangles_ii_ioi_oo.md` | — | `SRC-GLOSSARY` | 官方最低定义 | 已核对；outside bar 允许一侧相等、另一侧严格越界，reversal bar 的经典外观不是最低条件，OO 要求第二根是更大的 outside bar |
-| H/L 计数、second entry 与 second signal | 术语：`reference/glossary.md`；教学：`learning/04_patterns/02_h1_h2_l1_l2.md`、`learning/05_setups/05_second_entries_and_traps.md` | — | `SRC-GLOSSARY`、`SRC-10-PATTERNS` | 官方最低定义 + 仓库一致计数约定 | 部分核对；仓库按当前 glossary 的严格 `above` / `below` 计数，但 2020 官方形态文章存在 `at or above` / `at or below` 的较松文字，保留差异而不机械统一 |
-| Micro double top / bottom | 术语：`reference/glossary.md`；教学：`learning/04_patterns/04_double_tops_bottoms.md` | — | `SRC-GLOSSARY` | 官方最低定义 | 已核对；micro double 在 spike 中可承担 one-bar flag，在相反 flag 末端也可成为 reversal setup，不天然等于反转 |
-| Triangle | 术语：`reference/glossary.md`；教学：`learning/04_patterns/06_triangles_ii_ioi_oo.md` | — | `SRC-ABBREVIATIONS` | 官方最低定义 + 官方经验性概率倾向 | 已核对；TRI 至少五次反转，约 50/50 方向和首破失败只属于 triangle 语境；expanding triangle 作为相邻变体分开说明 |
-| Opening、day type、周期与时段 | 教学：`learning/02_context/02_time_and_timeframes.md`；训练：`training/00_day_types.md`、`01_opening_range_and_opening_reversal.md` | 手册“核心五问”的 context 输入 | `SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018` | 官方案例 + 本仓库训练归并 + 需市场数据验证 | 部分核对；开盘路径已有官方案例，跨市场时段与日型倾向仍需目标品种样本校准，不写成固定定律 |
+| 文档结构、状态与依赖 | `DOCUMENTATION_GOVERNANCE.md` | 根 `README.md`、各目录 `README.md` | — | 内部治理 | 内部治理；仓库权威不能覆盖来源中的价格行为定义 |
+| 批次配置、计划快照、订单状态、成交保护和事件日志 | `EXECUTION_MANUAL.md`“仓库订单与记录操作” | `EXECUTION_RECORD_TEMPLATE.md`、`training/` | — | 仓库操作规范 | 仓库操作规范；只保证记录可复核、订单状态清楚和持仓受到保护，不增加交易条件 |
+| 账户、单笔、时段与相关敞口边界 | `EXECUTION_MANUAL.md`“使用边界” | `EXECUTION_RECORD_TEMPLATE.md` | — | 用户风险配置 + 仓库范围声明 | 仓库不提供具体数值；未设定用户风险边界时只用于学习、回放和模拟 |
+| 价格行为交易主线 | `learning/00_method/00_al_brooks_thesis.md`；`learning/05_setups/00_what_is_a_setup.md`；`learning/06_trade_management/00_trade_plan.md` | `EXECUTION_MANUAL.md`、`LEARNING_PATH.md`、训练材料 | `SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS`、`SRC-GOOD-TRADE-2017` | Brooks 方法汇总 | 已核对；market cycle、context、setup、stop、target、Trader's Equation 与 premise 管理在学习目录内构成闭环；执行手册只做融会贯通的派生汇总，不另建内部阶段码或固定五问规则 |
+| Market cycle 与结构连续谱 | `reference/glossary.md`；`learning/01_market_cycle/` | `EXECUTION_MANUAL.md` | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STRONG-LEGS-2016` | 定义 + 视觉经验倾向 | 已核对；先分 trend / trading range，trend 再观察 breakout / channel；根数与回调深度是典型线索，不是机械阈值 |
+| Context、buying/selling pressure、Always In 与位置 | `reference/glossary.md`；`learning/02_context/00_context_location_control.md` | 执行手册、训练 | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016` | Brooks 概念与普通读图语言 | 已核对；context 比孤立 candle pattern 重要，pressure 必须落回可观察价格行为；control/location 不作为独立交易系统 |
+| Pattern、setup、signal bar 与 entry bar | `reference/glossary.md`；`learning/04_patterns/00_patterns_are_language.md`；`learning/05_setups/00_what_is_a_setup.md` | 执行手册 | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-SCALE-IN-TRENDS` | 最低定义 + 交易关系 | 已核对；setup 是带 context、可作为入场依据的 pattern；实际 entry 后最后一根才取得 signal-bar 角色；完整交易还需 stop、target 和管理，但这些不反向扩充 setup 定义 |
+| Follow-through、disappointment、failure、success 与 trapped in a trade | `reference/glossary.md`；`learning/03_order_flow/00_acceptance_and_failure.md` | setup 与复盘文档 | `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-GOOD-TRADE-2017` | 定义与结果边界 | 已核对；entry disappointment、premise 变化和 failure 是不同事情，不再使用仓库自造的 weak/tentative/confirmed 等级 |
+| Breakout 最低事件、质量和 breakout mode | `reference/glossary.md`；`learning/01_market_cycle/03_breakouts_and_breakout_mode.md` | setup、opening 训练 | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STRONG-LEGS-2016`、`SRC-ABBREVIATIONS` | 定义 + 质量证据 | 已核对；最低越界事件与可交易 breakout pattern 分开，回踩不是成功突破的必要步骤，breakout mode 不预设方向 |
+| Trading range、BLSHS、宽/紧区间 | `learning/01_market_cycle/02_trading_ranges.md`；`learning/05_setups/03_trading_range_fade.md` | 执行手册 | `SRC-MANUAL`、`SRC-TRADING-RANGES`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016` | 定义 + 管理原则 | 已核对；区间中部通常回避，宽区间可使用 stop 或 limit 方案，紧区间多数初学者等待；没有统一 midpoint target 或统一边界 stop |
+| Trader's Equation 与 40–60 | `reference/glossary.md`；`learning/00_method/01_probability_risk_reward.md` | 执行手册、trade management | `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-BREAKOUTS-2025` | 公式与经验倾向 | 已核对；核心比较概率×回报与失败概率×风险；40–60 与约 2R 是典型启发，不是固定胜率或机械 target；成本只在仓库记录中另算净结果 |
+| Scalp、swing 与初学者学习顺序 | `reference/glossary.md`；`learning/06_trade_management/01_scalp_vs_swing.md`；执行手册“初学者学习范围” | 章节 README | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-RISK-113` | 定义 + 学习建议 | 已核对；stop-entry swing 是初学者基础，limit、close、scale-in、scalp 和 reversal 仍属于 Brooks 方法，不写成禁用交易 |
+| Stop entry、protective stop 与 price-action stop | `learning/03_order_flow/01_stop_entry_vs_protective_stop.md`；`learning/06_trade_management/00_trade_plan.md` | 执行手册、记录模板 | `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-TREND-CHANNELS`、`SRC-RISK-113`、`SRC-GOOD-TRADE-2017`、`SRC-PATTERNS-OPEN-2018` | 定义 + stop 管理 | 已核对；同图可能有 signal/pattern、swing 或 catastrophe stop；premise 改变可在最远 stop 前退出；平台触发价和预计 fill 只是仓库订单字段 |
+| Position size、stop 距离与行为承受能力 | `learning/06_trade_management/03_risk_psychology.md`；执行手册 | 记录模板、复盘 | `SRC-POSITION-SIZE`、`SRC-RISK-113`、`SRC-SCALE-IN-TRENDS` | 仓位原则 | 已核对；price-action stop 越远，仓位应越小，并应小到能够客观管理；账户结果视图与日志频率属于仓库操作 |
+| Support/resistance、profit target、measured move 与 magnet | `learning/02_context/01_support_resistance_targets.md`；各 setup 页 | 执行手册、trade plan | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-STOP-ORDERS`、`SRC-STRONG-LEGS-2016`、`SRC-BREAKOUTS-2025`、`SRC-LIVE-TR-BO-2021` | 目标定义与 setup 依据 | 已核对；target 由 setup、scalp/swing、support/resistance 和 Trader's Equation 决定；measured move 是 magnet 而非保证；不再使用统一“第一现实目标/延伸目标”分类 |
+| 成交后 premise、early exit、stop 调整与 scale-in | `learning/03_order_flow/00_acceptance_and_failure.md`；`learning/06_trade_management/00_trade_plan.md`；`learning/06_trade_management/02_scaling_in_out.md` | 执行手册、记录模板、训练复盘 | `SRC-GOOD-TRADE-2017`、`SRC-MAKE-MONEY-2016`、`SRC-HOLDING-WIDE-STOPS`、`SRC-SCALE-IN-TRENDS`、`SRC-POSITION-SIZE` | 交易管理 + 仓库记录 | 已核对；premise 失效应退出，wide stop 可作为 catastrophe stop；planned scale-in 必须按总风险设计；执行手册只汇总管理逻辑，事件保存方式才属于仓库操作 |
+| Setup families 与各自 stop/target | `learning/05_setups/` | 执行手册“交易计划中的一致关系” | `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-TREND-CHANNELS`、`SRC-TRADING-RANGES`、`SRC-STRONG-LEGS-2016`、`SRC-BREAKOUTS-2025`、`SRC-MTR-2025` | 非穷尽的 setup 对照 | 已核对；趋势 flag、breakout、range trade、MTR 和 second entry 只是本章选取的主题，不构成仓库四分法或统一准入 |
+| Major Trend Reversal | `reference/glossary.md`；`learning/05_setups/04_major_trend_reversal.md` | climax、setup、management | `SRC-GLOSSARY`、`SRC-MTR-2025`、`SRC-10-PATTERNS`、`SRC-PATTERNS-OPEN-2018` | 定义 + 经验概率倾向 | 已核对；完整结构含通道突破和旧极值测试；约 40%/60% 是典型交换；约 2R 是常见 swing 关系，不是 MTR 定义或仓库硬门槛 |
+| Gap、Body Gap、measuring gap 与 exhaustion | `reference/glossary.md`；`learning/04_patterns/07_gaps.md` | context、setup、opening | `SRC-GLOSSARY`、`SRC-STRONG-LEGS-2016`、`SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018` | 定义 + 案例 | 已核对；Body Gap 不要求参照 K 线相邻；gap 只在实际提供强度、support/resistance、接受/拒绝或量度信息时参与判断 |
+| Wedge 与 Parabolic Wedge | `reference/glossary.md`；`learning/04_patterns/03_wedges.md` | MTR、climax | `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-PATTERNS-OPEN-2018` | 最低结构 + 经验路径 | 已核对；parabolic wedge 是 tight channel 中至少三腿的 climactic wedge，不要求逐腿更陡；首次反向运动常仍只是 minor reversal |
+| TBTL | `reference/glossary.md`；`learning/06_trade_management/01_scalp_vs_swing.md` | MTR、final flag | `SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-MTR-2025` | 术语 + 经验预期 | 已核对；Ten Bars, Two Legs correction 是常见反转 swing 路径，不是固定价格 target 或所有 correction 的硬条件 |
+| Inside/outside/reversal bar 与 OO | `reference/glossary.md`；`learning/04_patterns/01_bar_types.md`、`06_triangles_ii_ioi_oo.md` | — | `SRC-GLOSSARY` | 最低定义 | 已核对；outside bar 允许一侧相等、另一侧严格越界；reversal bar 的经典影线外观不是最低条件；OO 要求第二根更大 |
+| H/L 计数、second entry 与 second signal | `reference/glossary.md`；`learning/04_patterns/02_h1_h2_l1_l2.md`、`learning/05_setups/05_second_entries_and_traps.md` | — | `SRC-GLOSSARY`、`SRC-10-PATTERNS` | 来源存在文字差异 | 部分核对；Brooks glossary 使用严格 `above` / `below`，形态文章使用 `at or above` / `at or below`；术语表和正文明确保留这一差异，不将相等高低点写成无争议规则 |
+| Micro double top / bottom | `reference/glossary.md`；`learning/04_patterns/04_double_tops_bottoms.md` | — | `SRC-GLOSSARY` | 最低定义 | 已核对；micro double 既可承担 one-bar flag，也可在相反 flag 末端成为 reversal setup，不天然等于反转 |
+| Triangle | `reference/glossary.md`；`learning/04_patterns/06_triangles_ii_ioi_oo.md` | — | `SRC-ABBREVIATIONS` | 最低结构 + 概率倾向 | 已核对；至少五次反转；约 50/50 方向和首破失败只属于 triangle 语境，不能外推到所有 breakout mode |
+| Opening、day type、周期与时段 | `learning/02_context/02_time_and_timeframes.md`；`training/00_day_types.md`、`01_opening_range_and_opening_reversal.md` | 执行配置 | `SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018` | 案例 + 需市场数据验证 | 部分核对；opening price action 有直接案例，跨市场 session 与 day-type 倾向仍需目标品种样本校准，不写成固定定律 |
+
+## 已移除的内部交易标签
+
+以下内容曾用于组织仓库，但没有直接 Brooks 定义，现已从学习与交易规则中移除：
+
+- “趋势恢复 / 突破接受 / 回归公平 / 控制权反转”四分法。
+- “第一现实目标 / 条件式延伸目标”统一 target 分类。
+- `weak / tentative / confirmed failure` 三层结果等级和 `strict failure` 标签。
+- `climactic behavior` 作为独立正式状态。
+- 由固定五问、字段完整度或仓库分类产生的独立 setup 准入。
+
+书面计划快照、配置版本、订单状态、保护覆盖、费用、日志和复盘输出仍保留，但只属于仓库操作规范。

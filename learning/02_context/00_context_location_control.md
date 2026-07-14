@@ -2,11 +2,11 @@
 
 > **状态：Learning / Non-normative**
 >
-> 用于概念学习；文档职责与执行权威入口见 [`README.md`](../../README.md#权威层级)。
+> 用于概念学习；价格行为结论由本页、相关学习专题与来源共同支持。
 
 ## 它解决什么问题
 
-Context 决定一个形态是有意义的交易结构，还是普通噪声。Al Brooks 语境中，context 通常比 signal 更重要。
+Context 决定一个形态是有意义的交易结构，还是普通噪声。Context 通常比孤立 signal 更重要。
 
 ## 控制权
 
@@ -29,7 +29,7 @@ Context 决定一个形态是有意义的交易结构，还是普通噪声。Al 
 
 Always In 指市场强到如果交易者被迫在 long 和 short 中选择一边，会对某一方向有足够信心。它常由 spike、连续趋势 K 线、浅回调、反方失败和突破未被快速收回体现。
 
-Always In 不是“永远持仓”、均线方向或单根强 K 线，也不能替代位置、目标和 Trader's Equation。方向不清楚时，应承认市场可能是 trading range、宽通道、breakout mode 或 no-trade 环境。
+Always In 不是“永远持仓”、均线方向或单根强 K 线，也不能替代位置、目标和 Trader's Equation。方向不清楚时，应承认市场可能是 trading range、宽通道或 breakout mode，并等待更清楚的价格行为。
 
 ## 位置
 
@@ -63,4 +63,4 @@ Gap 只有在实质改变位置、接受/拒绝、路径障碍或目标时才需
 - 是否回探后守住？
 - 哪一边被困？
 
-来源审计见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL` 与 `SRC-STRONG-LEGS-2016`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL` 与 `SRC-STRONG-LEGS-2016`。

@@ -23,4 +23,6 @@
 
 这些是观察方向，不是跨市场定律。每个市场都应先定义自己的 session，并用历史样本确认哪些时段差异具有稳定意义。执行时只保留会实质改变当前位置、目标空间或订单质量的时段信息。
 
-连续回放自然进入开盘边界时，观察提示见[开盘区间和开盘反转](../../training/01_opening_range_and_opening_reversal.md)。
+开盘边界仍按同一原则阅读：先判断初始运动是 trend、trading range 还是 breakout mode，再结合开盘价、前一时段高低点、较大周期位置和后续 follow-through 更新判断；不能仅因处于开盘时段就预设反转或趋势。
+
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。
