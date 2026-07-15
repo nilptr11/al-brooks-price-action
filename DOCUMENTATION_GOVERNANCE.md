@@ -59,7 +59,7 @@ scripts/
 | `Learning / Navigation` | `learning/*/README.md` | 只负责单章范围、前置条件和章节索引。 |
 | `Learning / Non-normative` | `learning/**/*.md` 专题正文 | 解释概念，不许可交易动作。 |
 | `Training / Derived` | `training/**/*.md` | 从执行与学习层派生的训练材料。 |
-| `Reference / Non-normative` | `reference/README.md`、`reference/glossary.md` | 快速查阅与稳定术语定义。 |
+| `Reference / Non-normative` | `reference/README.md`、`reference/glossary.md` | 快速查阅跨章节核心术语边界。 |
 | `Evidence Registry / Non-normative` | `reference/official_sources.md` | 登记来源身份、访问范围和原文锚点。 |
 | `Evidence Audit / Non-normative` | `reference/audit_matrix.md` | 登记结论性质、覆盖范围和核对状态。 |
 
@@ -72,10 +72,10 @@ scripts/
 | 仓库入口和任务分流 | `README.md` | 链接到负责该任务的文档，不复制正文。 |
 | 学习顺序与课程映射 | `LEARNING_PATH.md` | 章节 README 可声明局部前置条件，但不另建全局学习路线。 |
 | 文档结构、状态和维护规则 | `DOCUMENTATION_GOVERNANCE.md` | 所有文档遵守；目录 README 可做简短提示并回链。 |
-| 价格行为概念与交易主线 | 对应的 `learning/` 专题文件；稳定术语由 `reference/glossary.md` 所有 | 执行手册可以融会贯通并做必要摘要，但不能成为学习正文成立所需的上游，也不能创造新的交易规则。 |
+| 价格行为概念与交易主线 | 对应的 `learning/` 专题文件；跨章节反复使用且会影响判断的术语边界由 `reference/glossary.md` 所有 | 执行手册可以融会贯通并做必要摘要，但不能成为学习正文成立所需的上游，也不能创造新的交易规则。 |
 | 仓库订单、成交保护和记录操作 | `EXECUTION_MANUAL.md`“仓库订单与记录操作” | 执行记录模板和训练材料可以引用；不得把操作字段写成价格行为定义。 |
 | 执行记录的可填写版式 | `EXECUTION_RECORD_TEMPLATE.md` | 只排列执行手册要求的信息；字段含义、必需条件和动作仍回到执行手册。不得维护第二份模拟或实盘模板。 |
-| 稳定 Al Brooks 术语 | `reference/glossary.md` | 正文按需要解释语境并回链，不维护第二份词典。 |
+| 跨章节核心术语边界 | `reference/glossary.md` | 正文按需要解释语境并回链；普通词和专题词由对应学习正文解释，不维护完整百科词典。 |
 | 来源 ID 与原文锚点 | `reference/official_sources.md` | 通过 Source ID 引用，不复制来源登记。 |
 | 结论性质与核对状态 | `reference/audit_matrix.md` | 各正文不自行建立平行审计表。 |
 | 学习概念正文 | 对应的 `learning/` 专题文件 | 其他章节链接或做必要短摘要，避免跨章重复解释。 |
@@ -86,7 +86,7 @@ scripts/
 1. Al Brooks 定义或交易原则冲突时，先查来源台账与审计矩阵，并在术语表或对应学习正文修正；执行手册必须随之同步。
 2. 文档职责、路径或维护方式冲突，以本文件为准。
 3. 仓库订单、成交保护、记录字段或操作顺序冲突时，以 `EXECUTION_MANUAL.md` 的“仓库订单与记录操作”为准；派生模板必须随之修正。
-4. Al Brooks 术语的稳定写法，以 `reference/glossary.md` 为准。
+4. 已收录的跨章节核心术语以 `reference/glossary.md` 的边界为准；未收录的专题术语以对应 `learning/` 正文为准。
 5. 来源身份和锚点，以 `reference/official_sources.md` 为准；结论是否已核对，以 `reference/audit_matrix.md` 为准。
 6. 学习或训练内容出现冲突时，先定位真正所有者并在那里修正，再传播到派生文档。
 
@@ -131,7 +131,7 @@ learning/ + EXECUTION_MANUAL.md + EXECUTION_RECORD_TEMPLATE.md
 - `training/` 专题统一使用 `NN_topic_name.md`；编号只表达训练材料的稳定展示顺序。
 - `reference/` 使用职责型稳定名称，不增加数字前缀。
 - `reference/` 当前只包含入口、术语表、来源台账和审计矩阵；若要增加第五类文档，必须先在状态表和所有权表中明确其职责。
-- `reference/glossary.md` 只保留核心流程反复使用、容易混淆或来源中的最低定义会影响判断的术语；低频专题词在首次出现处解释，不把术语表扩写成第二本教材。
+- `reference/glossary.md` 只保留跨章节反复使用、容易混淆且最低定义会影响判断的术语边界；普通词、识别线索、例图和专题管理方法留在对应 `learning/` 正文，不把术语表扩写成第二本教材。
 - `reference/audit_matrix.md` 是维护证据，不进入学习路线或训练流程；学习者无需逐行阅读。
 - 交易原则和仓库操作都使用可直接朗读的自然语言标题与问题；可复制的空白版式只在 `EXECUTION_RECORD_TEMPLATE.md` 排版。不得使用单字母代码建立隐藏流程。
 - 重命名或移动文件时必须在同一变更中更新全部本地链接；不要为了保留旧路径而留下内容重复的副本。

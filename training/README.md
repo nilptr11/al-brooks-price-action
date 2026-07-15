@@ -39,7 +39,7 @@
 | [`02_bar_by_bar_templates.md`](02_bar_by_bar_templates.md) | 隐藏未来信息并逐根记录。 | 一条只读的观察时间线。 |
 | [`03_review_checklist.md`](03_review_checklist.md) | 核对流程与结果，并确定下一轮重点。 | 流程结果、市场结果、主要问题和下一步学习。 |
 
-概念阅读从 [`LEARNING_PATH.md`](../LEARNING_PATH.md) 进入；陌生术语查 [`reference/glossary.md`](../reference/glossary.md)。训练文件不建立第二套概念定义或执行流程。
+概念阅读从 [`LEARNING_PATH.md`](../LEARNING_PATH.md) 进入；跨章节核心术语边界查 [`reference/glossary.md`](../reference/glossary.md)，专题词返回对应学习正文。训练文件不建立第二套概念定义或执行流程。
 
 ## 记录边界
 

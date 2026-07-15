@@ -180,4 +180,4 @@ Measured move 只有在测量对象和投射起点清楚时才是合格目标候
 
 复盘应分开评价：当时的 market reading 与交易计划是否合理，订单和管理是否按当时计划及后续 price action 执行，以及后来市场实际如何发展。盈利不能证明错误计划合理，亏损也不能单独证明合理 setup 错误。
 
-训练与复盘见 [`training/README.md`](training/README.md)，空白记录见 [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md)，陌生术语见 [`reference/glossary.md`](reference/glossary.md)。来源身份与核对状态从 [`reference/README.md`](reference/README.md) 进入。
+训练与复盘见 [`training/README.md`](training/README.md)，空白记录见 [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md)，跨章节核心术语边界见 [`reference/glossary.md`](reference/glossary.md)。来源身份与核对状态从 [`reference/README.md`](reference/README.md) 进入。

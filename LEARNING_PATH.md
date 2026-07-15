@@ -45,4 +45,4 @@
 | 想比较常见 setup 的 stop 与 target | [`learning/05_setups/`](learning/05_setups/README.md) | 趋势 flag、突破、区间交易、MTR 与二次入场 |
 | Scalp/swing、TBTL、加减仓或心理纪律 | [`learning/06_trade_management/`](learning/06_trade_management/README.md) | 管理专题；复杂行为后学 |
 
-遇到陌生术语时查 [`reference/glossary.md`](reference/glossary.md)，不要为了背术语中断训练。形态库解释名称，不能覆盖 context、stop、目标或 Trader's Equation。
+需要确认跨章节核心术语的最低边界时查 [`reference/glossary.md`](reference/glossary.md)；形态、订单和管理词进入上表对应专题，不要为了背术语中断训练。形态库解释名称，不能覆盖 context、stop、目标或 Trader's Equation。

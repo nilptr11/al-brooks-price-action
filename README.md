@@ -11,7 +11,7 @@
 | 填写批次配置或单笔交易记录 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 执行手册的唯一派生记录版式 |
 | 做连续逐根回放或模拟训练 | [`training/README.md`](training/README.md) | 连续训练闭环与按需观察提示 |
 | 复盘已完成、未成交或放弃的计划 | [`training/03_review_checklist.md`](training/03_review_checklist.md) | 九个核心问题与复盘输出 |
-| 查 Al Brooks 术语 | [`reference/glossary.md`](reference/glossary.md) | 快速定义，不许可交易动作 |
+| 查跨章节核心术语 | [`reference/glossary.md`](reference/glossary.md) | 确认最低定义边界，不许可交易动作 |
 | 维护文档 | [`DOCUMENTATION_GOVERNANCE.md`](DOCUMENTATION_GOVERNANCE.md) | 目录、权威、来源和变更规则 |
 
 学习材料回答“如何理解”；执行手册汇总 Brooks 的交易主线，并单独规定仓库如何记录订单、成交和保护；执行记录模板负责承载配置、计划和事件；训练材料负责把这些内容组成连续练习与复盘。
@@ -52,7 +52,7 @@ market cycle 与 context -> setup、entry 与 protective stop
 | 记录工具 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 批次配置与单笔交易的可填写版式 | 否，从执行手册派生 |
 | 学习 | [`learning/`](learning/00_method/README.md) | Al Brooks 概念、推导和常见边界 | 否 |
 | 训练 | [`training/`](training/README.md) | 连续回放、逐根观察和复盘 | 否 |
-| 查阅 | [`reference/glossary.md`](reference/glossary.md) | Al Brooks 术语快速解释 | 否 |
+| 查阅 | [`reference/glossary.md`](reference/glossary.md) | 跨章节核心术语边界 | 否 |
 | 证据维护 | [`reference/`](reference/README.md) | Al Brooks 来源、结论性质和审计状态 | 否，只负责证明和校准 |
 
 价格行为定义和交易原则必须能够回到 Al Brooks 来源。仓库只对文档维护、订单安全和记录完整性作操作约定；这些约定不能增加 setup 分类、stop 逻辑、target 公式或交易准入门槛。冲突时按[文档治理规范](DOCUMENTATION_GOVERNANCE.md)定位真正所有者并修正。
