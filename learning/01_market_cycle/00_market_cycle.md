@@ -39,3 +39,7 @@ Climax 不只是“看起来过度”。在价格已经反向进入 trading rang
 - 当前交易方式是否仍适合当前循环？
 
 如果 market cycle 判断错，后面的形态通常都会被误读。
+
+## 相关来源
+
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-GLOSSARY`、`SRC-MANUAL` 与 `SRC-STRONG-LEGS-2016`。

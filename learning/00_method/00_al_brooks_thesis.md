@@ -44,3 +44,7 @@ Al Brooks 方法不是：
 逐根阅读不是预测每根 K 线，而是区分可观察事实、当前解释和尚未得到的确认。空仓或待成交时，要知道什么会支持、削弱或取消候选；成交后仍要读取 price action，正常回调不应因焦虑被误判为失败，强反向突破或持续反向跟进也不能因没有逐字预写而被忽略。
 
 Al Brooks 阅读的质量不在于命名多少形态，而在于能否把 context、setup、stop、target 和 management 连成同一笔交易，并在 premise 改变时承认它已经改变。
+
+## 相关来源
+
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-MANUAL`、`SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS` 与 `SRC-GOOD-TRADE-2017`。

@@ -45,3 +45,7 @@ Two-bar reversal 由相邻两根共同完成控制转移。第二根可以是 in
 ## Pullback / Pause Bar
 
 牛向运动中的 bar pullback 要求本根 low 低于前 low；pause bar 则停止扩展趋势方向极值，通常 high 不高于前 high，强牛 K 后只高一跳的小 K 也可视为 pause。熊向运动镜像。Pause bar 属于 pullback 语言；它与 bar pullback 是两项不同几何测试，可能同时成立，并非互斥类别。
+
+## 相关来源
+
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-GLOSSARY`。

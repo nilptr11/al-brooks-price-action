@@ -30,3 +30,7 @@ Final flag 先看起来像延续形态，但交易者期待延续失败后顺势
 - 趋势仍强时过早逆势。
 - 没有等到顺势突破失败和反向强度。
 - 把普通回调当成趋势末端。
+
+## 相关来源
+
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-10-PATTERNS`、`SRC-ABBREVIATIONS` 与 `SRC-MTR-2025`。

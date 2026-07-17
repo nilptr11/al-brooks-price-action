@@ -28,3 +28,7 @@ Pattern 用来命名市场行为，帮助交易者沟通和组织信息。孤立
 本目录只定义形态语言。真正的交易构造见 [`05_setups/`](../05_setups/README.md)，交易管理见 [`06_trade_management/`](../06_trade_management/README.md)。
 
 如果某个形态还没有 context 和入场依据，它只是 pattern；即使已经成为 setup，交易者仍需知道合理 stop、profit target 和管理方式，才能判断 Trader's Equation。
+
+## 相关来源
+
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-GLOSSARY`、`SRC-MANUAL` 与 `SRC-10-PATTERNS`。
