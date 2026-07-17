@@ -33,7 +33,7 @@ TBTL 是 `Ten Bars, Two Legs correction`。它常用于 major trend reversal、f
 - 高概率交易常用较差入场、更远止损或较小相对回报换取确定性，更容易变成 scalp 或小 swing。
 - 低概率交易必须有更大目标空间补偿，不能用小目标管理低概率入场。
 - 强突破可以提高概率，但直接追随时结构止损常更远，剩余目标也可能被压缩。
-- 反转早期概率通常不高，必须有完整反向 swing 空间和有利的 Trader's Equation；TBTL 不能替代价格目标或数学。
+- MTR 在旧极值测试失败后、强反向突破形成前的入场通常概率较低，必须有完整反向 swing 空间和有利的 Trader's Equation；TBTL 不能替代价格目标或数学。
 
 ## 不能混用
 

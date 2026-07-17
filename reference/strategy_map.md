@@ -30,7 +30,7 @@
 
 | Brooks pattern | 在本仓库的角色 | 覆盖方式 |
 | --- | --- | --- |
-| Major trend reversals | 可执行策略 | [早期主要趋势反转](../strategy/reversal/early_major_trend_reversal.md)与[确认后的主要趋势反转](../strategy/reversal/confirmed_major_trend_reversal.md) |
+| Major trend reversals | 可执行策略 | 同一 MTR 过程分为[旧极值测试失败后的第二次反向信号入场](../strategy/reversal/mtr_old_extreme_test_failure.md)与[强反向突破、跟进后的第一次回调信号入场](../strategy/reversal/mtr_confirmed_breakout_pullback.md)两个仓库执行版本 |
 | Final flags | 形态语言与可执行策略 | [最终旗形突破失败后的反转](../strategy/reversal/final_flag_reversal.md) |
 | Breakouts | 市场背景与可执行策略 | 强突破、跟进确认、第一次回测和 failed failure 四条[突破路径](../strategy/breakout/README.md) |
 | High 2 / Low 2 | 形态语言与可执行策略 | [趋势中的第二次恢复入场](../strategy/trend/second_entry_continuation.md) |
@@ -53,7 +53,7 @@
 | Breakout 与接受 | 市场背景与可执行策略 | 使用[强突破收盘后立即跟随](../strategy/breakout/strong_breakout_close.md)、[突破后的跟进确认](../strategy/breakout/breakout_follow_through.md)、[突破后的第一次回测](../strategy/breakout/breakout_first_pullback.md)或[假突破失败后恢复原突破方向](../strategy/breakout/failed_failure_continuation.md) |
 | Breakout mode | 市场背景 | 方向未定；目前只有[严格 ii 双向突破等待](../strategy/breakout_mode/ii_bidirectional_breakout.md)形成独立双向计划 |
 | Climax 与 transition | 市场背景 | 先判断是普通修正、抛物线高潮修正，还是已经发展成主要趋势反转 |
-| Major trend reversal | 可执行策略 | 两条路径都先要求通道或主要趋势线突破，以及旧趋势恢复测试旧极值的过程；旧极值测试失败时可用[早期主要趋势反转](../strategy/reversal/early_major_trend_reversal.md)，其后再出现强反向突破和跟进时才进入[确认后的主要趋势反转](../strategy/reversal/confirmed_major_trend_reversal.md) |
+| Major trend reversal | 可执行策略 | 两条路径都先要求通道或主要趋势线突破，以及旧趋势恢复测试旧极值的过程；旧极值实际测试失败并形成第二次反向信号时可用[测试失败信号版本](../strategy/reversal/mtr_old_extreme_test_failure.md)，其后再出现强反向突破、跟进和第一次回调时才进入[突破回调信号版本](../strategy/reversal/mtr_confirmed_breakout_pullback.md) |
 
 ## 趋势延续主题
 

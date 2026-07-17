@@ -6,9 +6,9 @@
 
 ## 定义
 
-Major trend reversal 不是单根 K 线或单个外观，而是原趋势失去控制、反方尝试建立新方向的过程。完整 setup 包含对原趋势通道/趋势线的突破，以及对旧趋势极值的测试。交易者是在新趋势明确前入场，因此早期概率通常不高。
+Major trend reversal 不是单根 K 线或单个外观，而是原趋势失去控制、反方尝试建立新方向的过程。完整 setup 包含对原趋势通道/趋势线的突破，以及对旧趋势极值的测试。交易者可以在新趋势尚未清楚时入场，也可以等待强反向突破与跟进以后再入场；这是风险承担时点的差异，不是两种固定 MTR 形态名称。
 
-早期 MTR 即使看起来很好，swing 概率通常也只有约 40%。等待反向强突破后，典型 swing 概率可提高到约 60%，但代价是止损更远、剩余回报更小。这是 MTR 的典型概率交换，不是所有反转的固定胜率。
+在新趋势尚未清楚时入场，即使 setup 看起来很好，swing 概率通常也只有约 40%。等待反向强突破后，典型 swing 概率可提高到约 60%，但代价是止损更远、剩余回报更小。这是 MTR 的典型概率交换，不是所有反转的固定胜率。
 
 ## 结构骨架
 
@@ -51,14 +51,14 @@ Higher low MTR：熊趋势或下跌通道后，回探未能到达或跌破前低
 
 Protective-stop 锚点取决于入场时点：
 
-- **早期反转**：stop 通常在旧趋势极值测试或完整反转结构外。若价格仍可能正常再次测试旧极值，不能把 stop 只放在一根小 signal bar 外。
-- **强反向 breakout 后确认入场**：stop 可以在反向趋势形成的 major higher low / lower high、回踩结构或完整反向 breakout 起点外；必须以所依赖的新结构为锚点。
+- **强反向 breakout 前入场**：stop 通常在旧趋势极值测试或完整反转结构外。若价格仍可能正常再次测试旧极值，不能把 stop 只放在一根小 signal bar 外。
+- **强反向 breakout 与 follow-through 后入场**：stop 可以在反向趋势形成的 major higher low / lower high、回踩结构或完整反向 breakout 起点外；必须以所依赖的新结构为锚点。
 
-等待确认可能提高概率，但 entry 更差、stop 可能更远、剩余回报更小。早期和确认路线必须分别评估，不能使用早期 entry、确认后的概率和较窄 signal-bar stop 拼成一份计划。
+等待强反向突破与跟进可能提高概率，但 entry 更差、stop 可能更远、剩余回报更小。两个入场时点必须分别评估，不能使用突破前的 entry、突破与跟进后的概率和较窄 signal-bar stop 拼成一份计划。
 
 ## 价格行为预期
 
-成功 MTR 应形成两腿并获得 swing profit，而且通常先演变为较大的 trading range，而不是立即变成无回调新趋势。TBTL 是反转 swing 的 general goal；在常见的较低概率早期入场语境中，约 2R 是常用的 swing 回报对照，不是跨语境固定门槛。
+成功 MTR 应形成两腿并获得 swing profit，而且通常先演变为较大的 trading range，而不是立即变成无回调新趋势。TBTL 是反转 swing 的 general goal；在强反向突破形成前入场的常见较低概率语境中，约 2R 是常用的 swing 回报对照，不是跨语境固定门槛。
 
 这两项必须分开：
 
@@ -69,13 +69,13 @@ Protective-stop 锚点取决于入场时点：
 
 ## Profit targets
 
-1. 早期 MTR 通常是约 40% 概率的 swing，因此需要足够大的潜在 reward。约 2R 是常见的 swing 对照关系而非硬门槛；具体价格仍应落在均线、前 swing、区间边界、measured move 或更大周期 support/resistance 等真实 magnets 上，最终以完整 Trader's Equation 判断。
+1. 在新趋势尚未清楚、强反向突破尚未形成时入场，通常是约 40% 概率的 swing，因此需要足够大的潜在 reward。约 2R 是常见的 swing 对照关系而非硬门槛；具体价格仍应落在均线、前 swing、区间边界、measured move 或更大周期 support/resistance 等真实 magnets 上，最终以完整 Trader's Equation 判断。
 2. 均线、前 swing 或旧公平区域可以是部分兑现位置；若全部目标只到这些区域，计划验证的是 minor reversal profit，而不是两腿和 swing profit。
-3. 确认版本按更差 entry、较远 stop 和新的反向结构重新计算；若反向 breakout 清楚，才加入 breakout-size、Leg 1 = Leg 2 或其他 measured move。
+3. 等待强反向 breakout 与 follow-through 后入场时，按更差 entry、较远 stop 和新的反向结构重新计算；若反向 breakout 清楚，才加入 breakout-size、Leg 1 = Leg 2 或其他 measured move。
 4. 趋势末端 gap、exhaustion、wedge 或 final flag 主要提供 context 和可能的反转位置。除非它们在当前图上形成可计算的 magnet，否则不直接决定 MTR profit target。
 
 看到第一根反向强 K 线就期待完整新趋势，是常见错误。
 
-“提前下注控制权转移”和完整 MTR 是不同计划版本；早期候选不能直接视为完整 MTR。若目标只到均线、区间中轴或旧公平区域，应按 minor reversal 或回归公平区域理解，而不是反向 swing。
+“提前下注控制权转移”和完整 MTR 是不同计划版本；尚未完成通道突破、旧极值测试和反向 signal 的候选，不能直接视为完整 MTR。若目标只到均线、区间中轴或旧公平区域，应按 minor reversal 或回归公平区域理解，而不是反向 swing。
 
 相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-10-PATTERNS`、`SRC-MTR-2025` 与 `SRC-PATTERNS-OPEN-2018`。

@@ -105,8 +105,8 @@ ioi、oo、三角形和一般紧区间继续作为形态语言。它们可以在
 
 | 策略 | 最适合解决的问题 |
 | --- | --- |
-| [通道突破并测试旧极值失败后的早期反转](reversal/early_major_trend_reversal.md) | 在完整主要趋势反转过程的早期承担较低概率、较大潜在回报 |
-| [强反向突破确认后的趋势反转](reversal/confirmed_major_trend_reversal.md) | 通道突破和旧极值测试失败后，等待强反向突破与跟进确认 |
+| [MTR：旧极值测试失败后的第二次反向信号入场](reversal/mtr_old_extreme_test_failure.md) | 通道突破和旧极值测试失败后，在强反向突破形成前交易第二次反向信号 |
+| [MTR：强反向突破与跟进后的第一次回调信号入场](reversal/mtr_confirmed_breakout_pullback.md) | 保留完整 MTR 前序，再等待强反向突破、跟进和第一次完整回调 |
 | [普通楔形后的逆向修正](reversal/wedge_correction.md) | 成熟趋势出现三推，先交易一段修正而不是预设新趋势 |
 | [抛物线高潮后的逆向修正](reversal/parabolic_climax_correction.md) | 趋势末端出现加速推进和高潮后交易获利回吐 |
 | [最终旗形突破失败后的反转](reversal/final_flag_reversal.md) | 趋势末端的最后延续结构突破失败并反向触发 |

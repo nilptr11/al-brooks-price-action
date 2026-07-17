@@ -32,7 +32,7 @@
 - **Trend session / trend day**：一方在 session 的主要部分保持控制，真实但受控的回调不自动否定趋势。
 - **Trading-range session / range day**：价格在 session 内围绕公平区域反复双向测试；单条腿可以很强，不能因此提前把全天改写成趋势日。
 - **Reversal session / reversal day**：session 先向一个方向推进，随后原方向失去接受，控制和持续路径转向另一侧。
-- **Early-range breakout trend session**：先形成早期区间，再由获得接受的突破发展成趋势；它是事件顺序描述，不是独立于 market cycle 的第四种基础状态。
+- **Early-range breakout trend session**：session 开始后先形成区间，再由获得接受的突破发展成趋势；它是事件顺序描述，不是独立于 market cycle 的第四种基础状态。
 
 这些标签会随新价格信息变化。盘中记录“当前更像什么，以及哪条新证据会改变判断”，不要为得到某种 day type 主动选择历史片段。对于 24 小时市场，session 及交易日边界必须在观察前固定。
 
@@ -40,8 +40,8 @@
 
 - **Opening range**：预先定义的开盘窗口内形成的高低范围；窗口与边界必须使用当时数据，不能在收盘后按最好看的范围重画。
 - **Opening-range breakout**：价格离开 opening range；是否获得接受仍看收盘、跟进、回踩和旧区域是否被重新接受，单次刺穿不够。
-- **Trend from the open**：开盘后很快形成方向，初始极值在随后许多根中保持，且没有真正 pullback；它比普通 trend day 更强调趋势从开盘早期开始。
-- **Opening reversal**：开盘早期初始方向在已知支撑、阻力或旧价格区域附近失去接受，随后形成反向路径。它可能与 double top/bottom、wedge 或 failed breakout 重叠，但名称本身不构成交易许可。
+- **Trend from the open**：开盘后很快形成方向，初始极值在随后许多根中保持，且没有真正 pullback；它比普通 trend day 更强调趋势从 session 开始阶段形成。
+- **Opening reversal**：开盘后的初始方向在已知支撑、阻力或旧价格区域附近失去接受，随后形成反向路径。它可能与 double top/bottom、wedge 或 failed breakout 重叠，但名称本身不构成交易许可。
 
 Opening gap 只说明开盘重新定价，不预设当天方向；其最低定义、gap reversal 与接受/拒绝证据见[缺口专题](../04_patterns/07_gaps.md)。开盘仍先判断初始运动是 trend、trading range 还是 breakout mode，再结合 session open、前一时段高低点、较大周期位置和 follow-through 更新判断。
 

@@ -30,10 +30,10 @@
 
 需要区分两个版本：
 
-- 预判版本：breakout mode 的初始 stop entry，或强 breakout bar 的 close entry。价格较早，但确认更少。
+- 预判版本：breakout mode 的初始 stop entry，或强 breakout bar 的 close entry。在 follow-through 或回踩出现前进入，确认更少。
 - 确认版本：follow-through、回踩守住、failed failure 后再次触发。概率可能更高，但入场更差、stop 更远或剩余目标更近。
 
-强突破可能不给舒服回踩。等待回踩能改善 stop 结构，但也可能错过；两种版本必须分别评估 entry、stop、目标、概率和 Trader's Equation，不能把确认版本的概率套给早期价格。
+强突破可能不给舒服回踩。等待回踩能改善 stop 结构，但也可能错过；两种版本必须分别评估 entry、stop、目标、概率和 Trader's Equation，不能把等待 follow-through 或回踩后的概率套给预判版本的 entry。
 
 ## Premise 失效和止损
 
