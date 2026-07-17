@@ -58,18 +58,18 @@ Protective-stop 锚点取决于入场时点：
 
 ## 价格行为预期
 
-成功 MTR 应形成两腿并获得 swing profit，而且通常先演变为较大的 trading range，而不是立即变成无回调新趋势。TBTL 是反转 swing 的 general goal；swing 的潜在 reward 通常至少约为 risk 的两倍。
+成功 MTR 应形成两腿并获得 swing profit，而且通常先演变为较大的 trading range，而不是立即变成无回调新趋势。TBTL 是反转 swing 的 general goal；在常见的较低概率早期入场语境中，约 2R 是常用的 swing 回报对照，不是跨语境固定门槛。
 
 这两项必须分开：
 
 - **TBTL** 是对持有时间和价格路径的经验预期，提醒交易者不要在第一小腿过早退出；它不是一个价格坐标，也不表示必须机械等待十根。
-- **Swing profit / 约 2R** 是 Trader's Equation 需要的回报条件。价格目标仍要落在图上的实际支撑阻力或其他 magnet，不能只写“等两腿”。
+- **Swing profit / 约 2R** 用来检查较低概率是否得到较大回报补偿；它不是先于图表结构写定的目标。价格目标仍要落在图上的实际支撑阻力或其他 magnet，不能只写“等两腿”。
 
 等待反向强 breakout 后入场时，典型概率可从约 40% 提高到约 60%，但 stop 更远、剩余 reward 更小。若反向 breakout 或后续两腿形成清楚的量度结构，可以加入相应 measured move；MTR 本身没有固定的量度公式。
 
 ## Profit targets
 
-1. 早期 MTR 通常是约 40% 概率的 swing，因此需要足够大的潜在 reward。约 2R 是常见的 swing 目标关系，但具体价格仍应落在均线、前 swing、区间边界、measured move 或更大周期 support/resistance 等真实 magnets 上。
+1. 早期 MTR 通常是约 40% 概率的 swing，因此需要足够大的潜在 reward。约 2R 是常见的 swing 对照关系而非硬门槛；具体价格仍应落在均线、前 swing、区间边界、measured move 或更大周期 support/resistance 等真实 magnets 上，最终以完整 Trader's Equation 判断。
 2. 均线、前 swing 或旧公平区域可以是部分兑现位置；若全部目标只到这些区域，计划验证的是 minor reversal profit，而不是两腿和 swing profit。
 3. 确认版本按更差 entry、较远 stop 和新的反向结构重新计算；若反向 breakout 清楚，才加入 breakout-size、Leg 1 = Leg 2 或其他 measured move。
 4. 趋势末端 gap、exhaustion、wedge 或 final flag 主要提供 context 和可能的反转位置。除非它们在当前图上形成可计算的 magnet，否则不直接决定 MTR profit target。
