@@ -45,4 +45,4 @@ context -> setup 结构 -> entry -> reasonable stop -> setup target -> managemen
 
 ## 全局顺序
 
-返回[学习路径](../../LEARNING_PATH.md)；形态术语按需查[形态参考库](../04_patterns/README.md)。
+返回[学习路径](../README.md)；形态术语按需查[形态参考库](../04_patterns/README.md)。

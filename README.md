@@ -1,64 +1,46 @@
-# Al Brooks 价格行为文档
+# Al Brooks 价格行为手册
 
-本仓库用于学习 Al Brooks 价格行为、练习交易计划并核对来源。它不是自动信号系统、回测报告，也不提供特定市场的交易建议。
+本仓库把 Al Brooks 价格行为整理成一套供人学习、判断、执行和复盘的自然语言手册。它不是自动信号系统、收益证明或针对某个市场的交易建议。
 
-## 快速入口
+## 四个入口
 
-| 当前任务 | 从哪里开始 | 负责什么 |
-| --- | --- | --- |
-| 第一次接触或系统学习 | [`LEARNING_PATH.md`](LEARNING_PATH.md) | 最小核心学习路径与按需专题 |
-| 融会贯通地组织交易或管理持仓 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 学习体系的交易主线汇总，以及仓库的订单与记录操作 |
-| 填写批次配置或单笔交易记录 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 执行手册的唯一派生记录版式 |
-| 做连续逐根回放或模拟训练 | [`training/README.md`](training/README.md) | 连续训练闭环与按需观察提示 |
-| 复盘已完成、未成交或放弃的计划 | [`training/03_review_checklist.md`](training/03_review_checklist.md) | 九个核心问题与复盘输出 |
-| 查跨章节核心术语 | [`reference/glossary.md`](reference/glossary.md) | 确认最低定义边界，不许可交易动作 |
-| 维护文档 | [`DOCUMENTATION_GOVERNANCE.md`](DOCUMENTATION_GOVERNANCE.md) | 目录、权威、来源和变更规则 |
+| 你现在要做什么 | 从哪里开始 |
+| --- | --- |
+| 理解市场周期、背景、形态和交易原理 | [学习路径](learning/README.md) |
+| 根据当前市场选择一项完整策略 | [策略手册](strategy/README.md) |
+| 进行历史回放、模拟执行或实盘执行 | [执行与复盘](execution/README.md) |
+| 核对术语、来源以及学习主题与策略的关系 | [参考资料](reference/README.md) |
 
-学习材料回答“如何理解”；执行手册汇总 Brooks 的交易主线，并单独规定仓库如何记录订单、成交和保护；执行记录模板负责承载配置、计划和事件；训练材料负责把这些内容组成连续练习与复盘。
+## 从理解到复盘
 
-## 项目结构
+1. 先判断市场更接近趋势、交易区间、突破过程、反转过程，还是暂时看不清。
+2. 根据背景和位置进入对应策略家族，只选择一项与当前机会完全相符的策略。
+3. 在下单前一次写清入场、撤单、保护止损、目标、数量、管理和失效条件。
+4. 按[执行手册](execution/execution_manual.md)处理订单、成交、真实仓位、保护和异常。
+5. 使用[执行与复盘记录](execution/execution_and_review_record.md)按时间追加事实，不用后来结果改写当时判断。
+6. 结束后分别评价读图、策略选择、计划、执行安全和市场结果，并为下一次执行只选择一个最需要改善的步骤。
 
-```text
-README.md                       任务分流
-LEARNING_PATH.md                最小学习路径与按需专题
-EXECUTION_MANUAL.md             Brooks 交易主线 + 仓库订单与记录操作
-EXECUTION_RECORD_TEMPLATE.md    批次配置 + 单笔交易记录版式
-DOCUMENTATION_GOVERNANCE.md     文档维护规则
-learning/                       概念正文与可选形态参考
-training/                       连续回放、逐根观察和复盘
-reference/                      核心术语与维护证据
-scripts/check_docs.py           入口、链接、锚点与来源引用检查
-```
+每次执行都会产生学习反馈。一次执行可以没有候选、没有订单，也没有交易；只要开始和结束边界明确，并完整留下观察与复盘，它仍然是一轮有效执行。
 
-## 三条使用路径
+## 四个目录各自负责什么
 
-- **系统学习**：先完成 [`LEARNING_PATH.md`](LEARNING_PATH.md) 的七份核心材料，再进入训练；形态库和高级主题按遇到的问题查阅。
-- **计划与执行**：按 [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) 组织 context、setup、entry、stop、target、Trader's Equation 与 management，并用 [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) 保存订单和事件。
-- **训练与复盘**：按 [`training/README.md`](training/README.md) 从保存的历史位置连续推进，记录当时事实、判断变化和自然出现的交易计划，最后只修正一个主要流程问题。
+| 目录 | 唯一职责 |
+| --- | --- |
+| [learning](learning/README.md) | 解释市场为什么这样运动，以及概念之间怎样关联 |
+| [strategy](strategy/README.md) | 告诉交易者在特定背景下看到什么、何时行动、何时放弃 |
+| [execution](execution/README.md) | 统一回放、模拟和实盘中的记录、订单安全、结束与复盘 |
+| [reference](reference/README.md) | 保存术语边界、正式来源和学习主题覆盖关系 |
 
-核心流程只有一条：
+学习正文不直接发出交易指令；策略页不重新解释基础概念；执行层不替交易者选择策略；参考资料不规定入场动作。同一条规则只在一个位置完整说明，其他地方只链接过去。
 
-```text
-market cycle 与 context -> setup、entry 与 protective stop
--> profit target、Trader's Equation 与仓位 -> 订单和成交
--> 随新价格信息管理 premise -> 复盘
-```
+## 使用原则
 
-## 权威层级
+- 先判断背景和位置，再看形态；孤立的 K 线名称不构成交易理由。
+- 每个策略页只给出一套完整计划。入场、止损、目标或管理不同，就视为另一项策略。
+- 同一次市场机会只能由一项策略承担风险，不能因为多个名称同时成立而重复开仓。
+- 看不清必要事实时，正确动作是等待或放弃。
+- 历史回放、模拟和实盘使用相同策略条件；不同的只是成交事实来源和安全要求。
+- 实盘不是试验尚未理解规则的环境。账户、品种、风险边界和平台能力没有事先确认时，不进入真实下单。
+- 盈亏只说明市场后来怎样发展，不能替代对判断和执行过程的评价。
 
-| 层级 | 入口 | 职责 | 是否规范执行 |
-| --- | --- | --- | --- |
-| 交易汇总与仓库操作 | [`EXECUTION_MANUAL.md`](EXECUTION_MANUAL.md) | 从学习体系提炼交易主线；规定仓库订单、成交保护和记录操作 | 仅仓库操作部分具有规范性 |
-| 记录工具 | [`EXECUTION_RECORD_TEMPLATE.md`](EXECUTION_RECORD_TEMPLATE.md) | 批次配置与单笔交易的可填写版式 | 否，从执行手册派生 |
-| 学习 | [`learning/`](learning/00_method/README.md) | Al Brooks 概念、推导和常见边界 | 否 |
-| 训练 | [`training/`](training/README.md) | 连续回放、逐根观察和复盘 | 否 |
-| 查阅 | [`reference/glossary.md`](reference/glossary.md) | 跨章节核心术语边界 | 否 |
-| 证据维护 | [`reference/`](reference/README.md) | Al Brooks 来源、结论性质和审计状态 | 否，只负责证明和校准 |
-
-价格行为定义和交易原则必须能够回到 Al Brooks 来源。仓库只对文档维护、订单安全和记录完整性作操作约定；这些约定不能增加 setup 分类、stop 逻辑、target 公式或交易准入门槛。冲突时按[文档治理规范](DOCUMENTATION_GOVERNANCE.md)定位真正所有者并修正。
-
-## 范围
-
-- 仓库不替用户设定具体账户、单笔或时段风险数值；真实交易前必须另行确定这些上位边界，未设定时只能用于模拟和复盘。
-- 不把任何形态写成脱离 context、location、follow-through 和 Trader's Equation 的自动信号。
-- 来源内容只保存精炼转述、URL、页码或 slide 锚点和必要短引文，不复制受版权保护的大段原文。
+仓库中的策略分类和人工执行基线是对 Brooks 概念的整理，不是 Brooks 官方给出的穷尽分类。完整来源见[正式来源台账](reference/official_sources.md)。

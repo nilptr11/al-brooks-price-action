@@ -20,8 +20,8 @@
 
 1. **核心** [`00_context_location_control.md`](00_context_location_control.md)：建立 context、location、control 与 Always In 的总体框架。
 2. **按需** [`01_support_resistance_targets.md`](01_support_resistance_targets.md)：学习支撑阻力区域、磁吸目标和目标优先级。
-3. **按需** [`02_time_and_timeframes.md`](02_time_and_timeframes.md)：加入周期与时段信息，避免把经验倾向写成固定规则。
+3. **按需** [`02_time_and_timeframes.md`](02_time_and_timeframes.md)：加入周期、实时 session state、最终日型和开盘最低概念，避免把经验倾向或结果标签写成固定规则。
 
 ## 全局顺序
 
-返回[学习路径](../../LEARNING_PATH.md)。
+返回[学习路径](../README.md)。

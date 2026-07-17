@@ -10,7 +10,7 @@
 
 ## 前置条件
 
-先完成[什么是 Setup](../05_setups/00_what_is_a_setup.md)；只在训练遇到陌生名称或概念冲突时进入本目录。
+先完成[什么是 Setup](../05_setups/00_what_is_a_setup.md)；只在学习或执行中遇到陌生名称、计数分歧或概念冲突时进入本目录。
 
 ## 完成标准
 
@@ -31,4 +31,4 @@
 
 - 先完成[什么是 Setup](../05_setups/00_what_is_a_setup.md)，遇到不熟悉的名称时再返回对应条目。
 - 形态解释不能覆盖当前 market cycle、位置、premise、stop 或目标。
-- 全局顺序只由[学习路径](../../LEARNING_PATH.md)维护。
+- 全局顺序只由[学习路径](../README.md)维护。
