@@ -129,4 +129,4 @@
 
 - [突破与 Breakout Mode](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
 - [Triangles、ii、ioi 和 oo](../../core/04_patterns/06_triangles_ii_ioi_oo.md)
-- [Stop entry 与 protective stop](../../core/03_order_flow/01_stop_entry_vs_protective_stop.md)
+- [Stop entry 与 protective stop](../../core/03_acceptance_and_order_logic/00_stop_entry_vs_protective_stop.md)

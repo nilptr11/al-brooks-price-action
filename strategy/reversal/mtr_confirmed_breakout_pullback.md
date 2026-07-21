@@ -147,5 +147,5 @@
 
 - [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
 - [突破延续](../../core/05_setups/02_breakout_continuation.md)
-- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [接受、失望与失败证据](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)
 - [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

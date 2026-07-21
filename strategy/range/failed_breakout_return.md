@@ -114,6 +114,6 @@
 
 ## 概念关联
 
-- [接受与失败](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [接受与失败](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)
 - [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
 - [交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)

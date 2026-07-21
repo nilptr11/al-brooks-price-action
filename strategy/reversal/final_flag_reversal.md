@@ -132,5 +132,5 @@
 
 - [Final Flags](../../core/04_patterns/05_final_flags.md)
 - [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
-- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
-- [Scalp 与 Swing](../../core/06_trade_management/01_scalp_vs_swing.md)
+- [接受、失望与失败证据](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)
+- [Scalp 与 Swing](../../core/06_trade_plan_and_management/01_scalp_vs_swing.md)

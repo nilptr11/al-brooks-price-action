@@ -1,6 +1,6 @@
 # 加仓与减仓
 
-> **状态：Core / Non-normative**
+> **状态：Core / Definition**
 >
 > 本文解释加减仓如何改变整笔交易的风险、回报和管理方式。
 

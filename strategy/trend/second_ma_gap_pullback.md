@@ -117,6 +117,6 @@
 ## 概念关联
 
 - [Gaps](../../core/04_patterns/07_gaps.md)
-- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [二次入场和陷阱](../../core/03_acceptance_and_order_logic/03_second_entries_and_traps.md)
 - [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
 - [Context、位置和控制权](../../core/02_context/00_context_location_control.md)

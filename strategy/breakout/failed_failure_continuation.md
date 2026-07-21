@@ -115,7 +115,7 @@
 
 ## 概念关联
 
-- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [接受、失望与失败证据](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)
 - [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
 - [Trading Ranges](../../core/01_market_cycle/02_trading_ranges.md)
-- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [二次入场和陷阱](../../core/03_acceptance_and_order_logic/03_second_entries_and_traps.md)

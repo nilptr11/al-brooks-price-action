@@ -8,7 +8,7 @@
 
 突破延续 Setup 押注市场正在或已经接受旧边界外的新价格，而不是交易“高低点刚刚越界”这一事实。
 
-Breakout 的最低定义和强度线索见[突破和突破模式](../01_market_cycle/03_breakouts_and_breakout_mode.md)，follow-through 与 acceptance 的定义见[接受、失望与失败证据](../03_order_flow/00_acceptance_and_failure.md)。本页只负责把这些事实组成交易：
+Breakout 的最低定义和强度线索见[突破和突破模式](../01_market_cycle/03_breakouts_and_breakout_mode.md)，follow-through 与 acceptance 的定义见[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。本页只负责把这些事实组成交易：
 
 ```text
 清楚旧边界 -> 强突破收在边界外

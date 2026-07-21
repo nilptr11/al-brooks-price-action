@@ -129,5 +129,5 @@
 
 - [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
 - [交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)
-- [加仓与减仓](../../core/06_trade_management/02_scaling_in_out.md)
-- [Limit-order market](../../core/03_order_flow/02_limit_order_market.md)
+- [加仓与减仓](../../core/06_trade_plan_and_management/02_scaling_in_out.md)
+- [Limit-order market](../../core/03_acceptance_and_order_logic/02_limit_order_market.md)

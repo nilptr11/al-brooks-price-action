@@ -1,6 +1,6 @@
-# Final Flags
+# 最终旗形（Final Flags）
 
-> **状态：Core / Non-normative**
+> **状态：Core / Definition**
 >
 > 本文界定核心概念；价格行为结论由本页、相关专题与来源共同支持。
 
@@ -22,7 +22,7 @@ Final flag 是趋势后期最后一次顺势整理。它看起来像普通 conti
 
 Final flag 先看起来像延续形态，但交易者关注顺势尝试失败后是否出现退出压力和反向运动。
 
-形态名称只提供趋势末端背景。若反向运动只回到均线或公平区域，应按 minor reversal 或区间回归理解；只有控制权转移和反向 swing 空间成立时，才可能升级为 [Major Trend Reversal](../05_setups/04_major_trend_reversal.md)。具体 target 与 [TBTL](../06_trade_management/01_scalp_vs_swing.md#tbtl-是时间与腿数预期) 不由 final-flag 名称直接生成。
+形态名称只提供趋势末端背景。若反向运动只回到均线或公平区域，应按 minor reversal 或区间回归理解；只有控制权转移和反向 swing 空间成立时，才可能升级为 [Major Trend Reversal](../05_setups/04_major_trend_reversal.md)。具体 target 与 [TBTL](../06_trade_plan_and_management/01_scalp_vs_swing.md#tbtl-是时间与腿数预期) 不由 final-flag 名称直接生成。
 
 ## 常见误读
 

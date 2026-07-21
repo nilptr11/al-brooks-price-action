@@ -132,5 +132,5 @@
 
 - [楔形](../../core/04_patterns/03_wedges.md)
 - [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
-- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
-- [Scalp 与 Swing](../../core/06_trade_management/01_scalp_vs_swing.md)
+- [二次入场和陷阱](../../core/03_acceptance_and_order_logic/03_second_entries_and_traps.md)
+- [Scalp 与 Swing](../../core/06_trade_plan_and_management/01_scalp_vs_swing.md)

@@ -1,4 +1,4 @@
-# Context、位置和控制权
+# 背景、位置和控制权（Context）
 
 > **状态：Core / Index**
 >
@@ -8,7 +8,7 @@
 
 本目录把 Market Cycle 放回具体位置、控制权、周期和时段中，并判断前方目标空间。它回答一个候选为何在这里可能有意义，以及哪一方更可能控制。
 
-订单是否触发、结果是否被接受属于 [Order Flow](../03_order_flow/README.md)；如何形成入场命题属于 [Setups](../05_setups/README.md)。
+订单是否触发、结果是否被接受属于[接受、失败与订单逻辑](../03_acceptance_and_order_logic/README.md)；如何形成入场命题属于 [Setups](../05_setups/README.md)。
 
 ## 文件
 

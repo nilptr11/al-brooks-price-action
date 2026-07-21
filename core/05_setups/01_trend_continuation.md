@@ -24,7 +24,7 @@
 - 位置保留到现实 magnet 的空间。
 - H2/L2、wedge pullback 或 double bottom/top flag 只组织回调和触发，不单独证明趋势仍在。
 
-趋势延续常使用 stop entry 越过 prospective signal bar。H1/H2/L1/L2 的计数见[形态页](../04_patterns/02_h1_h2_l1_l2.md)，second entry 的实际触发边界见[订单流专题](../03_order_flow/03_second_entries_and_traps.md)。
+趋势延续常使用 stop entry 越过 prospective signal bar。H1/H2/L1/L2 的计数见[形态页](../04_patterns/02_h1_h2_l1_l2.md)，second entry 的实际触发边界见[接受与订单逻辑专题](../03_acceptance_and_order_logic/03_second_entries_and_traps.md)。
 
 ## Premise 失效与 Stop 差异
 

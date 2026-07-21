@@ -25,7 +25,7 @@ Pattern 是对一组可观察价格行为及其几何或顺序关系的命名，
 
 孤立 pattern 仍只是语言。交易者把它放回 Context，并用它组织明确的交易 premise 与入场依据时，才进入 Setup 层；最低定义见[什么是 Setup](../05_setups/00_what_is_a_setup.md)。
 
-因此，识别出形态后应返回市场状态、位置、控制权和 follow-through，而不是继续堆叠形态名称。完整 entry、stop、target、仓位与管理属于 [Trade Plan](../06_trade_management/00_trade_plan.md)。
+因此，识别出形态后应返回市场状态、位置、控制权和 follow-through，而不是继续堆叠形态名称。完整 entry、stop、target、仓位与管理属于 [Trade Plan](../06_trade_plan_and_management/00_trade_plan.md)。
 
 ## 相关来源
 

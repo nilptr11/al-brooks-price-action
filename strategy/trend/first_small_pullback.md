@@ -116,5 +116,5 @@
 
 - [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
 - [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
-- [Stop Entry 和 Protective Stop](../../core/03_order_flow/01_stop_entry_vs_protective_stop.md)
+- [Stop Entry 和 Protective Stop](../../core/03_acceptance_and_order_logic/00_stop_entry_vs_protective_stop.md)
 - [概率、风险和回报](../../core/00_method/01_probability_risk_reward.md)

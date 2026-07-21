@@ -133,5 +133,5 @@
 
 - [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
 - [缺口](../../core/04_patterns/07_gaps.md)
-- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
-- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [二次入场和陷阱](../../core/03_acceptance_and_order_logic/03_second_entries_and_traps.md)
+- [接受、失望与失败证据](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)

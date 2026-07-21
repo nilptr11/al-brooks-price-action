@@ -139,4 +139,4 @@
 - [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
 - [趋势延续](../../core/05_setups/01_trend_continuation.md)
 - [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
-- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)
+- [从 Setup 到交易计划](../../core/06_trade_plan_and_management/00_trade_plan.md)

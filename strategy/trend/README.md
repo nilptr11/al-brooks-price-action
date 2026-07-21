@@ -55,4 +55,4 @@
 - [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
 - [Wedges](../../core/04_patterns/03_wedges.md)
 - [Gaps](../../core/04_patterns/07_gaps.md)
-- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)
+- [从 Setup 到交易计划](../../core/06_trade_plan_and_management/00_trade_plan.md)

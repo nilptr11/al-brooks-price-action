@@ -116,6 +116,6 @@
 ## 概念关联
 
 - [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
-- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [二次入场和陷阱](../../core/03_acceptance_and_order_logic/03_second_entries_and_traps.md)
 - [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
-- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)
+- [从 Setup 到交易计划](../../core/06_trade_plan_and_management/00_trade_plan.md)

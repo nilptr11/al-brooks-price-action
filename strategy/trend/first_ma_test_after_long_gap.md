@@ -112,4 +112,4 @@
 - [Gaps](../../core/04_patterns/07_gaps.md)
 - [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
 - [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
-- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)
+- [从 Setup 到交易计划](../../core/06_trade_plan_and_management/00_trade_plan.md)

@@ -41,6 +41,6 @@
 
 - [突破和突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
 - [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
-- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [接受、失望与失败证据](../../core/03_acceptance_and_order_logic/01_acceptance_and_failure.md)
 - [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)
 - [概率、风险和回报](../../core/00_method/01_probability_risk_reward.md)

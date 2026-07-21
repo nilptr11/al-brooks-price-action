@@ -1,4 +1,4 @@
-# Major Trend Reversal
+# 主要趋势反转（Major Trend Reversal）
 
 > **状态：Core / Application**
 >
@@ -41,7 +41,7 @@ Higher high、lower high、lower low 和 higher low MTR 只是旧极值测试的
 
 成功 MTR 的直接预期是反向两腿和 swing profit，而且常先发展成较大的 trading range，而不是立即成为无回调新趋势。
 
-[TBTL](../06_trade_management/01_scalp_vs_swing.md#tbtl-是时间与腿数预期)帮助描述反向 swing 的持有时间与腿数，但不是价格目标。较低概率版本常以约 2R 检查是否有足够补偿；实际 target 仍必须落在均线、前 swing、旧公平区域、区间边界或其他真实 magnet 上，并由 [Trader's Equation](../00_method/01_probability_risk_reward.md) 检查。
+[TBTL](../06_trade_plan_and_management/01_scalp_vs_swing.md#tbtl-是时间与腿数预期)帮助描述反向 swing 的持有时间与腿数，但不是价格目标。较低概率版本常以约 2R 检查是否有足够补偿；实际 target 仍必须落在均线、前 swing、旧公平区域、区间边界或其他真实 magnet 上，并由 [Trader's Equation](../00_method/01_probability_risk_reward.md) 检查。
 
 只有反向 breakout 或后续两腿形成清楚的量度结构时，才加入 breakout-size、Leg 1 = Leg 2 等 measured move。MTR 名称本身没有固定投射公式。
 

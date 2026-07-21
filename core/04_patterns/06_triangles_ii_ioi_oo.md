@@ -1,6 +1,6 @@
 # Triangles、ii、ioi 和 oo
 
-> **状态：Core / Non-normative**
+> **状态：Core / Definition**
 >
 > 本文界定核心概念；价格行为结论由本页、相关专题与来源共同支持。
 
