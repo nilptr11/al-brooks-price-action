@@ -112,9 +112,9 @@
 4. 是否在下单前写定完整回调止损和最近趋势极值目标？
 5. 是否因害怕错过而追单、缩小止损或更换目标？
 
-## 相关学习
+## 概念关联
 
-- [趋势和通道](../../learning/01_market_cycle/01_trends_and_channels.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [Stop Entry 和 Protective Stop](../../learning/03_order_flow/01_stop_entry_vs_protective_stop.md)
-- [概率、风险和回报](../../learning/00_method/01_probability_risk_reward.md)
+- [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [Stop Entry 和 Protective Stop](../../core/03_order_flow/01_stop_entry_vs_protective_stop.md)
+- [概率、风险和回报](../../core/00_method/01_probability_risk_reward.md)

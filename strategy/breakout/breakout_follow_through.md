@@ -111,9 +111,9 @@
 5. 入场前失去延伸收盘时是否撤单？
 6. 连续两根收回旧区域时是否安全退出？
 
-## 相关学习
+## 概念关联
 
-- [突破延续 Setup](../../learning/05_setups/02_breakout_continuation.md)
-- [突破和突破模式](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
+- [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
+- [突破和突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

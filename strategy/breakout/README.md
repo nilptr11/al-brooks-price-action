@@ -37,10 +37,10 @@
 - 原突破交易失败不意味着自动反手。反方向必须独立满足另一张正式策略页；
 - 订单、成交、真实仓位和保护操作统一遵守[人工交易执行手册](../../execution/execution_manual.md)。
 
-## 学习入口
+## 概念关联
 
-- [突破和突破模式](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [突破延续 Setup](../../learning/05_setups/02_breakout_continuation.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
-- [概率、风险和回报](../../learning/00_method/01_probability_risk_reward.md)
+- [突破和突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)
+- [概率、风险和回报](../../core/00_method/01_probability_risk_reward.md)

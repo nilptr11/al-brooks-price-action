@@ -135,9 +135,9 @@
 7. 未成交前触及计划保护价是否立即撤单，成交后连续两根收回是否按第二根的方向性收盘严格判断？
 8. 是否用最终日型或后来范围改写当时区间？
 
-## 相关学习
+## 概念关联
 
-- [周期与时段背景](../../learning/02_context/02_time_and_timeframes.md)
-- [突破与突破模式](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [突破延续](../../learning/05_setups/02_breakout_continuation.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
+- [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
+- [突破与突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [突破延续](../../core/05_setups/02_breakout_continuation.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

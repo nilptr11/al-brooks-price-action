@@ -113,9 +113,9 @@
 4. 止损是否覆盖完整拒绝过程，而不是沿用旧计划？
 5. 再次收回旧区域时是否立即退出且没有自动反手？
 
-## 相关学习
+## 概念关联
 
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [突破延续 Setup](../../learning/05_setups/02_breakout_continuation.md)
-- [Trading Ranges](../../learning/01_market_cycle/02_trading_ranges.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
+- [Trading Ranges](../../core/01_market_cycle/02_trading_ranges.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)

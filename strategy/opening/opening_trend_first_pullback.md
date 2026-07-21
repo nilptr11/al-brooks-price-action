@@ -134,9 +134,9 @@
 6. 初始推动和量度目标是否在入场前固定？
 7. 是否因害怕错过而提前行动？
 
-## 相关学习
+## 概念关联
 
-- [周期与时段背景](../../learning/02_context/02_time_and_timeframes.md)
-- [趋势延续](../../learning/05_setups/01_trend_continuation.md)
-- [H1、H2、L1、L2](../../learning/04_patterns/02_h1_h2_l1_l2.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
+- [趋势延续](../../core/05_setups/01_trend_continuation.md)
+- [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)

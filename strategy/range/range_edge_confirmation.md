@@ -117,8 +117,8 @@
 4. 入场、止损和中部目标是否在下单前锁定？
 5. 是否遵守单一进入方式，没有临场改成限价或加仓？
 
-## 相关学习
+## 概念关联
 
-- [交易区间](../../learning/01_market_cycle/02_trading_ranges.md)
-- [交易区间 Fade Setup](../../learning/05_setups/03_trading_range_fade.md)
-- [Limit-order market](../../learning/03_order_flow/02_limit_order_market.md)
+- [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
+- [交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)
+- [Limit-order market](../../core/03_order_flow/02_limit_order_market.md)

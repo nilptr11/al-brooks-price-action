@@ -108,9 +108,9 @@
 4. 是否使用完整三推回调止损和回调前旧极值目标？
 5. 是否在结果出现后改变三推计数？
 
-## 相关学习
+## 概念关联
 
-- [Wedges](../../learning/04_patterns/03_wedges.md)
-- [趋势和通道](../../learning/01_market_cycle/01_trends_and_channels.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [高潮和状态转换](../../learning/01_market_cycle/04_climax_and_transition.md)
+- [Wedges](../../core/04_patterns/03_wedges.md)
+- [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [高潮和状态转换](../../core/01_market_cycle/04_climax_and_transition.md)

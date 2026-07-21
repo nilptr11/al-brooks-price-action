@@ -125,8 +125,8 @@
 6. 部分成交后的保护和目标数量是否正确？
 7. 同根双边触发是否按事先规则处理？
 
-## 相关学习
+## 概念关联
 
-- [突破与 Breakout Mode](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [Triangles、ii、ioi 和 oo](../../learning/04_patterns/06_triangles_ii_ioi_oo.md)
-- [Stop entry 与 protective stop](../../learning/03_order_flow/01_stop_entry_vs_protective_stop.md)
+- [突破与 Breakout Mode](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [Triangles、ii、ioi 和 oo](../../core/04_patterns/06_triangles_ii_ioi_oo.md)
+- [Stop entry 与 protective stop](../../core/03_order_flow/01_stop_entry_vs_protective_stop.md)

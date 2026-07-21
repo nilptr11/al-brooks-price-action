@@ -143,9 +143,9 @@
 9. 量度目标、中间障碍和净 R 是否在入场前标出？
 10. 是否错误叠加了旧极值测试失败信号版本和突破回调信号版本的风险？
 
-## 相关学习
+## 概念关联
 
-- [Major Trend Reversal](../../learning/05_setups/04_major_trend_reversal.md)
-- [突破延续](../../learning/05_setups/02_breakout_continuation.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
+- [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
+- [突破延续](../../core/05_setups/02_breakout_continuation.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

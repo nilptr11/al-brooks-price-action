@@ -131,9 +131,9 @@
 6. 目标是否在入场前固定，并提供足够净空间？
 7. 是否因为后来出现强反向走势，就事后放宽或重画当时的第二次反向信号条件？
 
-## 相关学习
+## 概念关联
 
-- [Major Trend Reversal](../../learning/05_setups/04_major_trend_reversal.md)
-- [楔形](../../learning/04_patterns/03_wedges.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
+- [楔形](../../core/04_patterns/03_wedges.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)

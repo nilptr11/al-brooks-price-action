@@ -141,9 +141,9 @@
 6. 是否严格执行开盘价目标和收盘前一个完整周期开始的退出流程？
 7. 是否使用最终日型或事后路径证明当时区间判断？
 
-## 相关学习
+## 概念关联
 
-- [周期与时段背景](../../learning/02_context/02_time_and_timeframes.md)
-- [交易区间](../../learning/01_market_cycle/02_trading_ranges.md)
-- [交易区间边缘](../../learning/05_setups/03_trading_range_fade.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
+- [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
+- [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
+- [交易区间边缘](../../core/05_setups/03_trading_range_fade.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

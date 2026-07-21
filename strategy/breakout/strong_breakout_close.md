@@ -108,9 +108,9 @@
 4. 目标是否始终使用突破 K 线完整高度和原边界？
 5. 连续两根收回旧区域时是否按计划退出并保持保护？
 
-## 相关学习
+## 概念关联
 
-- [突破和突破模式](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [突破延续 Setup](../../learning/05_setups/02_breakout_continuation.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [概率、风险和回报](../../learning/00_method/01_probability_risk_reward.md)
+- [突破和突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [概率、风险和回报](../../core/00_method/01_probability_risk_reward.md)

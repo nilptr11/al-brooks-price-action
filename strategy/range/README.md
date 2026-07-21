@@ -50,4 +50,4 @@
 - 合理结构止损超出本次风险边界；
 - 大周期重要位置使原区间目标失去意义。
 
-相关概念见[交易区间](../../learning/01_market_cycle/02_trading_ranges.md)和[交易区间 Fade Setup](../../learning/05_setups/03_trading_range_fade.md)。
+相关概念见[交易区间](../../core/01_market_cycle/02_trading_ranges.md)和[交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)。

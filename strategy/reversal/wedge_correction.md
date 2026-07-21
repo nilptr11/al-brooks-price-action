@@ -128,9 +128,9 @@
 5. 目标是否始终只有第一推起点？
 6. 是否把修正计划事后改写成主要趋势反转？
 
-## 相关学习
+## 概念关联
 
-- [楔形](../../learning/04_patterns/03_wedges.md)
-- [Major Trend Reversal](../../learning/05_setups/04_major_trend_reversal.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
-- [Scalp 与 Swing](../../learning/06_trade_management/01_scalp_vs_swing.md)
+- [楔形](../../core/04_patterns/03_wedges.md)
+- [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [Scalp 与 Swing](../../core/06_trade_management/01_scalp_vs_swing.md)

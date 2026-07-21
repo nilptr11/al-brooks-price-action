@@ -125,9 +125,9 @@
 4. 是否严格限制为两层，没有临场扩展？
 5. 当前真的属于成熟宽区间，而不是强突破吗？强突破与跟进出现时是否取消余量并按主动退出流程结束已有仓位？
 
-## 相关学习
+## 概念关联
 
-- [交易区间](../../learning/01_market_cycle/02_trading_ranges.md)
-- [交易区间 Fade Setup](../../learning/05_setups/03_trading_range_fade.md)
-- [加仓与减仓](../../learning/06_trade_management/02_scaling_in_out.md)
-- [Limit-order market](../../learning/03_order_flow/02_limit_order_market.md)
+- [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
+- [交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)
+- [加仓与减仓](../../core/06_trade_management/02_scaling_in_out.md)
+- [Limit-order market](../../core/03_order_flow/02_limit_order_market.md)

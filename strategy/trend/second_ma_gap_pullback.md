@@ -114,9 +114,9 @@
 4. 主要 higher low／lower high、第二次信号、完整第二次下探止损和固定目标是否在下单前全部写清？
 5. 未成交前触及计划保护价时是否立即撤单结束，是否因后来走势理想而补画事件顺序或改变止损？
 
-## 相关学习
+## 概念关联
 
-- [Gaps](../../learning/04_patterns/07_gaps.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [Context、位置和控制权](../../learning/02_context/00_context_location_control.md)
+- [Gaps](../../core/04_patterns/07_gaps.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [Context、位置和控制权](../../core/02_context/00_context_location_control.md)

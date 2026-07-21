@@ -113,9 +113,9 @@
 4. 目标是否始终是回调前记录的旧趋势极值？
 5. 未成交前触及计划保护价时是否立即撤单结束，是否在结果出现后修改计数或改变止损？
 
-## 相关学习
+## 概念关联
 
-- [H1、H2、L1、L2](../../learning/04_patterns/02_h1_h2_l1_l2.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)

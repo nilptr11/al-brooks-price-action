@@ -48,11 +48,11 @@
 - 看不清趋势、回调顺序或主要摆动点时，放弃；
 - 订单、成交、真实仓位和保护操作统一遵守[人工交易执行手册](../../execution/execution_manual.md)。
 
-## 学习入口
+## 概念关联
 
-- [趋势和通道](../../learning/01_market_cycle/01_trends_and_channels.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [H1、H2、L1、L2](../../learning/04_patterns/02_h1_h2_l1_l2.md)
-- [Wedges](../../learning/04_patterns/03_wedges.md)
-- [Gaps](../../learning/04_patterns/07_gaps.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [H1、H2、L1、L2](../../core/04_patterns/02_h1_h2_l1_l2.md)
+- [Wedges](../../core/04_patterns/03_wedges.md)
+- [Gaps](../../core/04_patterns/07_gaps.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)

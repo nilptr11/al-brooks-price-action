@@ -24,4 +24,4 @@ ioi、oo、普通三角形和一般紧区间虽然也属于 breakout mode 语言
 
 ii 页面用完整母线高度向两侧投射，是本仓库为了让两个方向在结构完成时都能固定价格而采用的 measured-move 基线；Brooks 的 breakout mode 概念本身不为所有 ii 规定这一唯一目标。任一方向若在该基线目标前存在不可合理穿越的强障碍，或扣除成本后不合格，就不建立双向计划。
 
-相关概念见[突破与 Breakout Mode](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)和[Triangles、ii、ioi 和 oo](../../learning/04_patterns/06_triangles_ii_ioi_oo.md)。
+相关概念见[突破与 Breakout Mode](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)和[Triangles、ii、ioi 和 oo](../../core/04_patterns/06_triangles_ii_ioi_oo.md)。

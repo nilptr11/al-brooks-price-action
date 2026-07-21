@@ -112,8 +112,8 @@
 5. 止损是否覆盖完整失败突破，而不是只看信号 K 线？
 6. 是否把原突破和反向计划分开处理？
 
-## 相关学习
+## 概念关联
 
-- [接受与失败](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [交易区间](../../learning/01_market_cycle/02_trading_ranges.md)
-- [交易区间 Fade Setup](../../learning/05_setups/03_trading_range_fade.md)
+- [接受与失败](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [交易区间](../../core/01_market_cycle/02_trading_ranges.md)
+- [交易区间 Fade Setup](../../core/05_setups/03_trading_range_fade.md)

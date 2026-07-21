@@ -128,9 +128,9 @@
 5. 止损是否位于完整高潮极值外？
 6. 是否始终只把最后 surge 起点作为目标？
 
-## 相关学习
+## 概念关联
 
-- [楔形与抛物线楔形](../../learning/04_patterns/03_wedges.md)
-- [Major Trend Reversal](../../learning/05_setups/04_major_trend_reversal.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [楔形与抛物线楔形](../../core/04_patterns/03_wedges.md)
+- [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)

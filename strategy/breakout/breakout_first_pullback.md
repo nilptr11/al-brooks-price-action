@@ -113,9 +113,9 @@
 5. 是否把触及 K 线与紧接完成的恢复信号分开判断？
 6. 止损、结构高度投射目标和两根收回退出是否按计划执行？
 
-## 相关学习
+## 概念关联
 
-- [突破延续 Setup](../../learning/05_setups/02_breakout_continuation.md)
-- [突破和突破模式](../../learning/01_market_cycle/03_breakouts_and_breakout_mode.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [Gaps](../../learning/04_patterns/07_gaps.md)
+- [突破延续 Setup](../../core/05_setups/02_breakout_continuation.md)
+- [突破和突破模式](../../core/01_market_cycle/03_breakouts_and_breakout_mode.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [Gaps](../../core/04_patterns/07_gaps.md)

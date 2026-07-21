@@ -129,9 +129,9 @@
 6. 目标是否始终只有开盘价？
 7. 是否使用了最终日型或后来路径修正当时判断？
 
-## 相关学习
+## 概念关联
 
-- [周期与时段背景](../../learning/02_context/02_time_and_timeframes.md)
-- [缺口](../../learning/04_patterns/07_gaps.md)
-- [二次入场和陷阱](../../learning/05_setups/05_second_entries_and_traps.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
+- [周期与时段背景](../../core/02_context/02_time_and_timeframes.md)
+- [缺口](../../core/04_patterns/07_gaps.md)
+- [二次入场和陷阱](../../core/03_order_flow/03_second_entries_and_traps.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)

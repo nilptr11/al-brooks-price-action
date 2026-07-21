@@ -107,9 +107,9 @@
 4. 主要摆动点和旧趋势极值是否在入场前写清？
 5. 是否错误地在均线处预测入场，而没有等待趋势方向信号？
 
-## 相关学习
+## 概念关联
 
-- [Gaps](../../learning/04_patterns/07_gaps.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [趋势和通道](../../learning/01_market_cycle/01_trends_and_channels.md)
-- [支撑阻力与目标](../../learning/02_context/01_support_resistance_targets.md)
+- [Gaps](../../core/04_patterns/07_gaps.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
+- [支撑阻力与目标](../../core/02_context/01_support_resistance_targets.md)

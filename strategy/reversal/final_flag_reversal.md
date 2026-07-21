@@ -128,9 +128,9 @@
 6. 目标是否始终只有旗形起点？
 7. 是否用后来反转的结果证明当时“最终”判断？
 
-## 相关学习
+## 概念关联
 
-- [Final Flags](../../learning/04_patterns/05_final_flags.md)
-- [Major Trend Reversal](../../learning/05_setups/04_major_trend_reversal.md)
-- [接受、失望与失败证据](../../learning/03_order_flow/00_acceptance_and_failure.md)
-- [Scalp 与 Swing](../../learning/06_trade_management/01_scalp_vs_swing.md)
+- [Final Flags](../../core/04_patterns/05_final_flags.md)
+- [Major Trend Reversal](../../core/05_setups/04_major_trend_reversal.md)
+- [接受、失望与失败证据](../../core/03_order_flow/00_acceptance_and_failure.md)
+- [Scalp 与 Swing](../../core/06_trade_management/01_scalp_vs_swing.md)

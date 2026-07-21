@@ -86,7 +86,7 @@
 ## 常见误读
 
 - 只数收盘没有触及均线，而忽略影线已经触及；
-- 把“大约二十根”的学习线索随意改成十几根；
+- 把“大约二十根”的经验线索随意改成十几根；
 - 首次触及 K 线收盘不合格，却等待下一根重新命名为首次信号；
 - 市场已经围绕均线双向交易，仍引用此前的长时间序列；
 - 用均线位置作为机械止损。
@@ -107,9 +107,9 @@
 4. 止损是否使用完整回调极值？
 5. 是否因目标太近而临场更换目标？
 
-## 相关学习
+## 概念关联
 
-- [Gaps](../../learning/04_patterns/07_gaps.md)
-- [趋势和通道](../../learning/01_market_cycle/01_trends_and_channels.md)
-- [趋势延续 Setup](../../learning/05_setups/01_trend_continuation.md)
-- [从 Setup 到交易计划](../../learning/06_trade_management/00_trade_plan.md)
+- [Gaps](../../core/04_patterns/07_gaps.md)
+- [趋势和通道](../../core/01_market_cycle/01_trends_and_channels.md)
+- [趋势延续 Setup](../../core/05_setups/01_trend_continuation.md)
+- [从 Setup 到交易计划](../../core/06_trade_management/00_trade_plan.md)
