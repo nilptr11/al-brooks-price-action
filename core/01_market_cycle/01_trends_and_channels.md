@@ -6,11 +6,15 @@
 
 ## 定义
 
-趋势是市场持续寻找更高或更低价格。一方控制明显，回调较弱，反方尝试经常失败。Breakout 和 channel 都属于 trend；channel 不是离开 trend 后的另一种基础市场。
+趋势是市场持续寻找更高或更低价格。一方控制明显，回调较弱，反方尝试经常失败。获接受的 breakout phase（spike）和 channel 都属于 trend；channel 不是离开 trend 后的另一种基础状态，单个 breakout event / attempt 也不自动建立 trend。
 
-通道是 trend 的一种带方向形态。通道越紧，越接近 breakout；通道越宽，越接近倾斜的 trading range。强弱不能只看两条通道线的距离，还要看回调持续时间和深度、K 线重叠、缺口，以及逆势方能否赚钱。
+通道是 trend 的一种带方向形态。通道越紧，越接近 breakout phase（spike）；通道越宽，越接近倾斜的 trading range。强弱不能只看两条通道线的距离，还要看回调持续时间和深度、K 线重叠、缺口，以及逆势方能否赚钱。
 
-在连续谱上，breakout 几乎没有 pullback；紧通道的回调通常只有 1—3 根，重叠少，常见缺口、微缺口或近似缺口；宽通道的回调常持续 3—10 根，重叠多，双边都能走出可交易的腿；trading range 中多空接近平衡。这里的数字用于识别典型结构，不是机械阈值。
+在连续谱上，获接受的 breakout phase（spike）几乎没有 pullback；紧通道的回调通常只有 1—3 根，重叠少，常见缺口、微缺口或近似缺口；宽通道的回调常持续 3—10 根，重叠多，双边都能走出可交易的腿；trading range 中多空接近平衡。这里的数字用于识别典型结构，不是机械阈值。
+
+## Pullback 与 Leg
+
+Pullback 是当前运动中的暂停或暂时反向运动，原方向恢复仍是当时有效的基础预期；反向运动获得足够接受并改变 market-cycle 判断后，就不能继续只称为原趋势的 pullback。Leg 是较大结构中一段具有方向的运动，可以属于趋势、通道、交易区间或修正过程，不自动构成独立 trend。
 
 ## 趋势中的交易含义
 
@@ -29,6 +33,12 @@
 通道同时有趋势和区间特征。顺势交易仍可成立，但逆势 scalper 也开始有机会。
 
 通道后期回调常会加深，双边 K 线也会增加，使结构沿连续谱向宽通道或交易区间移动。通道线 overshoot、趋势线突破、旧极值回探失败等更完整的转换线索统一见[高潮和状态转换](04_climax_and_transition.md)；这些事实只说明趋势可能变弱，不单独构成反转。
+
+## 回调深度与 50% 参考
+
+50% 回调是观察控制权和回调深度的参考。强趋势中，回调不到一半就恢复，说明趋势方仍强；回调超过一半并形成双边交易，说明趋势质量下降。
+
+50% 不是机械支撑阻力，也不是单独改变 market-cycle 判断的阈值。
 
 ## Small Pullback Trend 和 Micro Channel
 
@@ -50,4 +60,4 @@
 ## 相关来源
 
 - [`SRC-GLOSSARY`](../../reference/official_sources.md)：trend、channel、tight channel 等最低定义。
-- [`SRC-STRONG-LEGS-2016`](../../reference/official_sources.md)：breakout、紧通道、宽通道与交易区间的连续谱对照。
+- [`SRC-STRONG-LEGS-2016`](../../reference/official_sources.md)：获接受的 breakout phase（spike）、紧通道、宽通道与交易区间的连续谱对照。

@@ -33,7 +33,7 @@
 | Major trend reversals | 可执行策略 | 同一 MTR 过程分为[旧极值测试失败后的第二次反向信号入场](../strategy/reversal/mtr_old_extreme_test_failure.md)与[强反向突破、跟进后的第一次回调信号入场](../strategy/reversal/mtr_confirmed_breakout_pullback.md)两个仓库执行版本 |
 | Final flags | 形态语言与可执行策略 | [最终旗形突破失败后的反转](../strategy/reversal/final_flag_reversal.md) |
 | Breakouts | 市场背景与可执行策略 | 强突破、跟进确认、第一次回测和 failed failure 四条[突破路径](../strategy/breakout/README.md) |
-| High 2 / Low 2 | 形态语言与可执行策略 | [趋势中的第二次恢复入场](../strategy/trend/second_entry_continuation.md) |
+| High 2 / Low 2 | 形态语言与可执行策略 | [趋势中的第二次恢复信号入场](../strategy/trend/second_signal_continuation.md) |
 | Wedges | 形态语言与可执行策略 | 趋势内使用[三推回调](../strategy/trend/wedge_pullback_continuation.md)，趋势末端使用[楔形逆向修正](../strategy/reversal/wedge_correction.md) |
 | Channels | 市场背景 | 用于判断顺势、回调、宽通道转区间或反转环境；不凭“存在通道”独立入场 |
 | Measured moves | 管理原则（目标概念） | 为突破或摆动提供目标候选；投射是 magnet，不保证到达，也不是独立 setup |
@@ -47,12 +47,12 @@
 
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
-| Market cycle | 市场背景 | 先用[如何选择策略](../strategy/how_to_choose.md)区分趋势或交易区间这一基础状态；若是趋势再区分突破或通道，并记录双向等待或反转过程 |
+| Market cycle | 市场背景 | 先用[如何选择策略](../strategy/how_to_choose.md)区分趋势或交易区间这一基础状态；若是趋势再区分获接受的 breakout phase（spike）或 channel，并另外记录 breakout mode、高潮式推进或转换过程 |
 | Trend 与 channel | 市场背景 | 进入趋势延续、突破延续或趋势反转家族；趋势和通道本身不是入场信号 |
 | Trading range | 市场背景 | 使用[成熟区间边缘确认后反转](../strategy/range/range_edge_confirmation.md)、[成熟区间边缘限价试仓与预设加仓](../strategy/range/range_edge_limit_scale_in.md)或[突破失败后回到区间](../strategy/range/failed_breakout_return.md) |
 | Breakout 与接受 | 市场背景与可执行策略 | 使用[强突破收盘后立即跟随](../strategy/breakout/strong_breakout_close.md)、[突破后的跟进确认](../strategy/breakout/breakout_follow_through.md)、[突破后的第一次回测](../strategy/breakout/breakout_first_pullback.md)或[假突破失败后恢复原突破方向](../strategy/breakout/failed_failure_continuation.md) |
 | Breakout mode | 市场背景 | 方向未定；目前只有[严格 ii 双向突破等待](../strategy/breakout_mode/ii_bidirectional_breakout.md)形成独立双向计划 |
-| Climax 与 transition | 市场背景 | 先判断是普通修正、抛物线高潮修正，还是已经发展成主要趋势反转 |
+| Climactic move / possible climax 与 transition | 市场背景 | 实时先记录高潮式推进和转换证据；只有后续市场状态满足 Core 定义才确认 climax，策略选择则区分普通修正、possible-climax 修正和主要趋势反转 |
 | Major trend reversal | 可执行策略 | 两条路径都先要求通道或主要趋势线突破，以及旧趋势恢复测试旧极值的过程；旧极值实际测试失败并形成第二次反向信号时可用[测试失败信号版本](../strategy/reversal/mtr_old_extreme_test_failure.md)，其后再出现强反向突破、跟进和第一次回调时才进入[突破回调信号版本](../strategy/reversal/mtr_confirmed_breakout_pullback.md) |
 
 ## 趋势延续主题
@@ -60,7 +60,7 @@
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
 | H1/L1 | 形态语言与可执行策略 | 强趋势第一次浅回调使用[强趋势中的第一次小回调](../strategy/trend/first_small_pullback.md) |
-| H2/L2 与 second entry | 形态语言与可执行策略 | 趋势背景完整时使用[趋势中的第二次恢复入场](../strategy/trend/second_entry_continuation.md) |
+| H2/L2 与 second signal | 形态语言与可执行策略 | 趋势背景完整时使用[趋势中的第二次恢复信号入场](../strategy/trend/second_signal_continuation.md) |
 | Wedge pullback | 形态语言与可执行策略 | 三推是逆趋势回调且上层趋势仍完整时，使用[趋势中的三推回调](../strategy/trend/wedge_pullback_continuation.md) |
 | 第一次 moving-average gap bar | 形态语言与可执行策略 | 使用[第一次均线缺口回调](../strategy/trend/first_ma_gap_pullback.md) |
 | 长期不触均线后的第一次测试 | 可执行策略 | 使用[长期远离均线后的第一次测试](../strategy/trend/first_ma_test_after_long_gap.md) |
@@ -71,8 +71,8 @@
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
 | 普通 wedge reversal | 形态语言与可执行策略 | 使用[普通楔形后的逆向修正](../strategy/reversal/wedge_correction.md)，先预期修正而不是自动预期新趋势 |
-| Parabolic climax | 市场背景与可执行策略 | 使用[抛物线高潮后的逆向修正](../strategy/reversal/parabolic_climax_correction.md) |
-| Final flag | 形态语言与可执行策略 | 延续突破先失败并反向触发时，使用[最终旗形突破失败后的反转](../strategy/reversal/final_flag_reversal.md) |
+| Parabolic wedge / possible climax | 市场背景与可执行策略 | 高潮式推进出现该页规定的反向过程后，使用[抛物线式高潮推进后的逆向修正](../strategy/reversal/parabolic_climax_correction.md)；策略条件完整不等于 Core 的 climax 结果已经确认 |
+| Candidate / confirmed final flag | 形态语言与可执行策略 | 先按成熟趋势与位置标记 candidate；延续突破失败并出现反向压力后才确认解释并使用[最终旗形突破失败后的反转](../strategy/reversal/final_flag_reversal.md) |
 | Double top / double bottom | 形态语言 | 根据上层背景服务趋势延续、区间反转或主要趋势反转，不独立形成统一计划 |
 | Failed second entry 与 trap | 形态语言 | 先确认原方向实际失败，再从当前价格重新归入区间、突破或反转策略；不机械反手 |
 
@@ -102,11 +102,11 @@
 
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
-| Stop entry、结构止损与 catastrophe stop | 管理原则 | Stop entry 用于触发计划；structural / price-action stop 放在该页所依赖结构之外，成交表示这项结构 premise 已失效；catastrophe stop 只是更远的安全后盾，premise 可能先失效并要求提前退出，不能等同为实时失效边界 |
+| Stop entry、结构止损与 catastrophe stop | 管理原则 | Stop entry 用于触发计划；structural / price-action stop 放在该页所依赖结构之外，成交表示这项结构 premise 已失效；catastrophe stop 只是更远的安全后盾，不能替代结构止损，是否在结构止损前主动退出由入场前选择的管理分支决定 |
 | Scalp 与 swing | 管理原则 | 在入场前决定，不能成交后因盈亏临时切换 |
 | Scale in | 管理原则 | 只有区间限价策略明确采用预设加仓；其他策略不得临场加仓 |
 | Scale out 与 runner | 管理原则 | 只有具体策略页明确写入时才使用；当前多数基线采用单一目标 |
-| Premise weakening / failure | 管理原则 | 按策略页写明的价格事实处理；premise 可以在 catastrophe stop 触发前失效，主动退出时仍保留保护直到仓位归零；原计划失败后使用[重新判断流程](../strategy/switching_after_failure.md) |
+| Premise weakening / failure | 管理原则 | 新证据始终记录；自适应分支按预写事实主动退出，固定审计分支不临场新增视觉退出，执行安全异常则始终优先处理。主动退出时仍保留保护直到仓位归零；原计划失败后使用[重新判断流程](../strategy/switching_after_failure.md) |
 | Trader's Equation、仓位和风险心理 | 管理原则 | 每次计划都要结合真实止损、目标、成本和个人风险边界 |
 | 订单、部分成交、保护与异常 | 执行原则 | 统一使用[执行手册](../execution/execution_manual.md) |
 | 历史回放、模拟与实盘 | 执行原则 | 三种环境使用相同策略条件，差异见[执行环境](../execution/execution_modes.md) |

@@ -2,7 +2,7 @@
 
 > **状态：Core / Application**
 >
-> 本文只说明怎样把 breakout event 与 acceptance evidence 组成延续交易命题。
+> 本文只说明怎样把 breakout event 与 acceptance evidence 组成不可直接执行的延续交易原型；具体进入时点和订单规则由策略页实例化。
 
 ## 交易命题
 

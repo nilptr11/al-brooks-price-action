@@ -2,7 +2,7 @@
 
 > **状态：Core / Application**
 >
-> 本文只说明趋势延续区别于其他 Setup 的 premise、结构和结果预期。
+> 本文只说明趋势延续原型区别于其他 Setup 的 premise、抽象触发类别、失效结构和结果预期；它不能直接生成订单计划。
 
 ## 交易命题
 
@@ -24,7 +24,7 @@
 - 位置保留到现实 magnet 的空间。
 - H2/L2、wedge pullback 或 double bottom/top flag 只组织回调和触发，不单独证明趋势仍在。
 
-趋势延续常使用 stop entry 越过 prospective signal bar。H1/H2/L1/L2 的计数见[形态页](../04_patterns/02_h1_h2_l1_l2.md)，second entry 的实际触发边界见[接受与订单逻辑专题](../03_acceptance_and_order_logic/03_second_entries_and_traps.md)。
+趋势延续常使用 stop entry 越过 prospective signal bar。H1/H2/L1/L2 的几何计数见[形态页](../04_patterns/02_h1_h2_l1_l2.md)；第二次候选怎样构成 second signal，以及何时才属于实际 second entry，见[接受与订单逻辑专题](../03_acceptance_and_order_logic/03_second_entries_and_traps.md)。
 
 ## Premise 失效与 Stop 差异
 

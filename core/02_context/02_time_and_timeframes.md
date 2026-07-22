@@ -1,8 +1,8 @@
 # 周期与时段 Context
 
-> **状态：Core / Application**
+> **状态：Core / Definition**
 >
-> 本文只说明 context 的辅助维度。具体时段特征会因市场而异；没有当前品种样本支持时，不把经验倾向写成固定规则。
+> 本文是周期分工、实时 session state、最终日型与开盘概念的权威定义页，并说明它们怎样进入 Context。具体时段倾向会因市场而异；没有当前品种样本支持时，不把经验倾向写成固定规则。
 
 ## 多周期如何分工
 
@@ -39,10 +39,10 @@
 ## 开盘最低概念
 
 - **Opening range**：预先定义的开盘窗口内形成的高低范围；窗口与边界必须使用当时数据，不能在收盘后按最好看的范围重画。
-- **Opening-range breakout**：价格离开 opening range；是否获得接受仍看收盘、跟进、回踩和旧区域是否被重新接受，单次刺穿不够。
+- **Opening-range breakout**：价格离开 opening range，首先只构成 breakout event / attempt；是否获得接受仍看收盘、跟进、回踩和旧区域是否被重新接受，单次刺穿不够。
 - **Trend from the open**：开盘后很快形成方向，初始极值在随后许多根中保持，且没有真正 pullback；它比普通 trend day 更强调趋势从 session 开始阶段形成。
 - **Opening reversal**：开盘后的初始方向在已知支撑、阻力或旧价格区域附近失去接受，随后形成反向路径。它可能与 double top/bottom、wedge 或 failed breakout 重叠，但名称本身不构成交易许可。
 
-Opening gap 只说明开盘重新定价，不预设当天方向；opening gap 与 gap reversal 的最低定义见[缺口专题](../04_patterns/07_gaps.md)，新价格是否获得接受见[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。开盘仍先判断初始运动是 trend、trading range 还是 breakout mode，再结合 session open、前一时段高低点、较大周期位置和 follow-through 更新判断。
+Opening gap 只说明开盘重新定价，不预设当天方向；opening gap 与 gap reversal 的最低定义见[缺口专题](../04_patterns/07_gaps.md)，新价格是否获得接受见[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。开盘仍先判断基础状态是 trend 还是 trading range；若为 trend，再判断当前主要是获接受的 breakout phase（spike）还是 channel，同时另外记录 breakout mode、climactic move 和 transition evidence，并结合 session open、前一时段高低点、较大周期位置和 follow-through 更新判断。
 
 相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。

@@ -28,10 +28,10 @@ TBTL 是 `Ten Bars, Two Legs correction`。它常用于 major trend reversal、f
 
 ## 边界检查
 
-决定 scalp 还是 swing 时，不要只看形态名称，而要看概率、止损距离和目标空间：
+决定 scalp 还是 swing 时，不要只看形态名称。高低概率怎样交换 entry、risk 与 reward 统一回到 [Trader's Equation](../00_method/01_probability_risk_reward.md#40–60-思维)；本页只检查这种交换怎样改变管理方式：
 
-- 高概率交易常用较差入场、更远止损或较小相对回报换取确定性，更容易变成 scalp 或小 swing。
-- 低概率交易必须有更大目标空间补偿，不能用小目标管理低概率入场。
+- Scalp 的目标较小；若目标小于风险，原 Setup 必须提供足以支持这种管理的概率，不能只因目标近就选择 scalp。
+- Swing 必须有容纳正常 pullback 的 stop 和现实的远端目标；较低概率入场不能在成交后改用 scalp 小目标。
 - 强突破可以提高概率，但直接追随时结构止损常更远，剩余目标也可能被压缩。
 - MTR 在旧极值测试失败后、强反向突破形成前的入场通常概率较低，必须有完整反向 swing 空间和有利的 Trader's Equation；TBTL 不能替代价格目标或数学。
 

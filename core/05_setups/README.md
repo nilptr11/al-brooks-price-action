@@ -2,13 +2,13 @@
 
 > **状态：Core / Index**
 >
-> 本页说明 Setup 专题的职责和文件入口，不把示例家族宣称为穷尽分类。
+> 本页说明不可直接执行的 Setup 原型及其文件入口，不把示例家族宣称为穷尽分类。
 
 ## 职责
 
-本目录负责说明 Pattern 何时在具体 Context 中成为可执行的交易命题，并比较几类常见价格行为预期。
+本目录负责说明 Pattern 何时在具体 Context 中成为可被策略实例化的抽象交易命题，并比较几类常见价格行为预期。
 
-Setup 负责 premise、入场依据、特有失效边界、可用的 stop 结构锚点和直接结果预期。它不独自确定最终订单价格、仓位或成交后完整管理；通用目标理论属于 [Context](../02_context/01_support_resistance_targets.md)，概率约束属于 [Trader's Equation](../00_method/01_probability_risk_reward.md)，完整闭环属于 [Trade Plan](../06_trade_plan_and_management/00_trade_plan.md)。
+Setup 原型负责 premise、抽象触发类别、特有失效边界、stop 所需否定的结构和直接结果预期。它不提供可直接下单的完整条件，也不确定最终订单价格、根数窗口、仓位或成交后管理；这些实例化规则属于[策略手册](../../strategy/README.md)。通用目标理论属于 [Context](../02_context/01_support_resistance_targets.md)，概率约束属于 [Trader's Equation](../00_method/01_probability_risk_reward.md)，计划 schema 属于 [Trade Plan](../06_trade_plan_and_management/00_trade_plan.md)。
 
 Second entry 和 trap 是触发顺序与失败机制，不是第五个 Setup 家族；其定义见[二次入场和陷阱](../03_acceptance_and_order_logic/03_second_entries_and_traps.md)。
 

@@ -2,13 +2,13 @@
 
 > **状态：Core / Index**
 >
-> 本页说明交易计划专题的职责和文件入口，不重新定义上游市场状态、形态或 Setup。
+> 本页说明 Trade Plan schema、通用管理、数量风险和行为纪律的职责及文件入口，不实例化策略，也不重新定义上游市场状态、形态或 Setup。
 
 ## 职责
 
-本目录把 premise、entry、protective stop、profit target、position size 和 management 固化成同一笔交易，并说明成交后怎样按新价格事实更新判断。
+本目录定义怎样把 premise、entry、protective stop、profit target、position size 和 management 固化成同一笔交易的通用 schema，并说明成交后怎样按新价格事实更新判断、怎样控制数量风险与行为偏差。
 
-Setup 定义“交易什么”；Trade Plan 定义“用哪套一致的风险与管理方案交易”。
+Setup 原型定义“准备交易哪类价格行为”；Trade Plan schema 定义“一份实例必须用哪套一致的风险与管理字段表达”；[策略手册](../../strategy/README.md)才提供具体实例。
 
 ## 文件
 
