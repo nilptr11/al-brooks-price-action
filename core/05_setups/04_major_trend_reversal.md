@@ -28,6 +28,8 @@ Higher high、lower high、lower low 和 higher low MTR 只是旧极值测试的
 
 40% 与 60% 是这一特定风险交换的典型范围，不是固定胜率。两个时点必须形成两份 Trade Plan，不能拼接前者的 entry、后者的概率和基于候选 K 线的更窄 stop。
 
+确认后的强反向 breakout 也可以同时归入[突破延续 Setup](02_breakout_continuation.md)：MTR 描述旧趋势失控与旧极值测试，突破延续描述新方向在边界外获得接受。两页是同一过程的不同职责视角，不是互斥分类。
+
 ## Premise 失效与 Stop 差异
 
 牛转熊 premise 是原牛趋势已经失去控制，旧高测试失败，空头将建立至少一个可持续 swing。价格重新越过并接受旧趋势极值，或原趋势以强 breakout 和 follow-through 恢复控制时，premise 失效；熊转牛镜像。

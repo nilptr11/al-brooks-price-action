@@ -65,7 +65,7 @@
 
 ### 反方失败后恢复原方向
 
-一次突破先被拒绝，但拒绝过程随后失败，价格重新接受原突破方向。只有[假突破失败后恢复原突破方向](breakout/failed_failure_continuation.md)完整成立时，才建立新计划。
+一次收盘突破短期收回旧区域，随后原方向再次获得收盘接受。只有[收盘突破被拒绝后再次接受原方向](breakout/failed_failure_continuation.md)这一仓库 failed-failure 子型完整成立时，才建立新计划。
 
 ## 常见错误
 

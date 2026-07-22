@@ -26,6 +26,8 @@ Breakout 的最低定义和强度线索见[突破和突破模式](../01_market_c
 
 两种版本是两份不同 Trade Plan，必须分别使用自己的 entry、stop、概率和 target。
 
+强反向 breakout 也可能同时完成一个 [MTR](04_major_trend_reversal.md) 的确认。两类标签不互斥：MTR 解释旧趋势怎样失控并完成旧极值测试，本页解释新方向怎样在边界外获得接受并延续；不能因为使用其中一个标签而省略另一段证据。
+
 ## Premise 失效与 Stop 差异
 
 多头 premise 是旧边界上方的新价格获得接受。单纯回测突破点不构成失败；价格明确回到旧区域并在其中获得反向跟进时，延续 premise 才失效。空头镜像。
@@ -38,7 +40,7 @@ Breakout 的最低定义和强度线索见[突破和突破模式](../01_market_c
 
 ## 结果与目标差异
 
-Breakout 的最低预期只是继续一点；强 breakout 才常支持至少第二腿或 measured move。量度对象必须在当时可见并固定，例如被突破区间/形态的高度、清楚 breakout leg 的大小，或回调后的 Leg 1 = Leg 2。
+Breakout 的最低定义只确认价格越过边界，本身不承诺固定延续距离。强 breakout 才常支持至少第二腿或 measured move。量度对象必须在当时可见并固定，例如被突破区间/形态的高度、清楚 breakout leg 的大小，或回调后的 Leg 1 = Leg 2。
 
 Gap、body gap 和 micro measuring gap 主要提供强度与接受证据，只有同时构成清楚支撑阻力或量度参照时才进入目标计算。通用投射方法和目标区域边界见[支撑阻力与目标](../02_context/01_support_resistance_targets.md)。
 

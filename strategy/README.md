@@ -11,7 +11,7 @@
 选择策略前，先用当时可见的信息回答：
 
 1. 基础状态更接近趋势还是交易区间，还是暂时看不清？
-2. 如果是趋势，当前更像获接受的 breakout phase（spike）还是 channel；机会来自趋势内回调，还是成熟趋势的控制权转移？
+2. 如果是趋势，当前更像已形成方向控制的 breakout phase（spike）还是 channel；机会来自趋势内回调，还是成熟趋势的控制权转移？
 3. 如果是区间，当前是边缘交易、双向等待还是已经出现突破过程？区间中部通常不选择区间反转策略。
 4. 当前是否处于开盘或尾盘覆盖窗口，因而必须先检查时段页特有的截止时间、目标和退出要求？
 5. 前方空间、合理止损和成本是否允许形成一份完整计划？
@@ -20,7 +20,7 @@
 
 ## 时段页是覆盖层，不是规避入口
 
-趋势与交易区间是基础状态；获接受的 breakout phase（spike）或 channel 细化趋势阶段，breakout mode、双向等待和趋势反转过程则作为叠加信息或控制权转移线索。开盘与尾盘页在这些判断之上增加时间、目标和剩余风险约束。进入预先写定的开盘或尾盘窗口时，先检查[开盘与尾盘覆盖层](opening/README.md)，再决定当前机会是否还能进入普通策略家族。
+趋势与交易区间是基础状态；形成方向控制的 breakout phase（spike）或 channel 细化趋势阶段，breakout mode、双向等待和趋势反转过程则作为叠加信息或控制权转移线索。时段页在这些判断之上增加时间、目标和剩余风险约束。进入预先写定的开盘或尾盘窗口时，先检查[开盘与尾盘覆盖层](session/README.md)，再决定当前机会是否还能进入普通策略家族。
 
 - 同一个底层交易机会同时落入时段页和普通页时，使用时段页。“同一个”指普通页拟议入场与时段候选依赖同一参照事件、预先边界和方向；即使等待的信号或入场时点不同，仍是同一机会。时段页的截止时间、目标和退出要求优先，不得选择普通趋势、突破、区间或反转页绕过这些约束。
 - 时段覆盖从具体页面规定的候选起点开始，只持续到该候选或计划被拒绝、失效、过期、未成交或结束；仅仅处于开盘或尾盘窗口，不会锁定无关的普通机会。一次只保留一项活动候选或计划。同一底层机会若同时满足两张时段页，而主要交易前提无法唯一确定，就继续等待或放弃，不用更有利的名称替自己选择。
@@ -31,9 +31,9 @@
 
 ## 策略共同基线
 
-[策略共同规则](common_rules.md)是页面基线目标、实际退出价格、计划冻结、净 R、等待失效和仓库管理分支的唯一权威位置。全部正式策略页继承这套基线；具体策略页只有明确写出时才可采用更严格要求或局部覆盖。
+[策略共同规则](common_rules.md)是页面基线目标、实际退出价格、计划冻结、净 R、等待失效和管理口径的唯一权威位置。全部正式策略页继承这套基线；具体策略页只有明确写出时才可采用更严格要求或局部覆盖。
 
-仓库选择结构保护止损和单一实际全量退出价格作为固定管理分支。价格行为概念回到 `core/`，订单回执、成交、仓位与保护等安全事实始终回到[执行手册](../execution/execution_manual.md)，不受策略层覆盖。
+仓库选择结构保护止损和单一实际全量退出价格作为固定订单基线，标准计划仍保留预写的 premise-change 主动退出；`mechanical_only` 只能作为独立研究变体。价格行为概念回到 `core/`，订单回执、成交、仓位与保护等安全事实始终回到[执行手册](../execution/execution_manual.md)，不受策略层覆盖。
 
 ## 趋势延续
 
@@ -43,9 +43,9 @@
 | --- | --- |
 | [强趋势中的第一次小回调](trend/first_small_pullback.md) | 趋势很强，第一次浅回调后立即恢复 |
 | [趋势中的第二次恢复信号入场](trend/second_signal_continuation.md) | 第一次恢复没有延伸，第二段回调后再次出现恢复候选信号 |
-| [趋势中的三推回调](trend/wedge_pullback_continuation.md) | 反趋势回调形成三推，但上层趋势仍完整 |
-| [第一次均线缺口回调](trend/first_ma_gap_pullback.md) | 强趋势第一次深回调穿过均线，整根 K 线位于均线反趋势一侧后恢复 |
-| [长期远离均线后的第一次测试](trend/first_ma_test_after_long_gap.md) | 很长一段时间未触均线后，首次测试均线并恢复 |
+| [趋势中的三推或楔形回调](trend/wedge_pullback_continuation.md) | 反趋势回调形成三推，但上层趋势仍完整 |
+| [强趋势第一次均线缺口回调](trend/first_ma_gap_pullback.md) | 强趋势第一次深回调穿过均线，整根 K 线位于均线反趋势一侧后恢复 |
+| [长时间不触均线后的第一次测试](trend/first_ma_test_after_long_gap.md) | 很长一段时间未触均线后，首次测试均线并恢复 |
 | [第二次均线缺口回调](trend/second_ma_gap_pullback.md) | 首次均线缺口棒后，第一次朝均线反转未触及、再次远离，随后第二次朝均线反转 |
 
 ## 突破延续
@@ -55,9 +55,9 @@
 | 策略 | 最适合解决的问题 |
 | --- | --- |
 | [强突破收盘后立即跟随](breakout/strong_breakout_close.md) | 突破本身已经足够强，不等待下一根确认 |
-| [突破后的跟进确认](breakout/breakout_follow_through.md) | 等待下一根 K 线仍在旧边界外，且收盘沿突破方向超过突破 K 线收盘 |
+| [紧接突破的一根延伸收盘确认](breakout/breakout_follow_through.md) | 只交易 follow-through 中紧接一根、边界外且收盘进一步延伸的仓库严格子型 |
 | [突破后的第一次回测](breakout/breakout_first_pullback.md) | 突破已经被接受，第一次回踩守住边界后恢复 |
-| [假突破失败后恢复原突破方向](breakout/failed_failure_continuation.md) | 突破先被拒绝，但拒绝过程随后失败 |
+| [收盘突破被拒绝后再次接受原方向](breakout/failed_failure_continuation.md) | 外侧收盘短期收回旧区后，原方向再次获得收盘接受 |
 
 ## 交易区间
 
@@ -81,9 +81,9 @@
 
 ioi、oo、三角形和一般紧区间继续作为形态语言。它们可以在突破后进入相应突破策略，但目前不与 ii 共用一套双向订单计划。
 
-## 趋势反转
+## 逆向修正与主要趋势反转
 
-[趋势反转家族说明](reversal/README.md)
+[逆向修正与主要趋势反转家族说明](reversal/README.md)
 
 | 策略 | 最适合解决的问题 |
 | --- | --- |
@@ -91,18 +91,18 @@ ioi、oo、三角形和一般紧区间继续作为形态语言。它们可以在
 | [MTR：强反向突破与跟进后的第一次回调信号入场](reversal/mtr_confirmed_breakout_pullback.md) | 保留完整 MTR 前序，再等待强反向突破、跟进和第一次完整回调 |
 | [普通楔形后的逆向修正](reversal/wedge_correction.md) | 成熟趋势出现三推，先交易一段修正而不是预设新趋势 |
 | [抛物线式高潮推进后的逆向修正](reversal/parabolic_climax_correction.md) | 趋势末端的 possible climax 出现该页规定的反向过程后交易获利回吐 |
-| [最终旗形突破失败后的反转](reversal/final_flag_reversal.md) | 趋势末端的 candidate final flag 顺势突破失败并反向触发 |
+| [最终旗形突破失败后的逆向修正](reversal/final_flag_reversal.md) | 趋势末端的 candidate final flag 顺势突破失败并形成反向 result evidence |
 
 ## 开盘与尾盘覆盖层
 
-[开盘与尾盘覆盖说明](opening/README.md)
+[时段覆盖说明](session/README.md)
 
 | 策略 | 最适合解决的问题 |
 | --- | --- |
-| [开盘测试前一交易日极值后的二次反转](opening/opening_previous_extreme_reversal.md) | 开盘初始方向在已知磁铁位附近失败并二次反转 |
-| [开盘区间突破并获得接受](opening/opening_range_breakout.md) | 开盘区间被强势突破并继续留在边界外 |
-| [开盘趋势中的第一次回调](opening/opening_trend_first_pullback.md) | 开盘很快形成趋势，第一次可交易回调后恢复 |
-| [尾盘区间向开盘价回归](opening/late_session_open_magnet.md) | 尾盘仍为区间，开盘价是可达磁铁位 |
+| [开盘测试前一交易日极值后的二次反转](session/opening_previous_extreme_reversal.md) | 开盘初始方向在已知磁铁位附近失败并二次反转 |
+| [固定前三十分钟范围突破并获得接受](session/opening_range_breakout.md) | 仓库固定的开盘时钟范围被强势突破并继续留在边界外 |
+| [开盘趋势中的第一次回调](session/opening_trend_first_pullback.md) | 开盘很快形成趋势，第一次可交易回调后恢复 |
+| [尾盘区间向开盘价回归](session/late_session_open_magnet.md) | 尾盘仍为区间，开盘价是可达磁铁位 |
 
 ## 同一次机会只选择一项
 

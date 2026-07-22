@@ -27,7 +27,7 @@
 
 日内结构仍使用同一套 market-cycle 语言，只是观察窗口被预先定义为一个 session。盘中只能描述**截至当时**的状态；最终 day type 是时段结束后的结果标签，不能反向参与候选、入场或管理判断。
 
-最低区分如下：
+为避免盘中用最终 day type 回填，本仓库采用以下实时状态与结果标签分工。课程和 glossary 支持各标签及其行为，但这四项是仓库整理的检查框架，不宣称是 Brooks 给出的固定、互斥且穷尽的 day-type 清单：
 
 - **Trend session / trend day**：一方在 session 的主要部分保持控制，真实但受控的回调不自动否定趋势。
 - **Trading-range session / range day**：价格在 session 内围绕公平区域反复双向测试；单条腿可以很强，不能因此提前把全天改写成趋势日。
@@ -43,6 +43,6 @@
 - **Trend from the open**：开盘后很快形成方向，初始极值在随后许多根中保持，且没有真正 pullback；它比普通 trend day 更强调趋势从 session 开始阶段形成。
 - **Opening reversal**：开盘后的初始方向在已知支撑、阻力或旧价格区域附近失去接受，随后形成反向路径。它可能与 double top/bottom、wedge 或 failed breakout 重叠，但名称本身不构成交易许可。
 
-Opening gap 只说明开盘重新定价，不预设当天方向；opening gap 与 gap reversal 的最低定义见[缺口专题](../04_patterns/07_gaps.md)，新价格是否获得接受见[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。开盘仍先判断基础状态是 trend 还是 trading range；若为 trend，再判断当前主要是获接受的 breakout phase（spike）还是 channel，同时另外记录 breakout mode、climactic move 和 transition evidence，并结合 session open、前一时段高低点、较大周期位置和 follow-through 更新判断。
+Opening gap 只说明开盘重新定价，不预设当天方向；opening gap 与 gap reversal 的最低定义见[缺口专题](../04_patterns/07_gaps.md)，新价格是否获得接受见[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。开盘仍先判断基础状态是 trend 还是 trading range；若为 trend，再判断当前主要是已形成方向控制的 breakout phase（spike）还是 channel，同时另外记录 breakout mode、climactic move 和 transition evidence，并结合 session open、前一时段高低点、较大周期位置和 follow-through 更新判断。
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-OPENING-REVERSALS-2017` 与 `SRC-PATTERNS-OPEN-2018`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-OPENING-REVERSALS-2017`、`SRC-PATTERNS-OPEN-2018`、`SRC-COURSE-01-36`（课程 04 p271–276、19A p1630）与 `SRC-COURSE-37-52`（课程 48A–48C p891–937）。

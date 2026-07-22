@@ -41,6 +41,8 @@ Moving-average gap bar 的最低几何定义见 [Gaps](../04_patterns/07_gaps.md
 
 第一次朝均线的反转若未能触及均线、价格又远离，下一次朝均线的反转可称 second moving-average gap bar setup。它仍需趋势强度、具体触发和可承担的 stop 支持，不是机械均线挂单规则。
 
+这些用法首先描述原趋势对旧极值的最后测试；若测试随后失败并形成趋势线破坏、旧极值测试和反方触发，它又会成为 [MTR](04_major_trend_reversal.md) 的背景。前后阶段可以出现在同一段行情中，但不能把首次均线测试本身提前命名为完整 MTR。
+
 ## 结果与目标差异
 
 H2/L2、wedge flag 和 double bottom/top flag 的直接预期只是原趋势恢复。它们可能按 scalp 管理；趋势仍强且空间足够时才支持 swing。Moving-average gap bar 的上述特定语境则直接支持“测试旧趋势极值”的预期。

@@ -19,7 +19,7 @@ Pattern 是对一组可观察价格行为及其几何或顺序关系的命名，
 - 常见 market-cycle 与 location 语境。
 - 哪些后续证据支持或削弱当前解释。
 
-形态专题不为名称附加固定 stop、target、概率或管理方式。这些内容只有在具体 Context 和交易命题中才成立。
+形态名称本身不生成固定 stop、target 或管理方式。课程若明确给出带事件、分母和 Context 的条件先验，可以在形态页登记并链接概率台账；这种先验仍不等于交易许可，实际概率、风险与管理必须回到具体 Context、Setup 和 Trade Plan。
 
 ## 与 Setup 的边界
 

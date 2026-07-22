@@ -50,4 +50,4 @@ Second entry / trap 本身不规定 protective stop、profit target 或管理方
 
 ## 相关来源
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-TREND-CHANNELS`、`SRC-TRADING-RANGES`、`SRC-STRONG-LEGS-2016`、`SRC-MTR-2025` 与 `SRC-PATTERNS-OPEN-2018`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-TREND-CHANNELS`、`SRC-TRADING-RANGES`、`SRC-STRONG-LEGS-2016`、`SRC-MTR-2025`、`SRC-PATTERNS-OPEN-2018`、`SRC-COURSE-01-36`（课程 08D–09A）与 `SRC-COURSE-37-52`（课程 50D–51D）。

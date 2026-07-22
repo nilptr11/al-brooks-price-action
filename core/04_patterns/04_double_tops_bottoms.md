@@ -17,27 +17,16 @@
 - 熊趋势中的双顶可能是 double top bear flag。
 - 牛趋势中的双底可能是 double bottom bull flag。
 
-## Double Top Bear Flag
+## Double Top / Bottom Flag
 
-双顶熊旗是熊趋势中的反弹两次测试高位后失败。它是趋势延续语境下的双顶。
+Double top bear flag 与 double bottom bull flag 是同一延续逻辑的双向镜像：
 
-判断重点：
+| 当前控制 | Pullback 测试 | 失败事实 | 延续证据 |
+| --- | --- | --- | --- |
+| 熊趋势仍偏空 | 反弹两次测试近似高位 | 第二次测试不能改变空头控制 | 空头恢复并获得跟进 |
+| 牛趋势仍偏多 | 回调两次测试近似低位 | 第二次下探没有破坏多头结构 | 多头恢复并获得跟进 |
 
-- 背景是否仍偏空。
-- 反弹是否无法改变控制权。
-- 第二次测试是否失败。
-- 下方是否有足够目标空间。
-
-## Double Bottom Bull Flag
-
-双底牛旗是牛趋势中的回调两次测试低位后失败。它是趋势延续语境下的双底。
-
-判断重点：
-
-- 背景是否仍偏多。
-- 回调是否没有破坏趋势。
-- 第二次下探是否失败。
-- 多头恢复后是否有跟进。
+前者称 double top bear flag，后者称 double bottom bull flag。表格保留完整多空镜像，但不重复两套同构判断清单；实际 target space、stop 和管理由 Setup 与 Trade Plan 决定。
 
 ## Micro Double Top / Bottom
 

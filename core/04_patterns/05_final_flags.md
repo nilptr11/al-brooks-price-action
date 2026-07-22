@@ -6,13 +6,19 @@
 
 ## 定义
 
-趋势已经走远、动能衰减且双边交易增加时，最后一段看起来仍像普通 continuation pattern 的顺势整理，可以在实时标记为 **candidate final flag**。
+任何趋势，包括交易区间内的一段小趋势腿，都可能由某个 flag 终结；flag 可以小至一根。实时看到的只能先标记为 **candidate final flag**。趋势晚段、接近 magnet、高潮推进、动能变化或双边交易增加会提高这种怀疑，但不是最低定义。
 
-“Final” 带有事后确认成分。只有后续顺势突破或恢复尝试失败，并出现反向强度或退出压力时，才支持 **confirmed final-flag interpretation**；失败证据出现以前，它仍可能只是普通 continuation flag。实时标记候选不是用后来结果重画形态，事后确认也不能反向制造当时不存在的成熟趋势和位置背景。
+`Final` 带有事后确认成分，按下面三种状态记录：
+
+| 状态 | 当时可观察的事实 | 允许的名称 |
+| --- | --- | --- |
+| Candidate | 某段既有趋势中的 flag，仍可能正常延续 | `candidate final flag`，同时保留普通 continuation flag 解释 |
+| Result evidence | 顺势突破或恢复尝试失败，并出现退出压力或反向强度 | 提高 final interpretation，但继续记录实际 follow-through |
+| Hindsight confirmed | 后续结果已经显示该 flag 终结了此前趋势腿 | `confirmed final-flag interpretation`；不能反向制造当时不存在的证据 |
 
 ## 组件
 
-常见组件包括：
+会提高候选可信度、但不是统一最低条件的组件包括：
 
 - 已经存在的趋势。
 - 通常偏横向的回调或整理。
@@ -22,7 +28,7 @@
 
 ## 交易含义
 
-Candidate final flag 先看起来像延续形态；交易者关注顺势尝试失败后是否出现退出压力和反向运动，并只在这些证据出现后确认 final-flag interpretation。
+交易者按上表关注顺势尝试失败后是否出现退出压力和反向运动；在结果证据出现前，不把 `candidate` 升级为 `confirmed`。
 
 候选与确认名称都只提供趋势末端背景。若反向运动只回到均线或公平区域，应按 minor reversal 或区间回归理解；只有控制权转移和反向 swing 空间成立时，才可能升级为 [Major Trend Reversal](../05_setups/04_major_trend_reversal.md)。具体 target 与 [TBTL](../06_trade_plan_and_management/01_scalp_vs_swing.md#tbtl-是时间与腿数预期) 不由 final-flag 名称直接生成。
 
