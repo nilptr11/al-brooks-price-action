@@ -17,8 +17,7 @@
 | [概念索引](concept_index.md) | 01–52 的完整概念关系和课程思想骨架 |
 | [重复矩阵](repetition_matrix.md) | 跨讲重复、合理镜像、递进和可精简位置 |
 | [边界与冲突](boundaries_and_conflicts.md) | 数字冲突、条件张力、数学问题和适用范围 |
-| [核对队列](verification_queue.md) | 后续需要进一步核对的原文、数学和经验命题 |
-| [课程综合与 Core 对齐](course_to_core_alignment.md) | 串联全部 01–52，并逐一检查 Core 31 篇正文的覆盖、差异与调整优先级 |
+| [课程综合与 Core 对齐](course_to_core_alignment.md) | 串联全部 01–52，并说明 Core 31 篇正文的知识职责与内容边界 |
 
 ## 逐讲文件
 

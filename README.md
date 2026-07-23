@@ -29,7 +29,7 @@
 | [core](core/README.md) | 解释市场为什么这样运动，以及概念之间怎样关联 |
 | [strategy](strategy/README.md) | 告诉交易者在特定背景下看到什么、何时行动、何时放弃 |
 | [execution](execution/README.md) | 统一回放、模拟和实盘中的记录、订单安全、结束与复盘 |
-| [reference](reference/README.md) | 保存派生术语速查、正式来源、核心概念覆盖关系与课程审计结果 |
+| [reference](reference/README.md) | 保存派生术语速查、正式来源、课程与 Core 的知识映射及内容边界 |
 
 核心理论不直接发出交易指令；策略页不重新解释基础概念；执行层不替交易者选择策略；参考资料不规定入场动作。同一条规则只在一个权威位置完整说明；其他页面只能保留明确标注的必要摘要或本地应用，并链接权威位置。
 
@@ -43,4 +43,4 @@
 - 实盘不是试验尚未理解规则的环境。账户、品种、风险边界和平台能力没有事先确认时，不进入真实下单。
 - 盈亏只说明市场后来怎样发展，不能替代对判断和执行过程的评价。
 
-仓库中的策略分类和人工执行基线是对 Brooks 概念的整理，不是 Brooks 官方给出的穷尽分类。完整来源见[正式来源台账](reference/official_sources.md)，本轮 01–52 全量核对的范围、结构结论与冲突处理见[课程来源与仓库结构审计](reference/course_source_audit.md)。
+仓库中的策略分类和人工执行基线是对 Brooks 概念的整理，不是 Brooks 官方给出的穷尽分类。完整来源见[正式来源台账](reference/official_sources.md)，01–52 的知识职责与 Core 落点见[课程综合与 Core 对齐](reference/course/course_to_core_alignment.md)，数字、规则和来源表述的限制见[边界与冲突](reference/course/boundaries_and_conflicts.md)。

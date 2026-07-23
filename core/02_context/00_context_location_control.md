@@ -29,11 +29,13 @@ Context 决定一个形态是有意义的交易结构，还是普通噪声。Con
 
 Always In 指市场强到如果交易者被迫在 long 和 short 中选择一边，会对某一方向有足够信心。它常由 spike、连续趋势 K 线、浅回调、反方失败和突破未被快速收回体现。
 
-Always In 不是“永远持仓”、均线方向或单根强 K 线，也不能替代位置、目标和 Trader's Equation。方向不清楚时，应承认市场可能是 trading range、宽通道或 breakout mode，并等待更清楚的价格行为。
+当前几根 K 线方向不清楚时，回看最近一次明确突破：只要该突破仍是当前最主导的价格行为，且尚未被可信反向证据推翻，就继续沿用它建立的 Always In 方向。通常，切换方向需要足够强的反转以及后续跟进；但在强背景中，若单根反转 K 线本身已经强到足以完成控制转移，Always In 也可以立即切换，不必机械等待下一根确认。达不到这一例外强度时，仍应等待跟进。这个回看规则用于避免眼前重叠或短暂止盈掩盖仍有效的控制证据；若后续价格重新接受旧区域、形成足够强的反向突破与必要跟进，方向必须随新证据更新。
+
+Always In 不是“永远持仓”或均线方向，也不能替代位置、目标和 Trader's Equation。单根强 K 线只有在背景与强度共同足以完成控制转移时，才可能直接改变方向；一般情形仍需要后续价格确认。方向判断仍在，不等于交易者必须继续持有：趋势方可以因可信顶部/底部、剩余回报不足或时间风险先止盈，也可以暂时空仓等待新的顺势 Setup。反过来，持有或新开某方向仓位也不能证明该方向已经成为 Always In。若连最近主导突破也不清楚，应承认市场可能是 trading range、宽通道或 breakout mode，并等待更清楚的价格行为。
 
 ## 位置
 
-位置回答“价格在哪里”。同一根候选 K 线出现在不同位置，含义可能完全不同；它是否最终承担 signal bar 角色，要等后续 setup 与真实 entry 判断。
+位置回答“价格在哪里”。同一根候选 K 线出现在不同位置，含义可能完全不同。按课程的计划语境，已经完成并为候选入场提供理由的 K 线可以直接称为 signal bar，不必等待订单触发或真实 entry；审计时再分别记录触发是否形成 `chart entry bar`，以及账户是否成交并形成 `actual fill bar`。两种命名层级的完整边界见 [K 线类型](../04_patterns/01_bar_types.md#signal-bar)。
 
 重要位置包括：
 
@@ -55,4 +57,4 @@ Gap 只有在实质改变位置、接受/拒绝、路径障碍或目标时才进
 
 Context 在重要支撑阻力附近观察价格是加速、停顿、收回还是守住，但不在本页重新定义这些区域。支撑阻力、magnets、路径障碍和目标空间的最低边界见[支撑阻力与目标](01_support_resistance_targets.md)。
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STRONG-LEGS-2016` 与 `SRC-COURSE-01-36`（课程 01 p28–30、02D p124–148、18F p1600–1602）。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STRONG-LEGS-2016`、`SRC-COURSE-01-36`（课程 01 p28–30、02D p124–148、08A–08D p413–509、10A–10B、13A–13C p801–868、18F p1600–1602、19A–19E、21A p1793–1795）与 `SRC-COURSE-37-52`（课程 37A–37B、40A–40C、43A–49E）。

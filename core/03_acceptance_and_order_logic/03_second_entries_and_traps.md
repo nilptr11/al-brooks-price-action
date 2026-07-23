@@ -6,11 +6,15 @@
 
 ## Second Signal 与 Second Entry
 
-Second signal 是同一交易逻辑第二次形成候选触发，但订单尚未成交。Second entry 则要求第一次 entry 已经发生，并在随后数根内基于同一逻辑第二次实际形成 entry bar。
+课程实务会把“等待第二次入场”宽泛用于第二次可交易机会；官方 glossary 则严格区分 second signal 与 second entry。为同时保留两种用法，本仓库记录三个不同事实：
 
-因此，图上“数到二”不必然是 second entry：
+1. **Second signal**：同一交易逻辑第二次形成 signal / 候选触发，结果是否越过触发价仍可未知。
+2. **Second-entry opportunity / chart entry bar**：第一次 entry opportunity 已在价格上触发并形成 chart entry bar，随后数根内同一逻辑再次触发并形成第二根 chart entry bar。Chart entry bar 由既定触发条件第一次被越过或满足定义，不要求观察者下单或亲自参与第一次交易。
+3. **Second actual fill / actual fill bar**：同一执行账户确实获得第二次成交，并记录真实成交所在的 actual fill bar；这是订单与持仓事实，不能从图形名称推定。
 
-- 第一次若从未实际触发，后来出现的是第二个 signal，不是第二次 entry。
+引用课程案例时可以保留其较宽的 `second entry` 原词，但仓库分析必须补充当时实际指 second signal、第二次触发机会，还是账户第二次成交。因而图上“数到二”仍不必然代表严格 glossary second entry：
+
+- 第一次 signal 若从未触发，后来形成的是第二个 signal / 第二次机会，不是严格的第二根 chart entry bar。
 - 第一次触发后可以只是缺乏跟进或正常回撤，不要求先触及 protective stop。
 - 若原 premise 已经失效，后来的触发属于新的 Setup，不能继续沿用原计数。
 
@@ -30,7 +34,7 @@ Trap 不能只凭走势看起来不利就事后命名。实际触发、目标结
 
 ## 继承上层交易命题
 
-Second entry / trap 本身不规定 protective stop、profit target 或管理方式：
+Second signal、second-entry opportunity、second actual fill 和 trap 本身都不规定 protective stop、profit target 或管理方式：
 
 - 趋势延续中的 H2/L2 继承趋势恢复的 premise 与目标逻辑。
 - 区间边缘的 second signal 继承 range-fade 的失效边界和区间内目标。
@@ -43,9 +47,9 @@ Second entry / trap 本身不规定 protective stop、profit target 或管理方
 
 ## 读图检查
 
-- 第一次 entry 是否实际发生？
+- 第一次 signal 是否触发并形成 chart entry bar，账户是否真的成交并形成 actual fill bar？
 - 第一次只是弱跟进、正常回撤，还是原 premise 已失效？
-- 第二次触发是否仍属于同一逻辑？
+- 第二次出现的是 signal、价格触发机会，还是账户实际成交；它是否仍属于同一逻辑？
 - 哪些可观察价格和退出边界支持 trapped-trader 推断？
 - 这个顺序服务于哪一个上层 Setup？
 

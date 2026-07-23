@@ -16,6 +16,20 @@
 
 Pullback 是当前运动中的暂停或暂时反向运动，原方向恢复仍是当时有效的基础预期；反向运动获得足够接受并改变 market-cycle 判断后，就不能继续只称为原趋势的 pullback。Leg 是较大结构中一段具有方向的运动，可以属于趋势、通道、交易区间或修正过程，不自动构成独立 trend。
 
+### Breakout 首次回调、Staircase 与阶段重置
+
+在选定周期上，强 breakout phase 出现第一个可识别 pullback 时，当前这段突破阶段结束并进入 channel 阶段；这不表示整个 trend 结束，也不妨碍市场随后再次形成新的 breakout phase。该边界用于逐段更新当前阶段，而不是把一天或整段趋势永久贴成同一个标签。
+
+若 pullback 穿过或覆盖前一突破点，使相邻突破与回调开始重叠，就形成课程所称的 `staircase`。阶梯仍可沿原趋势延续，但它说明开放空间被关闭、逆势方开始有机会获利，状态正从强突破向通道或 trading range 移动；没有反向突破和跟进时，阶梯本身不确认 opposite trend。
+
+`Shrinking stairs` 是阶梯的弱化序列：连续突破相对前一层的延伸越来越小，趋势方更早止盈，反方更早参与。它增加向 trading range 过渡的证据，却不是按某个固定距离触发的反转信号。
+
+### Trending Trading Range
+
+`Trending trading range` 描述“交易区间—短暂同向突破—新的交易区间”反复出现、整体公平价格逐级迁移的过程。相邻区间可以重叠；若不重叠，中间的开放空间只说明该次突破更强，仍要观察新区间能否维持。
+
+同一段价格可因观察职责不同同时表现为 broad channel 或 trending trading range：前者强调方向性高低点和深回调，后者强调一系列局部平衡区与短突破。两种名称不能当作两份独立证据重复计票，也不能因整体仍有方向就忽略每个局部区间的双边交易。
+
 ## 主要结构、局部结构与通道线
 
 Major trend、minor trend、主要腿和局部腿都相对于当前周期与观察窗口命名，不是价格自带的永久等级。当前窗口中定义趋势的主要上涨腿低点或主要下跌腿高点，比普通局部 higher low / lower high 承担更强的结构职责；较小 swing 可以改变短期控制，却不一定已经破坏外层趋势。
@@ -89,5 +103,5 @@ Pullback 可能逐渐延长、形成反向 channel，并从原趋势中的 flag 
 
 - [`SRC-GLOSSARY`](../../reference/official_sources.md)：trend、channel、tight channel 等最低定义。
 - [`SRC-STRONG-LEGS-2016`](../../reference/official_sources.md)：breakout phase（spike）、紧通道、宽通道与交易区间的连续谱对照。
-- `SRC-COURSE-01-36`：课程 09C p579–589、14E p993–1007、16E p1336–1359、18B p1483–1487、18C p1506–1509；endless pullback、多周期计数、small pullback 的一至四根语境，以及通道概率的不同事件和分母。
-- `SRC-COURSE-37-52`：课程 43A p416–426、43B p433–440；局部/外层状态、首次反转和通道长期演化。
+- `SRC-COURSE-01-36`：课程 09C、11D、12B–12C、14A–14E、16A–17B、18B–18C、21A；endless pullback、多周期计数、趋势与通道结构、staircase / shrinking stairs、trending trading range 和 minor reversal。
+- `SRC-COURSE-37-52`：课程 41B、43A–46E、50A；breakout 的首次回调、局部/外层状态、紧密/宽幅通道、首次反转和阶梯阶段转换。

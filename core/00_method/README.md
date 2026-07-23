@@ -12,7 +12,7 @@
 
 ## 文件
 
-1. [`00_al_brooks_thesis.md`](00_al_brooks_thesis.md)：方法主线，以及各核心概念怎样协同。
+1. [`00_al_brooks_thesis.md`](00_al_brooks_thesis.md)：方法主线、Price Action 与外部信息的证据边界，以及各核心概念怎样协同。
 2. [`01_probability_risk_reward.md`](01_probability_risk_reward.md)：Trader's Equation、40–60 思维和风险优先原则。
 
 概念总图和权威定义归属见[核心框架](../README.md)。

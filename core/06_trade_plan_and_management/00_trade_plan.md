@@ -66,4 +66,4 @@ Protective stop 的订单用途见 [Stop Entry 和 Protective Stop](../03_accept
 
 ## 相关来源
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-GOOD-TRADE-2017`、`SRC-HOLDING-WIDE-STOPS`、`SRC-COURSE-01-36`（课程 30A–36B）与 `SRC-COURSE-37-52`（课程 41A–41D、51A–52B）。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-GOOD-TRADE-2017`、`SRC-HOLDING-WIDE-STOPS`、`SRC-COURSE-01-36`（课程 30A–36B）与 `SRC-COURSE-37-52`（课程 37A–37B、41A–41D、51A–52B）。

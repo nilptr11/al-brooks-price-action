@@ -66,4 +66,4 @@ Trader's Equation 使用这类 setup 实际准备交易的 profit target。Measu
 
 Trader's Equation 主要用于是否承担新风险。成交后不必为每根 K 线制造伪精确概率，但必须继续判断原 premise 是否仍成立；正常回调可以持有，强反向证据或 premise 失效则应按当前事实管理风险。
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-BREAKOUTS-2025`、`SRC-COURSE-01-36`（课程 13A、21B、30A–30E、34A–34B）与 `SRC-COURSE-37-52`（课程 37B、39C、51A–51D）。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-BREAKOUTS-2025`、`SRC-COURSE-01-36`（课程 13A、21B、30A–31D、34A–34B）与 `SRC-COURSE-37-52`（课程 37B、39C、51A–51D）。

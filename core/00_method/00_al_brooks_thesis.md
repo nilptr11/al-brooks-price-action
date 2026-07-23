@@ -8,6 +8,10 @@
 
 Al Brooks 方法解决的不是“下一根 K 线会涨还是跌”，而是交易者如何在不确定中判断当前市场行为、构造数学合理的交易，并随新价格信息更新判断。
 
+这里的 Price Action 采用课程的最低定义：价格运动的任何表示都属于价格行为，每一次价格变化都是其中一部分。这个广义定义只界定观察对象，不表示每个 tick、每个局部标签都同等重要或都能独立形成交易优势；信息仍须经过 Context、市场结构与 Trader's Equation 筛选。
+
+Volume、DOM 和新闻可以作为外部背景或风险输入，但不能独立保证价格方向。可交易证据仍来自消息或订单压力在价格上的反应，例如突破是否形成、市场是否接受新价位，以及尝试是否失败；高成交量的突破可以失败，低成交量的突破也可以成功，利好或利空消息与随后方向之间同样不存在机械对应关系。日程事件、基础设施异常与其他尾部风险仍须进入 Trade Plan 和 Execution 约束，因此以价格反应为证据不等于忽略新闻。
+
 市场中每一笔成交都有买方和卖方。即使一边更强，另一边也可能通过不同的概率、风险、目标或管理方式构造交易。因此，读图不是编造参与者故事或作单边预测，而是比较双方可观察的理由和交易数学。
 
 ## 决策主线
@@ -41,4 +45,4 @@ Al Brooks 方法不是蜡烛图清单、固定胜率信号系统、单根 signal
 
 ## 相关来源
 
-相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-MANUAL`、`SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS`、`SRC-GOOD-TRADE-2017`、`SRC-COURSE-01-36`（课程 01–02、12–13、30、37）与 `SRC-COURSE-37-52`（课程 49、51–52）。
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-MANUAL`、`SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS`、`SRC-GOOD-TRADE-2017`、`SRC-COURSE-01-36`（课程 01–02、06–08、12–13、30）与 `SRC-COURSE-37-52`（课程 37、49、51–52）。

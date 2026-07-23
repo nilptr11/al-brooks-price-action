@@ -26,6 +26,12 @@ Parabolic wedge：紧通道中至少三腿或三次 surge 构成的 climactic we
 
 Parabolic wedge 后的第一笔反向运动常只是 minor reversal、两腿修正或 trading range。若要把解释升级为 MTR，还需观察通道或趋势线突破、对旧趋势极值的测试，以及反向 signal 和 follow-through；强反向 breakout 是较高概率的确认版本，不是 MTR 的最低必要条件。形态名称本身不提供这种升级。
 
+## 突破前先验与突破后更新
+
+Wedge 的方向倾向只属于突破发生前、且 Context 与买卖压力仍支持该形态解释时的先验。一旦价格已经向原先较少预期的方向形成 breakout，不能继续沿用突破前的倾向对抗已经出现的新证据；必须根据突破实体、收盘、follow-through、是否脱离原结构以及旧区域是否被重新接受，重新评估两侧路径。
+
+小形态、小越界或缺少跟进的突破仍可能只形成 minor move 或 trading range；足够强且获得接受的意外突破则可能加速、形成第二腿或测试 measured move。若该突破随后失败，再按 failed breakout、第二信号和反向接受更新，而不是因为原 wedge 名称预设它必然失败。这里保留的是条件概率更新顺序，不把课程中的经验比例写成所有 wedge 的固定胜率；突破和失败边界见[突破和突破模式](../01_market_cycle/03_breakouts_and_breakout_mode.md)与[接受、失望与失败证据](../03_acceptance_and_order_logic/01_acceptance_and_failure.md)。
+
 ## 判断线索
 
 - 三次推动是否清楚。
