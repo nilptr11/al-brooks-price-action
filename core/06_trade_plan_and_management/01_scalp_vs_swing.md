@@ -10,7 +10,7 @@ Scalp 追求较小目标和较快退出，通常适合 trading range、双边市
 
 Scalp 对入场价格、执行质量和管理速度要求更高。它不适合临场犹豫或频繁改变计划。
 
-小目标经常小于风险，因而需要极高胜率；这对多数交易者并不现实。不能把“小目标更容易到达”误认为 scalp 天然具有正期望。
+小目标经常小于风险，因而需要极高胜率；佣金、点差和滑点又会占据更大的毛利润比例，这对多数交易者并不现实。不能把“小目标更容易到达”误认为 scalp 天然具有正期望，也不能用课程中对少数专家的极高胜率描述作为准入标准。
 
 ## Swing
 
@@ -26,9 +26,11 @@ TBTL 是 `Ten Bars, Two Legs correction`。它常用于 major trend reversal、f
 
 它不是 correction、swing 或反转成立的最低根数，也不是价格目标。市场可能提前到达重要支撑阻力，或在未满十根前使 premise 失效。使用时只把它当成帮助持有 swing 的时间与腿数预期。
 
+TBTL 应绑定能够清楚包含原形态的最高相关周期。例如同一 wedge 同时在 15 分钟和 60 分钟图上成立，只完成 15 分钟图的十根两腿，可能仍不足以完成 60 分钟层面的修正。这里的“最高相关周期”不是无限向上寻找，而是当前计划实际用来定义形态、stop、target 与持有期的最高尺度；周期扩大时，仓位和风险也必须同步调整。
+
 ## 边界检查
 
-决定 scalp 还是 swing 时，不要只看形态名称。高低概率怎样交换 entry、risk 与 reward 统一回到 [Trader's Equation](../00_method/01_probability_risk_reward.md#40–60-思维)；本页只检查这种交换怎样改变管理方式：
+决定 scalp 还是 swing 时，不要只看形态名称。高低概率怎样交换 entry、risk 与 reward 统一回到 [Trader's Equation](../00_method/01_probability_risk_reward.md#4060-思维)；本页只检查这种交换怎样改变管理方式：
 
 - Scalp 的目标较小；若目标小于风险，原 Setup 必须提供足以支持这种管理的概率，不能只因目标近就选择 scalp。
 - Swing 必须有容纳正常 pullback 的 stop 和现实的远端目标；较低概率入场不能在成交后改用 scalp 小目标。
@@ -45,4 +47,4 @@ TBTL 是 `Ten Bars, Two Legs correction`。它常用于 major trend reversal、f
 
 入场前必须知道自己是在做 scalp 还是 swing。
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-RISK-113`、`SRC-ABBREVIATIONS` 与 `SRC-10-PATTERNS`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-RISK-113`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-COURSE-01-36`（课程 13B–13C、21D、31A–31D、36A–36B）与 `SRC-COURSE-37-52`（课程 50A–50E、51A–51D）。

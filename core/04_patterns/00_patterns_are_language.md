@@ -10,6 +10,8 @@ Pattern 是对一组可观察价格行为及其几何或顺序关系的命名，
 
 同一个 pattern 在不同环境中可能表达不同甚至相反的含义：趋势中的 wedge pullback 可能支持顺势恢复，成熟通道后的 wedge 可能提示反转尝试，交易区间中部的 wedge 则可能没有现实优势。
 
+课程还会使用 head and shoulders、rounding top/bottom、cup and handle 等替代标签。若它们没有新增最低几何、状态或交易命题，就不需要各自建立一篇平行 Definition：头肩形通常可以拆回趋势线破坏、旧极值测试和 MTR；圆弧顶底常可拆回 trading range、broad channel 或 endless pullback。保留名称有助于识图，但权威边界仍由组成它的现有概念负责。
+
 ## Pattern 页负责什么
 
 一个形态专题必须说明：
@@ -29,4 +31,4 @@ Pattern 是对一组可观察价格行为及其几何或顺序关系的命名，
 
 ## 相关来源
 
-相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-GLOSSARY`、`SRC-MANUAL` 与 `SRC-10-PATTERNS`。
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-COURSE-01-36`（课程 21A–29E）与 `SRC-COURSE-37-52`（课程 42A–42C）。

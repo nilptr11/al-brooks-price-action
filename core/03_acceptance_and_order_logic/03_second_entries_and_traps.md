@@ -35,6 +35,7 @@ Second entry / trap 本身不规定 protective stop、profit target 或管理方
 - 趋势延续中的 H2/L2 继承趋势恢复的 premise 与目标逻辑。
 - 区间边缘的 second signal 继承 range-fade 的失效边界和区间内目标。
 - 强 breakout 后的第二次触发继承新价格接受与第二腿预期。
+- 仍在交易区间内的强第一腿或第二腿不能借用已获接受 breakout 的延续概率；若边界没有被真正突破并守住，它可能只是[区间第二腿陷阱](../01_market_cycle/02_trading_ranges.md#强区间腿与第二腿陷阱)。
 - MTR 的第二次测试继承旧趋势失去控制的反向 swing 命题。
 - Failed H2/L2 的反向交易必须重新归类，原交易者的 stop 不能自动成为新交易的 stop。
 
@@ -50,4 +51,4 @@ Second entry / trap 本身不规定 protective stop、profit target 或管理方
 
 ## 相关来源
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-TREND-CHANNELS`、`SRC-TRADING-RANGES`、`SRC-STRONG-LEGS-2016`、`SRC-MTR-2025`、`SRC-PATTERNS-OPEN-2018`、`SRC-COURSE-01-36`（课程 08D–09A）与 `SRC-COURSE-37-52`（课程 50D–51D）。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-10-PATTERNS`、`SRC-TREND-CHANNELS`、`SRC-TRADING-RANGES`、`SRC-STRONG-LEGS-2016`、`SRC-MTR-2025`、`SRC-PATTERNS-OPEN-2018`、`SRC-COURSE-01-36`（课程 08D–09C、15C–15D、18B、21D、24A–24E）与 `SRC-COURSE-37-52`（课程 42C、47C、49C、50D–51D）。

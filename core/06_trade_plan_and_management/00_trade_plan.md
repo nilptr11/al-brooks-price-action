@@ -44,6 +44,18 @@ Protective stop 的订单用途见 [Stop Entry 和 Protective Stop](../03_accept
 
 价格到达原计划允许减仓的 target、新 higher low / lower high 或其他 price-action 结构，可能支持向保护方向调整 stop。任何调整仍须服从原 Setup、当前 premise、剩余仓位和管理方式；Stop 放得过近，可能在正常回踩中提前结束本来合理的交易。
 
+## 三层退出保护
+
+每笔实际持仓至少要能区分三种保护，它们不是三个互相替代的 stop price：
+
+1. **Active protective stop**：实际在场的最后保护，用于在主动判断、连接或执行失败时限制最坏风险。
+2. **Premise invalidation / 合理反向结构**：新的价格事实已经使原交易命题不再成立，可以在最远 stop 触发前主动退出；它必须由计划中可观察的条件定义，不能只写“感觉不对”。
+3. **强反向动量**：即使还没有漂亮的反转形态，一根异常强反向趋势 K 线、数根连续无重叠的反向 K 线或 Always In 明确翻转，也可能已经足以否定原 premise；具体强度仍由 Context 和原管理周期判断。
+
+这三层共同防止正常亏损变成大额亏损：硬 stop 防止失控，结构失效允许更早承认错误，强反向动量避免为了等待完美信号而忽视市场已经改变。普通小反向 K 线和正常 swing pullback 不自动触发第二或第三层。
+
+主动退出后，若反转失败、原方向重新获得接受，交易者可以重新入场；这必须建立新的 observable trigger、stop、target、仓位和 Trader's Equation，并记录为新的计划版本。重新入场的可能性不能反向证明先前退出错误，也不能成为取消当前保护的理由。
+
 ## 成交后的更新
 
 计划不是静态剧本，因为 premise 会随新事实接受复核；计划也不是允许事后重写输入的草稿。成交后继续观察 entry bar、follow-through、关键位置是否守住、反方是否获得强突破，以及原目标是否仍现实。目标不再现实必须进入记录并按入场前选择的管理分支处理，但不会把更近或更远的价位追认为原 target。
@@ -54,4 +66,4 @@ Protective stop 的订单用途见 [Stop Entry 和 Protective Stop](../03_accept
 
 ## 相关来源
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-GOOD-TRADE-2017` 与 `SRC-HOLDING-WIDE-STOPS`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-MANUAL`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-GOOD-TRADE-2017`、`SRC-HOLDING-WIDE-STOPS`、`SRC-COURSE-01-36`（课程 30A–36B）与 `SRC-COURSE-37-52`（课程 41A–41D、51A–52B）。

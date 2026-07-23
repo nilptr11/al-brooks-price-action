@@ -69,4 +69,4 @@ Breakout mode 只说明任一方向的突破都有获得跟进的可能，不保
 - 在没有目标空间时追随突破。
 - 忽略突破失败后被困交易者的力量。
 
-相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-OPENING-REVERSALS-2017`。
+相关来源见 [`reference/official_sources.md`](../../reference/official_sources.md) 中的 `SRC-GLOSSARY`、`SRC-ABBREVIATIONS`、`SRC-10-PATTERNS`、`SRC-OPENING-REVERSALS-2017`、`SRC-COURSE-01-36`（课程 15A–15G、18B–18F、20B、24E、29E）与 `SRC-COURSE-37-52`（课程 41A–42C、47A–47D）。

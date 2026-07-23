@@ -40,6 +40,12 @@ Protective stop 不是入场触发。Signal bar 另一端、完整 pullback 或 
 
 Price-action stop、经纪商触发价和预计成交价是不同层面：前者来自图表与管理，后两者用于真实订单和风险计算。滑点会改变实际 fill，但不会反向决定图上的合理 stop。
 
+### 实际保护与成交边界
+
+只在心里记住一个退出价位，不等于持仓已经受到 protective stop 保护。标准 Trade Plan 应有一张实际在场、状态可确认的 active protective stop；若 premise 在它触发前已被强反向证据否定，交易者仍可主动退出。Mental stop 既不能替代在场保护，也不能成为亏损扩大后继续等待的理由。
+
+Stop order 限制的是触发机制，不保证最终成交价格。跳空、快速行情、流动性不足、停牌、连接或平台异常都可能使实际 fill 差于 stop price，因此账户风险还要包含合理的滑点和异常边界。订单状态、回执不明和保护不足的处置由[执行手册](../../execution/execution_manual.md)负责；这些执行风险不会改变图上的 price-action stop，却会改变真实最大损失。
+
 ## Stop Order Market
 
 Stop order market 指市场强到交易者愿意用较差价格换取确认。优势是先让市场证明方向，风险是入场价格差、止损距离可能变大。没有跟进时，追随者容易被困。

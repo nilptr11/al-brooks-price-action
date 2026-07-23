@@ -41,4 +41,4 @@ Al Brooks 方法不是蜡烛图清单、固定胜率信号系统、单根 signal
 
 ## 相关来源
 
-相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-MANUAL`、`SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS` 与 `SRC-GOOD-TRADE-2017`。
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-MANUAL`、`SRC-GLOSSARY`、`SRC-STOP-ORDERS`、`SRC-POSITION-SIZE`、`SRC-10-PATTERNS`、`SRC-GOOD-TRADE-2017`、`SRC-COURSE-01-36`（课程 01–02、12–13、30、37）与 `SRC-COURSE-37-52`（课程 49、51–52）。

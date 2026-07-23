@@ -41,4 +41,4 @@
 
 ## 相关来源
 
-相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-10-PATTERNS`、`SRC-ABBREVIATIONS` 与 `SRC-MTR-2025`。
+相关来源见[正式来源台账](../../reference/official_sources.md)中的 `SRC-10-PATTERNS`、`SRC-ABBREVIATIONS`、`SRC-MTR-2025`、`SRC-COURSE-01-36`（课程 23A–23B、29A–29E）与 `SRC-COURSE-37-52`（课程 40E、43C、48J）。
