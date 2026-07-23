@@ -99,4 +99,4 @@
 
 每一份具体 Trade Plan / 机会实例则必须在候选合格或承担风险前，把 `minimum_remaining_holding_time`、`latest_entry_time`、`forced_exit_start` 实例化为当前品种、周期与 session 的具体时间或 K 线时点。策略页只有在该类机会本来就有固定截止或强制退出要求时才写死或加严这些值；其余页面直接继承本节共同字段，不必复制一组市场特定常数。
 
-这是让计划可执行所需的接口，不是允许重复定义共同规则。Actual / simulated fill bar、平台回执、实际成交、当前仓位、保护状态和异常处置都不是策略页字段；净 R 公式、Actual Risk / MAE 的事后边界，以及固定订单基线与研究变体的共同理由，也不应在家族 README 或具体页另写一套，只链接本页、[K 线角色定义](../core/04_patterns/01_bar_types.md#signal-bar)与执行手册。
+这是让计划可执行所需的接口，不是允许重复定义共同规则。Actual / simulated fill bar、平台回执、实际成交、当前仓位、保护状态和异常处置都不是策略页字段；净 R 公式、Actual Risk / MAE 的事后边界，以及固定订单基线与研究变体的共同理由，也不应在路径 README 或具体页另写一套，只链接本页、[K 线角色定义](../core/04_patterns/01_bar_types.md#signal-bar)与执行手册。
