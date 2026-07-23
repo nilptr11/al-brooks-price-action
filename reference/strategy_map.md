@@ -4,6 +4,8 @@
 >
 > 核心概念不一定都应成为独立策略。只有能够独立说明适用环境、形成顺序、入场、撤单、保护止损、目标、管理和放弃条件的内容，才拥有策略页。
 
+策略的全局生命周期、时段覆盖、单候选、计划结束与重入由[如何选择并锁定一项策略](../strategy/how_to_choose.md)规定；路由进入家族后，家族内分类归对应 README，具体资格与参数归策略页。本页只映射概念角色，不产生另一套路由规则。
+
 ## 五种角色
 
 | 角色 | 含义 |
@@ -47,13 +49,19 @@
 
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
-| Market cycle | 市场背景 | 先用[如何选择策略](../strategy/how_to_choose.md)区分趋势或交易区间这一基础状态；若是趋势再区分已形成方向控制的 breakout phase（spike）或 channel，并另外记录 breakout mode、高潮式推进或转换过程 |
+| Market cycle | 市场背景 | 先用[如何选择策略](../strategy/how_to_choose.md)区分趋势或交易区间这一基础状态；若是趋势再区分已形成方向控制的 breakout phase（spike）或 channel，并另外记录 breakout mode、高潮式推进或转换过程。状态不清时的逐层 fallback 只是保守管理假设，不自动授权区间或其他策略 |
 | Trend 与 channel | 市场背景 | 进入趋势延续、突破延续或趋势反转家族；趋势和通道本身不是入场信号 |
+| Breakout 后首次可识别 pullback | 市场阶段更新 | 结束当前这段 breakout phase 并把阶段更新为 channel，不表示整个 trend 结束，也不独立生成“首次回调”策略；具体候选仍按其页面条件选择 |
+| Staircase / shrinking stairs | 转换证据 | 突破与回调重叠、阶梯延伸缩小时，降低开放空间和强趋势假设，重新检查 channel / trading range；它们不是反转触发，也不能与同一重叠证据重复计票 |
+| Broad channel / trending trading range | 相关的市场背景视角 | 前者强调方向性高低点与深回调，后者强调局部平衡区和短突破；同一段价格可以同时符合两种描述，但只能按当前计划职责使用一次，不能当成两份独立证据或独立策略 |
 | Trading range | 市场背景 | 使用[成熟区间边缘确认后反转](../strategy/range/range_edge_confirmation.md)、[成熟区间边缘限价试仓与预设加仓](../strategy/range/range_edge_limit_scale_in.md)或[突破失败后回到区间](../strategy/range/failed_breakout_return.md) |
+| 强区间腿与第二腿陷阱 | 市场背景与误判边界 | 完全发生在成熟区间内部的强第一腿、第二腿或局部小边界越过，不能借用已接受突破的延续逻辑；先检查是否真正越过并守住事前外沿，否则仍按双向轮动处理，第二腿也不自动授权反向交易 |
 | Breakout 与接受 | 市场背景与可执行策略 | 使用[强突破收盘后立即跟随](../strategy/breakout/strong_breakout_close.md)、[紧接突破的一根延伸收盘确认](../strategy/breakout/breakout_follow_through.md)、[突破后的第一次回测](../strategy/breakout/breakout_first_pullback.md)或[收盘突破被拒绝后再次接受原方向](../strategy/breakout/failed_failure_continuation.md)；后两项严格窗口均为仓库子型 |
+| Buy / Sell The Close（BTC / STC） | 风险承担时点与突破行为语言 | 早期版在首根足够强的 breakout bar 收盘附近承担风险，确认版使用随后连续强收盘或 follow-through；两版都重新计算当时可得的 entry、stop、剩余 target 与 Trader's Equation。它不是独立 Setup，也不能把“下一根开盘”或后续 stop-entry 自动改名为 BTC / STC；具体策略页只有明确声明收盘附近的风险承担时点时才实例化该行为 |
 | Breakout mode | 市场背景 | 实际突破方向尚未确认，不表示概率必然无偏；当前及更高周期 Context 仍可排除一侧。只有 Context 未排除任一方向且双侧 Trader's Equation 都有利时，[严格 ii 双向突破等待](../strategy/breakout_mode/ii_bidirectional_breakout.md)才形成独立双向计划 |
 | Climactic move / possible climax 与 transition | 市场背景 | 实时先记录课程意义上的高潮式推进和转换证据；只有后续市场状态满足 glossary 的严格口径才标为已确认的反转/耗竭高潮，策略选择则区分普通修正、possible-climax 修正和主要趋势反转 |
-| Major trend reversal | 可执行策略 | 两条路径都先要求通道或主要趋势线突破，以及旧趋势恢复测试旧极值的过程；旧极值实际测试失败并形成第二次反向信号时可用[测试失败信号版本](../strategy/reversal/mtr_old_extreme_test_failure.md)，其后再出现强反向突破、跟进和第一次回调时才进入[突破回调信号版本](../strategy/reversal/mtr_confirmed_breakout_pullback.md) |
+| Always In | 市场背景与控制判断 | 记录所属周期、最近主导来源事件、当前 AIL / AIS / unclear 以及反证，用来筛选方向和 premise；它不等于实际持仓，也不单独授权入场 |
+| Major trend reversal | 可执行策略 | 两条路径都先要求最近一次控制重置后的通道或主要趋势线突破，以及旧趋势恢复测试旧极值的过程；若旧趋势以新的持续紧密趋势腿重新建立控制，早先证据过期。测试失败后形成合格第二次反向信号时，可选择[测试失败信号版本](../strategy/reversal/mtr_old_extreme_test_failure.md)；若反向力量先形成强突破与跟进，则可独立等待其第一次完整回调，选择[突破回调信号版本](../strategy/reversal/mtr_confirmed_breakout_pullback.md)。两者是并列的风险承担时点，不要求先完成前一版本的 signal |
 
 ## 趋势延续主题
 
@@ -83,20 +91,34 @@
 | ii | 形态语言与可执行策略 | 只有严格嵌套、Context 仍未排除任一方向且双侧 Trader's Equation 均有利的 ii，才使用[双向突破等待](../strategy/breakout_mode/ii_bidirectional_breakout.md)；否则整组放弃，不删掉一侧后仍称双向计划 |
 | ioi、oo、普通 triangle | 形态语言 | 不凭形态名预设突破方向，但保留当前及更高周期的 Context 偏置；偏置不等于突破确认，真正突破后仍按接受、跟进或回测进入突破策略 |
 | Tight trading range | 市场背景 | 成本和双边失败风险通常使交易不值得；除非完全符合现有策略，否则等待 |
-| Expanding triangle | 市场背景 | 它是波动扩大的区间，不是压缩；在外侧边缘使用区间策略，获得接受的突破使用突破策略 |
+| Expanding triangle | 市场背景与 MTR 候选结构 | 它是波动扩大的区间，不是压缩。外侧边缘可检查区间策略，获得接受的突破可检查突破策略；若结构有足够尺度、不是 tight trading range 中的局部摆动，且第四或第五腿已累积足够反向压力，它还可进入 MTR 候选，再等待 MTR 页面要求的结构破坏、旧极值测试和控制转移。强第五腿获得跟进时旧 ET 反转假设失效 |
 
 ## Gap、开盘与时段
 
 | 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
 | --- | --- | --- |
-| Opening / session gap | 市场背景 | 先注明相对昨日 close、closing range、昨日范围或当日首根后极值中的哪一组边界，再判断新价格被接受还是拒绝，选择开盘突破、开盘反转或继续观察 |
+| Opening / session gap | 市场背景 | 先注明相对昨日 close、closing range、昨日范围或当日首根后极值中的哪一组边界，再判断新价格被接受还是拒绝；gap 本身不预设方向 |
 | Body gap、micro measuring gap | 形态语言 | 用于判断突破强度、支撑阻力和目标，不独立触发交易 |
 | Measuring gap、exhaustion gap | 事后确认与市场背景 | 实时只能记录候选；不能用后验名称提前交易 |
+| Opening / first swing | 描述性时段背景 | 描述 session 开始后的第一段 swing，终点常需后续价格才清楚；不等同固定窗口，也不能在实时中用事后终点选择策略 |
+| Opening Breakout Mode | 市场背景与双向候选 | 课程用法较宽；仓库操作性子型追踪首根两侧的测试、失败和动态边界。未突破时仍按 trading-range / breakout-mode 逻辑，强突破和跟进后才检查顺势路径；它不等同下列 first-18 或固定窗口 |
+| First-18-bar heuristic | 市场背景启发式 | 只在品种、周期与 session 已验证时辅助观察前 18 根高低及随后突破或反转；`18` 不是通用阈值，不自动产生策略 |
+| Session opening window | 策略执行基线 | 研究或策略在观察前固定的根数或时间范围；当前三十分钟开盘区间页是一个仓库实例，不代表 Brooks 的 first swing、Opening BOM 或 first-18 定义 |
 | 开盘测试前一交易日极值 | 可执行策略 | 使用[开盘测试前一交易日极值后的二次反转](../strategy/session/opening_previous_extreme_reversal.md) |
 | 固定前三十分钟范围突破 | 可执行策略（仓库时钟基线） | 使用[固定前三十分钟范围突破并获得接受](../strategy/session/opening_range_breakout.md)；不要把固定 30 分钟等同于 Brooks 对 opening range、BOM 或 first-18-bar breakout 的定义 |
 | Trend from the open 的第一次回调 | 可执行策略 | 使用[开盘趋势中的第一次回调](../strategy/session/opening_trend_first_pullback.md) |
 | 尾盘与 session open magnet | 可执行策略 | 仍为区间且剩余时间足够时，使用[尾盘区间向开盘价回归](../strategy/session/late_session_open_magnet.md) |
 | 最终 day type | 事后结果 | 只能在执行结束后描述，不能参与当时入场判断 |
+
+## 接受、行为模型与入场角色
+
+| 核心概念 | 在人工体系中的角色 | 对应策略或处理方式 |
+| --- | --- | --- |
+| Acceptance / failure | 市场背景与结果判断 | 通过收盘、follow-through、回踩守住或旧区域重新接受判断突破、反转和入场结果；failure 必须写清失败的是价格运动、premise 还是实际 trade，不能由名称自动反手 |
+| Trapped traders / Pain Trade | 行为与价格路径模型 | 用可见 entry / stop 区域、接受、反方退出与错过者追入解释低预期方向的持续扩展；Pain Trade 不是新 Setup 或独立 failure state，只能作为已有 premise 的支持或反对压力证据，并仍须检查前方空间与 Trader's Equation |
+| Signal bar | 候选与计划角色 | 提供入场理由的已完成 K 线；尚在形成时只记 prospective signal bar。课程计划语境允许未触发或未成交时保留这个角色 |
+| Chart entry bar | 图表触发事实 | 既定触发第一次被价格越过或满足的 K 线，不要求观察者真的下单；它用于评价触发后的图表反应 |
+| Actual fill bar | 执行事实 | 账户真实成交所在 K 线，可能与 chart entry bar 不同；历史回放或模拟应另记其环境规则确认的 simulated fill bar，不能把模拟结果称为账户 actual fill。两者都不能改写 signal 或图表触发事实 |
 
 ## 交易管理与执行
 
@@ -107,7 +129,10 @@
 | Scale in | 管理原则 | 只有区间限价策略明确采用预设加仓；其他策略不得临场加仓 |
 | Scale out 与 runner | 管理原则 | 只有具体策略页明确写入时才使用；当前多数基线采用单一目标 |
 | Premise weakening / failure | 管理原则 | 标准策略始终记录新证据，并按预写事实主动退出；只隔离 stop / target 的固定记录口径必须另立 `mechanical_only` 独立研究变体，不能与标准结果比较。执行安全异常始终优先处理；主动退出时仍保留保护直到仓位归零；原计划失败后使用[重新判断流程](../strategy/switching_after_failure.md) |
-| Trader's Equation、仓位和风险心理 | 管理原则 | 每次计划都要结合真实止损、目标、成本和个人风险边界 |
+| Initial / Actual / Account / Personal risk | 管理原则与事后统计 | 事前使用 Initial / price risk 与计划 account risk；用账户亏损上限、合适仓位、硬保护和纪律动作限制因希望、恐惧、仓位过大或违规产生的 Personal risk。Actual Risk / MAE 只在事后连续样本中统计，不能替代原 stop 或回填原 Trader's Equation |
+| Trader's Equation、仓位和风险心理 | 管理原则 | 每次计划都要结合现实结构止损、目标、成本、计划总数量、计划 account risk 边界，以及限制 Personal risk 的纪律护栏 |
+| Remaining holding / latest entry / forced exit | 管理原则 | 三项必须同时进入所有策略计划；剩余时间不足、已到最晚入场或无法在强制退出时点安全结束时，不再承担新风险。真实订单与仓位退出由执行手册核对 |
+| 日程事件、基础设施与尾部风险 | 策略约束与执行原则 | 它们不独立给出价格方向，但必须在计划前约束事件窗口、平台与连接主备路径、保护和退出能力，以及跳空、流动性、停牌／涨跌停、隔夜或结算暴露；无法限制到可承受边界时不承担新风险 |
 | 订单、部分成交、保护与异常 | 执行原则 | 统一使用[执行手册](../execution/execution_manual.md) |
 | 历史回放、模拟与实盘 | 执行原则 | 三种标准环境使用相同策略与管理条件；`mechanical_only` 是排除在外的独立历史研究变体，差异见[执行环境](../execution/execution_modes.md) |
 | 观察、交易与复盘记录 | 执行原则 | 统一使用[执行与复盘记录](../execution/execution_and_review_record.md) |
